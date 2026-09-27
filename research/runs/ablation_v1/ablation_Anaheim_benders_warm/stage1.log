@@ -1,0 +1,117 @@
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 4
+CPXPARAM_Parallel                                1
+CPXPARAM_RandomSeed                              20260925
+CPXPARAM_MIP_Strategy_Search                     1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_TimeLimit                               180
+CPXPARAM_MIP_Tolerances_AbsMIPGap                1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_Integrality              1.0000000000000001e-09
+Legacy callback                                  iLUD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Warning: Effort level 'CheckFeas' is incompatible with lazy constraint/incumbent callback.
+         Effort level increased to 'SolveFixed'.
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective -0.1101.
+Tried aggregator 1 time.
+Reduced MIP has 23 rows, 1196 columns, and 2482 nonzeros.
+Reduced MIP has 1164 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.99 ticks)
+Probing time = 0.00 sec. (0.18 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.02 sec. (1.80 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+*     0+    0                           -0.1101       -0.9192           735.04%
+      0     0       -0.1677     2       -0.1101       -0.1677      104   52.34%
+      0     0       -0.1677     2       -0.1101      Fract: 1      111   52.34%
+      0     0       -0.1677     2       -0.1101 UserPurge1: 1      129   52.34%
+      0     0       -0.1677     4       -0.1101 UserPurge1: 1      131   52.34%
+      0     0       -0.1677     2       -0.1101 UserPurge1: 1      149   52.34%
+      0     0       -0.1677     2       -0.1101 UserPurge1: 1      163   52.34%
+      0     0       -0.1677     4       -0.1101 UserPurge1: 1      166   52.34%
+      0     0       -0.1677     7       -0.1101 UserPurge1: 1      172   52.34%
+      0     0       -0.1677     7       -0.1101 UserPurge1: 1      178   52.34%
+      0     0       -0.1677     3       -0.1101 UserPurge1: 1      185   52.34%
+      0     0       -0.1677     4       -0.1101 UserPurge1: 1      193   52.34%
+      0     0       -0.1677     4       -0.1101 UserPurge1: 1      206   52.34%
+      0     0       -0.1677     6       -0.1101 UserPurge1: 1      208   52.34%
+      0     0       -0.1677     7       -0.1101 UserPurge1: 1      211   52.34%
+      0     0       -0.1677     4       -0.1101 UserPurge1: 1      221   52.34%
+      0     0       -0.1677     2       -0.1101 UserPurge1: 1      227   52.34%
+      0     0       -0.1677     7       -0.1101 UserPurge1: 1      239   52.34%
+      0     0       -0.1677     7       -0.1101 UserPurge1: 1      263   52.34%
+      0     0       -0.1677     6       -0.1101 UserPurge1: 1      285   52.34%
+      0     0       -0.1677     6       -0.1101 UserPurge1: 1      287   52.34%
+      0     0       -0.1677     5       -0.1101 UserPurge1: 1      303   52.34%
+      0     0       -0.1677     7       -0.1101 UserPurge1: 1      314   52.34%
+      0     0       -0.1677     8       -0.1101 UserPurge1: 1      319   52.34%
+      0     0       -0.1677     4       -0.1101 UserPurge1: 1      328   52.34%
+      0     0       -0.1677     6       -0.1101 UserPurge1: 1      331   52.34%
+      0     0       -0.1677     7       -0.1101 UserPurge1: 1      335   52.34%
+      0     0       -0.1677     4       -0.1101 UserPurge1: 1      355   52.34%
+      0     0       -0.1677     6       -0.1101 UserPurge1: 1      358   52.34%
+      0     0       -0.1677     6       -0.1101 UserPurge1: 1      361   52.34%
+      0     0       -0.1677     2       -0.1101 UserPurge1: 1      364   52.34%
+      0     0       -0.1677     4       -0.1101 UserPurge1: 1      365   52.34%
+      0     0       -0.1677     2       -0.1101 UserPurge1: 1      367   52.34%
+      0     0       -0.1677     7       -0.1101 UserPurge1: 1      392   52.34%
+      0     0       -0.1677     3       -0.1101 UserPurge1: 1      404   52.34%
+      0     0       -0.1677     6       -0.1101 UserPurge1: 1      407   52.34%
+*     0+    0                           -0.1132       -0.1677            48.17%
+      0     0       -0.1677     5       -0.1132 UserPurge1: 1      411   48.17%
+      0     0       -0.1677     1       -0.1132 UserPurge1: 1      415   48.17%
+      0     0       -0.1677     4       -0.1132 UserPurge1: 1      418   48.17%
+      0     0       -0.1677     5       -0.1132 UserPurge1: 1      420   48.17%
+      0     0       -0.1677     6       -0.1132 UserPurge1: 1      433   48.17%
+      0     0       -0.1677     2       -0.1132 UserPurge1: 1      450   48.17%
+      0     0       -0.1677     5       -0.1132 UserPurge1: 1      457   48.17%
+      0     0       -0.1677     6       -0.1132 UserPurge1: 1      458   48.17%
+      0     0       -0.1677     7       -0.1132 UserPurge1: 1      460   48.17%
+      0     0       -0.1677     8       -0.1132 UserPurge1: 1      466   48.17%
+      0     0       -0.1677     8       -0.1132 UserPurge1: 1      468   48.17%
+      0     0       -0.1677     9       -0.1132 UserPurge1: 1      471   48.17%
+      0     0       -0.1677     8       -0.1132 UserPurge1: 1      475   48.17%
+      0     0       -0.1677     8       -0.1132 UserPurge1: 1      477   48.17%
+      0     0       -0.1677     8       -0.1132 UserPurge1: 1      479   48.17%
+      0     0       -0.1677     6       -0.1132 UserPurge1: 1      484   48.17%
+      0     0       -0.1677     8       -0.1132 UserPurge1: 1      486   48.17%
+      0     0       -0.1677     9       -0.1132 UserPurge1: 1      487   48.17%
+      0     0       -0.1677     8       -0.1132 UserPurge1: 1      494   48.17%
+      0     0       -0.1677     7       -0.1132 UserPurge1: 1      497   48.17%
+      0     0       -0.1677    10       -0.1132 UserPurge1: 1      510   48.17%
+      0     0       -0.1677     5       -0.1132 UserPurge1: 1      511   48.17%
+      0     0       -0.1677     9       -0.1132 UserPurge1: 1      516   48.17%
+      0     0       -0.1677     9       -0.1132 UserPurge1: 1      521   48.17%
+      0     0       -0.1677     2       -0.1132 UserPurge1: 1      539   48.17%
+      0     0       -0.1677     6       -0.1132 UserPurge1: 1      548   48.17%
+      0     0       -0.1677    11       -0.1132 UserPurge1: 1      549   48.17%
+      0     0       -0.1677    10       -0.1132 UserPurge1: 1      569   48.17%
+      0     0       -0.1677     6       -0.1132 UserPurge1: 1      572   48.17%
+      0     0       -0.1677     5       -0.1132 UserPurge1: 1      578   48.17%
+*     0+    0                           -0.1147       -0.1677            46.17%
+      0     0       -0.1677     9       -0.1147 UserPurge1: 1      599   46.17%
+      0     0       -0.1677     7       -0.1147 UserPurge1: 1      602   46.17%
+      0     0       -0.1677     7       -0.1147 UserPurge1: 1      607   46.17%
+Advanced basis not built.
+Advanced basis not built.
+
+User cuts applied:  651
+
+Root node processing (before b&c):
+  Real time             =  180.19 sec. (3180.99 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  180.19 sec. (3180.99 ticks)

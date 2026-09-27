@@ -1,0 +1,253 @@
+{
+  "name": "modelling_sensitivity",
+  "section": "5.5_modelling_choices",
+  "pdf_sha256": "a85e307f7ac383d39fd007bfe354b4c76d216dca395f840a3565e7ce52bb6e27",
+  "png_sha256": "cba5a9cd190d9c241f1e7d81f42dfa3776791127fe6ca17b948254f8d5e8fa9a",
+  "font": "C:\\Windows\\Fonts\\arial.ttf",
+  "text_fonts": [
+    "Arial"
+  ],
+  "inputs": [
+    {
+      "run_id": "model_ND_k1",
+      "result_sha256": "a89be1b0c1c13a930ad4767046a0dd1e6e20761fa47b4b45293c0d9f39aee54d"
+    },
+    {
+      "run_id": "model_ND_k3",
+      "result_sha256": "f7cfd96b2102fcc451d5f6b15cd442e40c1c5ddb007c3ec1af92eb6dea9c7116"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r1",
+      "result_sha256": "0c9821f12eb687f5a4c3760df9741c5163a09fd1f6c82e1817248cd66f4e1aac"
+    },
+    {
+      "run_id": "model_ND_k10",
+      "result_sha256": "8953f3423357a5e9a5c0691daea3cac4713a5f22b3432c7e6cb2cb972e62de97"
+    },
+    {
+      "run_id": "model_SF_k1",
+      "result_sha256": "6765430309f46ec88aeafe074bb2e8d85716ec876fb8b9cb4390922f3ed2e1c2"
+    },
+    {
+      "run_id": "model_SF_k3",
+      "result_sha256": "c39bf26c79ea50d1adc686815c6db47983a187a7d78580e648c7cccc692666a6"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r1",
+      "result_sha256": "59f3c5e9dd665c75845ab30e4e6e0a50e33edf69edd98422036af657f5f6b11a"
+    },
+    {
+      "run_id": "model_SF_k10",
+      "result_sha256": "4fe4ff56459fff5a444bb58b580123624ff1749d0d3a93dfd7cfba69edacd3b6"
+    },
+    {
+      "run_id": "model_Anaheim_k1",
+      "result_sha256": "45ed3f3697b1cb36cd4b0fd256750e57460928cc2c26a1f0401223fd70c8f0fa"
+    },
+    {
+      "run_id": "model_Anaheim_k3",
+      "result_sha256": "b476af608db72337c1e54283f9fa98227c024c2a02ad60f12fbd3b7dababe83a"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc"
+    },
+    {
+      "run_id": "model_Anaheim_k10",
+      "result_sha256": "c49b15e540c1af9d3aaf95e67b311a6ddb422b7b8e8f8d62de432459572ad4c2"
+    },
+    {
+      "run_id": "model_Winnipeg_k1",
+      "result_sha256": "79796d0449a9e83c776832450e5f4818145e6f6bc7fa984174f973b47ed67aa2"
+    },
+    {
+      "run_id": "model_Winnipeg_k3",
+      "result_sha256": "7124698b616942393d0538ddb306a8f4dfc122f0812ab0682f7ae496ea294cbd"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r1",
+      "result_sha256": "65adaba2621af85862287ba42119954dceee831a082f0858ab8f4ae7d2ed5765"
+    },
+    {
+      "run_id": "model_Winnipeg_k10",
+      "result_sha256": "2bd2e333ba8acab27c32ac4e562645ad3bf0d3f027cacaa218caa6a06806c7f7"
+    },
+    {
+      "run_id": "model_ND_detour1.1",
+      "result_sha256": "dd530a6183db17d82032bd68855eb2a9abede4b68142b2eee7fac1424eb50ab4"
+    },
+    {
+      "run_id": "model_ND_detour1.25",
+      "result_sha256": "be9960a70dfc36cd4bf87cf2776ce124511f9b586bdc550cc8eb6563b3a9d33e"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r1",
+      "result_sha256": "0c9821f12eb687f5a4c3760df9741c5163a09fd1f6c82e1817248cd66f4e1aac"
+    },
+    {
+      "run_id": "model_ND_detour2",
+      "result_sha256": "30d15715829c55dbf14ba4b77ab085cb8c84628d42b325ae766891e829c90b76"
+    },
+    {
+      "run_id": "model_SF_detour1.1",
+      "result_sha256": "679f3f25d7db1d6f0bdbf43b626f77c3f3402dfbb23dcfe925ae893f877eaddd"
+    },
+    {
+      "run_id": "model_SF_detour1.25",
+      "result_sha256": "299e2e1efadc316fa0bd1805f1996c1cce4eceeb3e3ec4b013553c42e88a041e"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r1",
+      "result_sha256": "59f3c5e9dd665c75845ab30e4e6e0a50e33edf69edd98422036af657f5f6b11a"
+    },
+    {
+      "run_id": "model_SF_detour2",
+      "result_sha256": "aee153374d4db6278a0180e87b815dd9a4f6a3d67382b1bd8c741f30454650cf"
+    },
+    {
+      "run_id": "model_Anaheim_detour1.1",
+      "result_sha256": "75b0c37e39481872c6749386df088a00cad931655ba0b9b0800e41ec0ac1762c"
+    },
+    {
+      "run_id": "model_Anaheim_detour1.25",
+      "result_sha256": "6db8493712fbe460f246d92b5dcf6ef727572acdbb32bf31e579ecb2ff804d55"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc"
+    },
+    {
+      "run_id": "model_Anaheim_detour2",
+      "result_sha256": "a4c5189c5e531f74e8f2d9083c058f971154eed4f351cc75e88d0eaa855cce61"
+    },
+    {
+      "run_id": "model_Winnipeg_detour1.1",
+      "result_sha256": "da6826e983f2f54b0cc0c2cf9f0a1deed0e8a8e07e485ef33dc9e32ddaa2e7a2"
+    },
+    {
+      "run_id": "model_Winnipeg_detour1.25",
+      "result_sha256": "1f95d49b048276caf4152c5bdf2cadec1cbe5be35e3df61813140339545e0758"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r1",
+      "result_sha256": "65adaba2621af85862287ba42119954dceee831a082f0858ab8f4ae7d2ed5765"
+    },
+    {
+      "run_id": "model_Winnipeg_detour2",
+      "result_sha256": "f4c3316090d5e5aad30d4f342a643c62f1e9455df6fca9ea9387df0eb27a3662"
+    },
+    {
+      "run_id": "model_ND_delta5",
+      "result_sha256": "38d1c604236ac501660f00856d7e63917b82fe06e2fca4c832360949f34cd8c4"
+    },
+    {
+      "run_id": "model_ND_delta10",
+      "result_sha256": "2694f4a97394147b025948c22b755984c1a69cc76979fd003a0a92cea7136264"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r1",
+      "result_sha256": "0c9821f12eb687f5a4c3760df9741c5163a09fd1f6c82e1817248cd66f4e1aac"
+    },
+    {
+      "run_id": "model_ND_delta30",
+      "result_sha256": "531a593ee239ca108508f49a5c711a7c7e508a9c724e7ddd59eb6cc0729dd0fc"
+    },
+    {
+      "run_id": "model_SF_delta5",
+      "result_sha256": "dc7543bc6e35d1c20d23053bcac501e4439861460f8ebb53899ebfa061b966b3"
+    },
+    {
+      "run_id": "model_SF_delta10",
+      "result_sha256": "f120adb559d8dc0c351cadf5176e797de5f5a57efe1e60f375db946c6110b9f3"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r1",
+      "result_sha256": "59f3c5e9dd665c75845ab30e4e6e0a50e33edf69edd98422036af657f5f6b11a"
+    },
+    {
+      "run_id": "model_SF_delta30",
+      "result_sha256": "cafb2c06607bfc04cd144b9f97eac952bb7e39aff2d7d25d1815ec0307d5dd78"
+    },
+    {
+      "run_id": "model_Anaheim_delta5",
+      "result_sha256": "cb10d4422c0295fd49c34b5944729b48272fc3b6310be2860175c0699d7e4e8b"
+    },
+    {
+      "run_id": "model_Anaheim_delta10",
+      "result_sha256": "60db9213cc491289eda695ac9faddac80e99c4268ba87b044e988d58c0934b9f"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc"
+    },
+    {
+      "run_id": "model_Anaheim_delta30",
+      "result_sha256": "86f78fd69fe89cdad146a5aed9d876ef85fa48115bb40a6e68e815f36f8608a3"
+    },
+    {
+      "run_id": "model_Winnipeg_delta5",
+      "result_sha256": "98939f2b91a566c73c99a051ddfd83438655ee78526f08ab8fec14d9f0613584"
+    },
+    {
+      "run_id": "model_Winnipeg_delta10",
+      "result_sha256": "7b6c492404a4c5c95b827a1664227dfb9edb253b045462ecd2e9776aa517d8c2"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r1",
+      "result_sha256": "65adaba2621af85862287ba42119954dceee831a082f0858ab8f4ae7d2ed5765"
+    },
+    {
+      "run_id": "model_Winnipeg_delta30",
+      "result_sha256": "809ce80c9ae841c8174b6346b9e96c7c88f3c7e2ad95715fd8a9fe6a4c0e7d22"
+    },
+    {
+      "run_id": "model_ND_window60",
+      "result_sha256": "1044ef5a5d675bae45f5044b9ca0b15ba6abb0a3a59d131f58d5e3e9f3c9cb76"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r1",
+      "result_sha256": "0c9821f12eb687f5a4c3760df9741c5163a09fd1f6c82e1817248cd66f4e1aac"
+    },
+    {
+      "run_id": "model_ND_window120",
+      "result_sha256": "dad46a3037d80e5a154d3e5566261a81796807c54d910c4629af0ffd1d76a441"
+    },
+    {
+      "run_id": "model_SF_window60",
+      "result_sha256": "caabdaa7e26184de3e01da1ac8cf7d5a9ffdd55d3b69db51617a216c8ac66bf5"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r1",
+      "result_sha256": "59f3c5e9dd665c75845ab30e4e6e0a50e33edf69edd98422036af657f5f6b11a"
+    },
+    {
+      "run_id": "model_SF_window120",
+      "result_sha256": "e1ba869f1bd5a0970a9a904bd99d37723057a7537dcd7f26818e6f4901f9b156"
+    },
+    {
+      "run_id": "model_Anaheim_window60",
+      "result_sha256": "f6f2793f8cbb0ea0c177b87c5e93580a1eaca91471a117e9e09cf4859175a3ed"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc"
+    },
+    {
+      "run_id": "model_Anaheim_window120",
+      "result_sha256": "5e8cae38d3dca4260b46a1a74e7d681db385a22018a47d13fb5894b9dd9995ab"
+    },
+    {
+      "run_id": "model_Winnipeg_window60",
+      "result_sha256": "cd698c427d36928e75ed80c92d20474944062842bcae4f52090bfeac90a10b52"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r1",
+      "result_sha256": "65adaba2621af85862287ba42119954dceee831a082f0858ab8f4ae7d2ed5765"
+    },
+    {
+      "run_id": "model_Winnipeg_window120",
+      "result_sha256": "cacf7f10a2e9f5f5dba1f2734eb5ebcf2d9b14f078c3328f5357f8841d3a4d1a"
+    }
+  ],
+  "collection_sha256": "6ed774438a8560945aef4daa2212c0e813d144df5daaa95f6cca42e24c76b27d"
+}

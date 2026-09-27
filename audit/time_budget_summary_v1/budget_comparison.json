@@ -1,0 +1,754 @@
+{
+  "schema_version": 1,
+  "scope": "fixed central instances, paired stage-budget comparison",
+  "triggered": true,
+  "additional_runs": 12,
+  "total_formal_runs": 466,
+  "groups": [
+    {
+      "network": "Anaheim",
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 600,
+      "runs": 3,
+      "returned_allocations": 3,
+      "certified": 0,
+      "median_seconds": 1200.7588839001255,
+      "maximum_primary_relative_gap": 0.1339767664725053,
+      "maximum_secondary_relative_gap": 0.1518112688363825
+    },
+    {
+      "network": "Anaheim",
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 3600,
+      "runs": 3,
+      "returned_allocations": 3,
+      "certified": 0,
+      "median_seconds": 7204.50392180006,
+      "maximum_primary_relative_gap": 0.1339767664725053,
+      "maximum_secondary_relative_gap": 0.14989710085840757
+    },
+    {
+      "network": "Anaheim",
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 600,
+      "runs": 3,
+      "returned_allocations": 3,
+      "certified": 0,
+      "median_seconds": 1201.9388829000527,
+      "maximum_primary_relative_gap": 0.011130453594827937,
+      "maximum_secondary_relative_gap": 0.01558299798972346
+    },
+    {
+      "network": "Anaheim",
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 3600,
+      "runs": 3,
+      "returned_allocations": 3,
+      "certified": 0,
+      "median_seconds": 6833.426458799862,
+      "maximum_primary_relative_gap": 0.009023464307182507,
+      "maximum_secondary_relative_gap": 0.0027636374708482556
+    },
+    {
+      "network": "Winnipeg",
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 600,
+      "runs": 3,
+      "returned_allocations": 3,
+      "certified": 2,
+      "median_seconds": 327.68523259996437,
+      "maximum_primary_relative_gap": 4.235294377082081e-08,
+      "maximum_secondary_relative_gap": 0.0035671923039462595
+    },
+    {
+      "network": "Winnipeg",
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 3600,
+      "runs": 3,
+      "returned_allocations": 3,
+      "certified": 2,
+      "median_seconds": 314.10618120012805,
+      "maximum_primary_relative_gap": 4.235294377082081e-08,
+      "maximum_secondary_relative_gap": 0.0011885228184579778
+    },
+    {
+      "network": "Winnipeg",
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 600,
+      "runs": 3,
+      "returned_allocations": 3,
+      "certified": 3,
+      "median_seconds": 6.649564200080931,
+      "maximum_primary_relative_gap": 4.2352943653267795e-08,
+      "maximum_secondary_relative_gap": 9.397995666868858e-05
+    },
+    {
+      "network": "Winnipeg",
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 3600,
+      "runs": 3,
+      "returned_allocations": 3,
+      "certified": 3,
+      "median_seconds": 5.514726300025359,
+      "maximum_primary_relative_gap": 4.2352943653267795e-08,
+      "maximum_secondary_relative_gap": 9.397995666881413e-05
+    }
+  ],
+  "runs": [
+    {
+      "plan": "direct_comparison_v1",
+      "run_id": "direct_Anaheim_concentrated_moderate_r1",
+      "network": "Anaheim",
+      "replication": 1,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "646deb9089d4b3c002fae18ea053b245e371316201671688571961163d27c665",
+      "result_sha256": "9bbdbdaffc6b11d3ecba69563fb975dc21bd9c67c4939a9ae416b6717e37abba",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 1201.4567374000326,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.20530033695541341,
+      "primary_upper_bound": 0.22790697674418597,
+      "primary_relative_gap": 0.11011496680437602,
+      "secondary_lower_bound": 0.02416932595815641,
+      "secondary_upper_bound": 0.027263491632231553,
+      "secondary_relative_gap": 0.1134911740511309,
+      "secondary_targets": {
+        "floor": 0.20530033695541341
+      },
+      "stage_statuses": [
+        107,
+        107
+      ]
+    },
+    {
+      "plan": "core_v1",
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "network": "Anaheim",
+      "replication": 1,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "646deb9089d4b3c002fae18ea053b245e371316201671688571961163d27c665",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 1201.9388829000527,
+      "warm_start_seconds": 1.7711516000563279,
+      "primary_lower_bound": 0.2053003369554134,
+      "primary_upper_bound": 0.2062933939659505,
+      "primary_relative_gap": 0.004837093914525761,
+      "secondary_lower_bound": 0.027143539123036256,
+      "secondary_upper_bound": 0.027263491632231553,
+      "secondary_relative_gap": 0.004399748602027404,
+      "secondary_targets": {
+        "floor": 0.20530033695541341
+      },
+      "stage_statuses": [
+        107,
+        107
+      ]
+    },
+    {
+      "plan": "direct_comparison_v1",
+      "run_id": "direct_Anaheim_concentrated_moderate_r2",
+      "network": "Anaheim",
+      "replication": 2,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "0b67ab3c6bd3d33e76755b6b74c74819128726111ba79dadf75a72f2f7ffa033",
+      "result_sha256": "c9a8d757a41409a607a89dbf8bf7578f9c0a13cadaf32579b24ac425f7e48844",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 1200.5608733999543,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.20310076519379847,
+      "primary_upper_bound": 0.22561404056961581,
+      "primary_relative_gap": 0.1108478116974853,
+      "secondary_lower_bound": 0.02423086665625278,
+      "secondary_upper_bound": 0.028567777153807285,
+      "secondary_relative_gap": 0.1518112688363825,
+      "secondary_targets": {
+        "floor": 0.20310076519379847
+      },
+      "stage_statuses": [
+        107,
+        107
+      ]
+    },
+    {
+      "plan": "core_v1",
+      "run_id": "core_Anaheim_concentrated_moderate_r2",
+      "network": "Anaheim",
+      "replication": 2,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "0b67ab3c6bd3d33e76755b6b74c74819128726111ba79dadf75a72f2f7ffa033",
+      "result_sha256": "a21901e2871eb6e7c8f12cc2262567d2b8d5204128c939b03b1e529c4de2ccc4",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 605.7975415999535,
+      "warm_start_seconds": 1.6982511000242084,
+      "primary_lower_bound": 0.20310076519379835,
+      "primary_upper_bound": 0.20413488931777526,
+      "primary_relative_gap": 0.005091680097759111,
+      "secondary_lower_bound": 0.02727528920363969,
+      "secondary_upper_bound": 0.02727793286500712,
+      "secondary_relative_gap": 9.691575166317031e-05,
+      "secondary_targets": {
+        "floor": 0.20310076519379844
+      },
+      "stage_statuses": [
+        107,
+        102
+      ]
+    },
+    {
+      "plan": "direct_comparison_v1",
+      "run_id": "direct_Anaheim_concentrated_moderate_r3",
+      "network": "Anaheim",
+      "replication": 3,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "29e28617efb4bcf2fd284ebca2dc8df519778c0c58fec7ff4b9827c8eddf4951",
+      "result_sha256": "5df48cafd564d16b01cde2fea62a9b06ef0ff5a35830d6f7ef52e56a886d79c7",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 1200.7588839001255,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.19803841076757184,
+      "primary_upper_bound": 0.2245709566795649,
+      "primary_relative_gap": 0.1339767664725053,
+      "secondary_lower_bound": 0.02313931756829921,
+      "secondary_upper_bound": 0.0266429324224441,
+      "secondary_relative_gap": 0.13150259883530818,
+      "secondary_targets": {
+        "floor": 0.1980384107675719
+      },
+      "stage_statuses": [
+        107,
+        107
+      ]
+    },
+    {
+      "plan": "core_v1",
+      "run_id": "core_Anaheim_concentrated_moderate_r3",
+      "network": "Anaheim",
+      "replication": 3,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "29e28617efb4bcf2fd284ebca2dc8df519778c0c58fec7ff4b9827c8eddf4951",
+      "result_sha256": "4135d4a4026b841e491b5f434886c5565910f90719fd9c48f5c6bd20d0b7e2b3",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 1202.0501318000024,
+      "warm_start_seconds": 1.9648090000264347,
+      "primary_lower_bound": 0.19803841076757187,
+      "primary_upper_bound": 0.2002426681086138,
+      "primary_relative_gap": 0.011130453594827937,
+      "secondary_lower_bound": 0.026227755660064817,
+      "secondary_upper_bound": 0.0266429324224441,
+      "secondary_relative_gap": 0.01558299798972346,
+      "secondary_targets": {
+        "floor": 0.1980384107675719
+      },
+      "stage_statuses": [
+        107,
+        107
+      ]
+    },
+    {
+      "plan": "direct_comparison_v1",
+      "run_id": "direct_Winnipeg_concentrated_moderate_r1",
+      "network": "Winnipeg",
+      "replication": 1,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "6edd28182ec45acda7e4f5ba2701e619248c8d03f43e3425cc739f3f333948b1",
+      "result_sha256": "387c6ca8f06d0243fbf53b2b4b98bc3740454fb0a654b840709675fa2102d013",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 625.8735431999667,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.236111101111111,
+      "primary_upper_bound": 0.2361111111111112,
+      "primary_relative_gap": 4.235294377082081e-08,
+      "secondary_lower_bound": 0.05506073531352698,
+      "secondary_upper_bound": 0.055257850693252564,
+      "secondary_relative_gap": 0.0035671923039462595,
+      "secondary_targets": {
+        "floor": 0.23611110111111105
+      },
+      "stage_statuses": [
+        101,
+        107
+      ]
+    },
+    {
+      "plan": "core_v1",
+      "run_id": "core_Winnipeg_concentrated_moderate_r1",
+      "network": "Winnipeg",
+      "replication": 1,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "6edd28182ec45acda7e4f5ba2701e619248c8d03f43e3425cc739f3f333948b1",
+      "result_sha256": "65adaba2621af85862287ba42119954dceee831a082f0858ab8f4ae7d2ed5765",
+      "certified": true,
+      "returned_allocation": true,
+      "seconds": 5.615198399988003,
+      "warm_start_seconds": 1.2916342000244185,
+      "primary_lower_bound": 0.23611110111111105,
+      "primary_upper_bound": 0.23611111111111108,
+      "primary_relative_gap": 4.2352943065502613e-08,
+      "secondary_lower_bound": 0.055257850693252564,
+      "secondary_upper_bound": 0.055257850693252564,
+      "secondary_relative_gap": 0.0,
+      "secondary_targets": {
+        "floor": 0.23611110111111105
+      },
+      "stage_statuses": [
+        101,
+        101
+      ]
+    },
+    {
+      "plan": "direct_comparison_v1",
+      "run_id": "direct_Winnipeg_concentrated_moderate_r2",
+      "network": "Winnipeg",
+      "replication": 2,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "1cb2d2f341bdf07f8d575d8f824000f63341c833eaab37ac1158c4ae38794534",
+      "result_sha256": "762b449f1b0f9a227d530761751d28726c68ddb2a450903601beca2b199756e3",
+      "certified": true,
+      "returned_allocation": true,
+      "seconds": 248.2100392000284,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.2361111011111111,
+      "primary_upper_bound": 0.23611111111111113,
+      "primary_relative_gap": 4.23529430655026e-08,
+      "secondary_lower_bound": 0.05525233108222357,
+      "secondary_upper_bound": 0.05525785069325262,
+      "secondary_relative_gap": 9.988826854105687e-05,
+      "secondary_targets": {
+        "floor": 0.23611110111111114
+      },
+      "stage_statuses": [
+        101,
+        102
+      ]
+    },
+    {
+      "plan": "core_v1",
+      "run_id": "core_Winnipeg_concentrated_moderate_r2",
+      "network": "Winnipeg",
+      "replication": 2,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "1cb2d2f341bdf07f8d575d8f824000f63341c833eaab37ac1158c4ae38794534",
+      "result_sha256": "909ad9c0a76f14341d0af88fa3b6309495f44b4b314732c12de24d5df7006e3a",
+      "certified": true,
+      "returned_allocation": true,
+      "seconds": 6.649564200080931,
+      "warm_start_seconds": 1.4322477000532672,
+      "primary_lower_bound": 0.23611110111111092,
+      "primary_upper_bound": 0.23611111111111108,
+      "primary_relative_gap": 4.2352943653267795e-08,
+      "secondary_lower_bound": 0.05525785045282047,
+      "secondary_upper_bound": 0.055257850693252494,
+      "secondary_relative_gap": 4.351092532517149e-09,
+      "secondary_targets": {
+        "floor": 0.2361111011111109
+      },
+      "stage_statuses": [
+        101,
+        102
+      ]
+    },
+    {
+      "plan": "direct_comparison_v1",
+      "run_id": "direct_Winnipeg_concentrated_moderate_r3",
+      "network": "Winnipeg",
+      "replication": 3,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "9a6f431a2bd48bdfedf5ed64a49873b62120171f6cfc157a4c669cac6217d829",
+      "result_sha256": "8b331fe063fe9ac1ce1243dcc2711b3635b5bc3143921384ff1ee44b12b70cd6",
+      "certified": true,
+      "returned_allocation": true,
+      "seconds": 327.68523259996437,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.2361111011111111,
+      "primary_upper_bound": 0.2361111111111112,
+      "primary_relative_gap": 4.2352943300608665e-08,
+      "secondary_lower_bound": 0.055252383376547747,
+      "secondary_upper_bound": 0.05525785069325259,
+      "secondary_relative_gap": 9.894189940892075e-05,
+      "secondary_targets": {
+        "floor": 0.2361111011111111
+      },
+      "stage_statuses": [
+        101,
+        102
+      ]
+    },
+    {
+      "plan": "core_v1",
+      "run_id": "core_Winnipeg_concentrated_moderate_r3",
+      "network": "Winnipeg",
+      "replication": 3,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 600,
+      "instance_sha256": "9a6f431a2bd48bdfedf5ed64a49873b62120171f6cfc157a4c669cac6217d829",
+      "result_sha256": "b5cdcf6b7c0a4cc377523931e745735e64035dac520987e5b277984085cad49c",
+      "certified": true,
+      "returned_allocation": true,
+      "seconds": 10.653748399810866,
+      "warm_start_seconds": 1.1493797999573871,
+      "primary_lower_bound": 0.23611110111111105,
+      "primary_upper_bound": 0.23611111111111116,
+      "primary_relative_gap": 4.2352943418161704e-08,
+      "secondary_lower_bound": 0.055252657562838835,
+      "secondary_upper_bound": 0.05525785069325259,
+      "secondary_relative_gap": 9.397995666868858e-05,
+      "secondary_targets": {
+        "floor": 0.2361111011111111
+      },
+      "stage_statuses": [
+        101,
+        102
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Anaheim_direct_r1",
+      "network": "Anaheim",
+      "replication": 1,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "646deb9089d4b3c002fae18ea053b245e371316201671688571961163d27c665",
+      "result_sha256": "6a1ea18b35ac519c1ce5c9216d4a2fcfcd73a5e6a3c2e1a05a31949839236af4",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 7203.113595100003,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.20530033695541341,
+      "primary_upper_bound": 0.2248372977411553,
+      "primary_relative_gap": 0.09516282864155681,
+      "secondary_lower_bound": 0.024239027851676347,
+      "secondary_upper_bound": 0.027263491632231553,
+      "secondary_relative_gap": 0.11093457218735739,
+      "secondary_targets": {
+        "floor": 0.20530033695541341
+      },
+      "stage_statuses": [
+        107,
+        107
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Anaheim_benders_flow_r1",
+      "network": "Anaheim",
+      "replication": 1,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "646deb9089d4b3c002fae18ea053b245e371316201671688571961163d27c665",
+      "result_sha256": "a3ad1ae66aad7e0d3a308a42fc68c85d1ffbf65a43f24af818c3f8f7cc221b87",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 7202.593595700106,
+      "warm_start_seconds": 1.806330000050366,
+      "primary_lower_bound": 0.2053003369554134,
+      "primary_upper_bound": 0.20568657699777795,
+      "primary_relative_gap": 0.0018813414926272083,
+      "secondary_lower_bound": 0.02718814522517056,
+      "secondary_upper_bound": 0.027263491632231553,
+      "secondary_relative_gap": 0.0027636374708482556,
+      "secondary_targets": {
+        "floor": 0.20530033695541341
+      },
+      "stage_statuses": [
+        107,
+        107
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Anaheim_direct_r2",
+      "network": "Anaheim",
+      "replication": 2,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "0b67ab3c6bd3d33e76755b6b74c74819128726111ba79dadf75a72f2f7ffa033",
+      "result_sha256": "c97b722175ef46ae18c7f899a692184232a8d6e7941ba1cbee46e0ab612bb53a",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 7204.50392180006,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.20310076519379847,
+      "primary_upper_bound": 0.2244964897059056,
+      "primary_relative_gap": 0.10534536633424975,
+      "secondary_lower_bound": 0.024285550180482517,
+      "secondary_upper_bound": 0.02856777715380728,
+      "secondary_relative_gap": 0.14989710085840757,
+      "secondary_targets": {
+        "floor": 0.20310076519379847
+      },
+      "stage_statuses": [
+        107,
+        107
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Anaheim_benders_flow_r2",
+      "network": "Anaheim",
+      "replication": 2,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "0b67ab3c6bd3d33e76755b6b74c74819128726111ba79dadf75a72f2f7ffa033",
+      "result_sha256": "8f56e27bb7158fa1728d25441dc28c4edd28e24296ee531b05a799c268b4157f",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 3655.4640979000833,
+      "warm_start_seconds": 1.2671337000792846,
+      "primary_lower_bound": 0.20310076519379844,
+      "primary_upper_bound": 0.20343930752396022,
+      "primary_relative_gap": 0.0016668688069133933,
+      "secondary_lower_bound": 0.027275215582077766,
+      "secondary_upper_bound": 0.027277932865007133,
+      "secondary_relative_gap": 9.961469378248018e-05,
+      "secondary_targets": {
+        "floor": 0.20310076519379847
+      },
+      "stage_statuses": [
+        107,
+        102
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Anaheim_direct_r3",
+      "network": "Anaheim",
+      "replication": 3,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "29e28617efb4bcf2fd284ebca2dc8df519778c0c58fec7ff4b9827c8eddf4951",
+      "result_sha256": "18c7fb5ef87653e83974b819afe34cd8313b85060ebeaac774eaa17217afe884",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 7207.199934500037,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.19803841076757184,
+      "primary_upper_bound": 0.2245709566795649,
+      "primary_relative_gap": 0.1339767664725053,
+      "secondary_lower_bound": 0.023232023136899187,
+      "secondary_upper_bound": 0.0266429324224441,
+      "secondary_relative_gap": 0.12802304308933923,
+      "secondary_targets": {
+        "floor": 0.1980384107675719
+      },
+      "stage_statuses": [
+        107,
+        107
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Anaheim_benders_flow_r3",
+      "network": "Anaheim",
+      "replication": 3,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "29e28617efb4bcf2fd284ebca2dc8df519778c0c58fec7ff4b9827c8eddf4951",
+      "result_sha256": "b00be5a4fe77bb871d4c6114246170f765d234012bffe24b03794db171829a8d",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 6833.426458799862,
+      "warm_start_seconds": 1.944273499888368,
+      "primary_lower_bound": 0.19803841076757187,
+      "primary_upper_bound": 0.1998254032985842,
+      "primary_relative_gap": 0.009023464307182507,
+      "secondary_lower_bound": 0.026640268202250673,
+      "secondary_upper_bound": 0.026642932422444098,
+      "secondary_relative_gap": 9.99972582290187e-05,
+      "secondary_targets": {
+        "floor": 0.1980384107675719
+      },
+      "stage_statuses": [
+        107,
+        102
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Winnipeg_direct_r1",
+      "network": "Winnipeg",
+      "replication": 1,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "6edd28182ec45acda7e4f5ba2701e619248c8d03f43e3425cc739f3f333948b1",
+      "result_sha256": "816c13f98ff68d098d543dc34d14c9ffa6fb8b8b3b16a99e306ed7279830bd99",
+      "certified": false,
+      "returned_allocation": true,
+      "seconds": 3622.37873830006,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.236111101111111,
+      "primary_upper_bound": 0.2361111111111112,
+      "primary_relative_gap": 4.235294377082081e-08,
+      "secondary_lower_bound": 0.05519217547680469,
+      "secondary_upper_bound": 0.055257850693252564,
+      "secondary_relative_gap": 0.0011885228184579778,
+      "secondary_targets": {
+        "floor": 0.23611110111111105
+      },
+      "stage_statuses": [
+        101,
+        107
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Winnipeg_benders_flow_r1",
+      "network": "Winnipeg",
+      "replication": 1,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "6edd28182ec45acda7e4f5ba2701e619248c8d03f43e3425cc739f3f333948b1",
+      "result_sha256": "e1ab6adacb971c81b162c451e9a9b56e28d1ec9bb79ddf7405ffad46118d465b",
+      "certified": true,
+      "returned_allocation": true,
+      "seconds": 4.4345647998852655,
+      "warm_start_seconds": 1.1014635999454185,
+      "primary_lower_bound": 0.236111101111111,
+      "primary_upper_bound": 0.23611111111111108,
+      "primary_relative_gap": 4.2352943300608685e-08,
+      "secondary_lower_bound": 0.055257850693252564,
+      "secondary_upper_bound": 0.055257850693252564,
+      "secondary_relative_gap": 0.0,
+      "secondary_targets": {
+        "floor": 0.23611110111111105
+      },
+      "stage_statuses": [
+        101,
+        101
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Winnipeg_direct_r2",
+      "network": "Winnipeg",
+      "replication": 2,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "1cb2d2f341bdf07f8d575d8f824000f63341c833eaab37ac1158c4ae38794534",
+      "result_sha256": "a56e2b79746f1fba209c4c9651a696661412c88c526284c43c6b9a4bb87e1812",
+      "certified": true,
+      "returned_allocation": true,
+      "seconds": 229.49346290004905,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.2361111011111111,
+      "primary_upper_bound": 0.23611111111111113,
+      "primary_relative_gap": 4.23529430655026e-08,
+      "secondary_lower_bound": 0.05525233108222357,
+      "secondary_upper_bound": 0.05525785069325262,
+      "secondary_relative_gap": 9.988826854105687e-05,
+      "secondary_targets": {
+        "floor": 0.23611110111111114
+      },
+      "stage_statuses": [
+        101,
+        102
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Winnipeg_benders_flow_r2",
+      "network": "Winnipeg",
+      "replication": 2,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "1cb2d2f341bdf07f8d575d8f824000f63341c833eaab37ac1158c4ae38794534",
+      "result_sha256": "dbac8fbd0a618ebdbd599d0fb37679242e29283b3a3c6963bb7b2e4559f037a0",
+      "certified": true,
+      "returned_allocation": true,
+      "seconds": 5.514726300025359,
+      "warm_start_seconds": 1.134612699970603,
+      "primary_lower_bound": 0.23611110111111092,
+      "primary_upper_bound": 0.23611111111111108,
+      "primary_relative_gap": 4.2352943653267795e-08,
+      "secondary_lower_bound": 0.05525785045282047,
+      "secondary_upper_bound": 0.055257850693252494,
+      "secondary_relative_gap": 4.351092532517149e-09,
+      "secondary_targets": {
+        "floor": 0.2361111011111109
+      },
+      "stage_statuses": [
+        101,
+        102
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Winnipeg_direct_r3",
+      "network": "Winnipeg",
+      "replication": 3,
+      "algorithm": "direct",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "9a6f431a2bd48bdfedf5ed64a49873b62120171f6cfc157a4c669cac6217d829",
+      "result_sha256": "1cd6c6e05f2df0201da950f0ea35b75274f902b3dbd40ccb9eff5b6465f9483b",
+      "certified": true,
+      "returned_allocation": true,
+      "seconds": 314.10618120012805,
+      "warm_start_seconds": 0.0,
+      "primary_lower_bound": 0.2361111011111111,
+      "primary_upper_bound": 0.2361111111111112,
+      "primary_relative_gap": 4.2352943300608665e-08,
+      "secondary_lower_bound": 0.055252383376547747,
+      "secondary_upper_bound": 0.05525785069325259,
+      "secondary_relative_gap": 9.894189940892075e-05,
+      "secondary_targets": {
+        "floor": 0.2361111011111111
+      },
+      "stage_statuses": [
+        101,
+        102
+      ]
+    },
+    {
+      "plan": "budget_sensitivity_v1",
+      "run_id": "budget_Winnipeg_benders_flow_r3",
+      "network": "Winnipeg",
+      "replication": 3,
+      "algorithm": "benders_flow",
+      "budget_seconds_per_stage": 3600,
+      "instance_sha256": "9a6f431a2bd48bdfedf5ed64a49873b62120171f6cfc157a4c669cac6217d829",
+      "result_sha256": "971c60900cb314de2db662faedf29edb642e3cab5d8a2f5b4b2991d9656ecedf",
+      "certified": true,
+      "returned_allocation": true,
+      "seconds": 8.909372300026007,
+      "warm_start_seconds": 0.9094131999881938,
+      "primary_lower_bound": 0.23611110111111108,
+      "primary_upper_bound": 0.23611111111111116,
+      "primary_relative_gap": 4.235294330060867e-08,
+      "secondary_lower_bound": 0.055252657562838835,
+      "secondary_upper_bound": 0.0552578506932526,
+      "secondary_relative_gap": 9.397995666881413e-05,
+      "secondary_targets": {
+        "floor": 0.2361111011111111
+      },
+      "stage_statuses": [
+        101,
+        102
+      ]
+    }
+  ],
+  "decision_path": "audit/time_budget_gate_v1/decision.json",
+  "decision_sha256": "b41863662989aeeb4847fe1405ab5643df98aee1b71b3224e7efbd67ed84f6fa",
+  "tool_sha256": "b10430c5e88d2a09cb6b8b8d48bc95ab797158bc635d3252d20b2fb2bf5ea84a",
+  "gate_sha256": "ac5d9cebe15fb782040373f7f4e90783f2987c534552f21d0b89c2ed1986797c",
+  "short_collection_sha256": "f90bc47bb9215a4a4037b6be710d615161701901650c38f7978a91aff4c6af97",
+  "long_collection_sha256": "18e89face6e9f473217683fffa7b54e11103df5cf92e3e0b68863b63bd9bdc76",
+  "table_sha256": "2a5e4b2faf14f9d0dcb31f482f89033071f043731736ce5dcad2a5a76fa33724"
+}

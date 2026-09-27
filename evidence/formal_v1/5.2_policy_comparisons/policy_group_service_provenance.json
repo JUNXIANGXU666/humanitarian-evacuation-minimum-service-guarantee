@@ -1,0 +1,253 @@
+{
+  "name": "policy_group_service",
+  "section": "5.2_policy_comparisons",
+  "pdf_sha256": "cc2f958a89626dc2705bec943d942367006099227a540d52e4f3863784411d5f",
+  "png_sha256": "2050136aa80384eb11ac0ef849c9d450d07a923d23b8c6145ec1a65755e37f6d",
+  "font": "C:\\Windows\\Fonts\\arial.ttf",
+  "text_fonts": [
+    "Arial"
+  ],
+  "inputs": [
+    {
+      "run_id": "core_ND_concentrated_moderate_r1",
+      "result_sha256": "0c9821f12eb687f5a4c3760df9741c5163a09fd1f6c82e1817248cd66f4e1aac"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r2",
+      "result_sha256": "7f038a641200477f8caa16eb80fe161ba63cf949e41b2b186259c0b0e024ee2c"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r3",
+      "result_sha256": "4827f186520c3761944c5e8356bdcc13da1a5774b38ce0703bb777d5d2069c07"
+    },
+    {
+      "run_id": "policy_ND_aggregate_r1",
+      "result_sha256": "69cce7d4899488b73d91805ad1ccacc4a87dcbc88daf7db33f660c099710e5e0"
+    },
+    {
+      "run_id": "policy_ND_aggregate_r2",
+      "result_sha256": "5a48cda36d804444e658c20976773177cf73d3cc11f2c614191dde4d7cb24862"
+    },
+    {
+      "run_id": "policy_ND_aggregate_r3",
+      "result_sha256": "96e305bfcdc9df2f7e02fe64606e0ae35053cbdef6bb02187765f86079f3a1ad"
+    },
+    {
+      "run_id": "policy_ND_aggregate_fair_r1",
+      "result_sha256": "b69a57e5035bb02197e86147d9eefb5a7bf1698f9cef7a5150786dca68f340e5"
+    },
+    {
+      "run_id": "policy_ND_aggregate_fair_r2",
+      "result_sha256": "e5e9d335ab8c4fa176b95c2d073abf93d52d9be32a51af812d8ebbd70800e0d2"
+    },
+    {
+      "run_id": "policy_ND_aggregate_fair_r3",
+      "result_sha256": "9da4da2dddbc93f4989594d294563d50928767e05938ca5fefe8db4193746849"
+    },
+    {
+      "run_id": "policy_ND_coverage_r1",
+      "result_sha256": "5528c021ac6810ec565dd4692776a01f3747bb52e0699c1a422db6750557ec82"
+    },
+    {
+      "run_id": "policy_ND_coverage_r2",
+      "result_sha256": "a7424f4355dd066c742a4446084689872c7d02af186e48b2f6d24a753ded2dc3"
+    },
+    {
+      "run_id": "policy_ND_coverage_r3",
+      "result_sha256": "18f3f43d132dcdc791f2ce9913d4fcc513eec37046e69a1fe0c39d1e01b09b1f"
+    },
+    {
+      "run_id": "policy_ND_leximin_r1",
+      "result_sha256": "db8a164eec5691fc6f94bbfaafd07629b2165579d6649a23125f5fe503f3b361"
+    },
+    {
+      "run_id": "policy_ND_leximin_r2",
+      "result_sha256": "2c7051fe20ab8e1d4081212ba344ae087191d35f6986acb005d51a390278889b"
+    },
+    {
+      "run_id": "policy_ND_leximin_r3",
+      "result_sha256": "bd127ca94930498045d959a8ee80cc9f4d1a3b780f6c320d5ca308152c320d35"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r1",
+      "result_sha256": "59f3c5e9dd665c75845ab30e4e6e0a50e33edf69edd98422036af657f5f6b11a"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r2",
+      "result_sha256": "f17bc9ce4de67c184b1f05d23ea2598fc6c4b309d32f5473f30bbd6214b25ea0"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r3",
+      "result_sha256": "3b7f719dc616dac2a4cdfaa00101c7b99f9031469bf1809c1060ac549adaf67e"
+    },
+    {
+      "run_id": "policy_SF_aggregate_r1",
+      "result_sha256": "c392cd8b90ea242076ed9473ccfc5f2a2cc73a5d813caf2af6f9316bdd6ffe34"
+    },
+    {
+      "run_id": "policy_SF_aggregate_r2",
+      "result_sha256": "221ef78c0e40ffb7c45cecf760c9edd2376928a577dad770825e94d4af8d03a4"
+    },
+    {
+      "run_id": "policy_SF_aggregate_r3",
+      "result_sha256": "4de0051cb0d22395c7a753709366d67510232be86b55cd500ec23f20e68ba8bb"
+    },
+    {
+      "run_id": "policy_SF_aggregate_fair_r1",
+      "result_sha256": "ae73dcbb78d4b03385c3b893d6dde1205ae86c76c0fe211fac430c92ca0420e8"
+    },
+    {
+      "run_id": "policy_SF_aggregate_fair_r2",
+      "result_sha256": "9e84c3d86518b8ddcfb0ab6176792d3be0b2f4a17e357eaafc9bc6d86cf5253c"
+    },
+    {
+      "run_id": "policy_SF_aggregate_fair_r3",
+      "result_sha256": "58df6024666bfd993ed4d52e8b4df128b05456175cf2da7df3f644e982aafb90"
+    },
+    {
+      "run_id": "policy_SF_coverage_r1",
+      "result_sha256": "4eb9b621fbd178eae3b6bd2732511d847637f06534b0bdbdbaa77457a778c78d"
+    },
+    {
+      "run_id": "policy_SF_coverage_r2",
+      "result_sha256": "343abec5953581e7f0ff719a6792d36e73e4ac09147dd2a7ecd34628b89fd6e8"
+    },
+    {
+      "run_id": "policy_SF_coverage_r3",
+      "result_sha256": "4ca143367e8bb9a4d8b4e61f044044f3405a185224a17907e1af287cd5745e43"
+    },
+    {
+      "run_id": "policy_SF_leximin_r1",
+      "result_sha256": "1bc9d4d76c93804b58430f792dff4c555365766a877b9189724296e319ae7b3f"
+    },
+    {
+      "run_id": "policy_SF_leximin_r2",
+      "result_sha256": "8f771d92fe2f53097379700647ab31d7fac00a594702bf24fc03e66eb8ee56b1"
+    },
+    {
+      "run_id": "policy_SF_leximin_r3",
+      "result_sha256": "92eb99a9a0cb38e3be10d37b60995d84710a8ed604a7ab11d12b3c27da724ae2"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r2",
+      "result_sha256": "a21901e2871eb6e7c8f12cc2262567d2b8d5204128c939b03b1e529c4de2ccc4"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r3",
+      "result_sha256": "4135d4a4026b841e491b5f434886c5565910f90719fd9c48f5c6bd20d0b7e2b3"
+    },
+    {
+      "run_id": "policy_Anaheim_aggregate_r1",
+      "result_sha256": "37cf901397675d0ea438c946a7cfa926585d87093bcfa2fa678a7cc1d18298b4"
+    },
+    {
+      "run_id": "policy_Anaheim_aggregate_r2",
+      "result_sha256": "3d6acc75080df373c55ebd4f6037586844dcdb0648d58bef5e39d693b45f6531"
+    },
+    {
+      "run_id": "policy_Anaheim_aggregate_r3",
+      "result_sha256": "3efe8f1946b6c77813f13d4a1224358eedad721185268800ff765bcb12668ae4"
+    },
+    {
+      "run_id": "policy_Anaheim_aggregate_fair_r1",
+      "result_sha256": "2a143e87792fc1fbaeb6271c38e45629e6d792b1adeca9d382da7d6f8d41e61f"
+    },
+    {
+      "run_id": "policy_Anaheim_aggregate_fair_r2",
+      "result_sha256": "81c82c87becfbaae814220d9db6faffbc5a313ce2c781ce73dfe54b3aeab2333"
+    },
+    {
+      "run_id": "policy_Anaheim_aggregate_fair_r3",
+      "result_sha256": "5b8ffe4ecdfaffa712a2c5dfd135447b6fb06011044c826891cf241f74a070ec"
+    },
+    {
+      "run_id": "policy_Anaheim_coverage_r1",
+      "result_sha256": "fef474d327a496eb92656f29b423d38a6f8c676199b8be9b07c78e631b9059b4"
+    },
+    {
+      "run_id": "policy_Anaheim_coverage_r2",
+      "result_sha256": "0cff256ef42c26dabe4bacdba633c69e74e762fefde08009bd8c5aa11f39273f"
+    },
+    {
+      "run_id": "policy_Anaheim_coverage_r3",
+      "result_sha256": "86440b244824163d7cd5d707279627dc3cd6034ae27eec27ad60ada14919bfdc"
+    },
+    {
+      "run_id": "policy_Anaheim_leximin_r1",
+      "result_sha256": "6b61f797d110cccc6b499296bc3aeda6752842d8b38010259ad9831a813dc839"
+    },
+    {
+      "run_id": "policy_Anaheim_leximin_r2",
+      "result_sha256": "c46483b8de0c8103752fc3c928ced64e018709b1caceb6807dad140338705384"
+    },
+    {
+      "run_id": "policy_Anaheim_leximin_r3",
+      "result_sha256": "d2c9eb3b40806d30d904439bf7c6171434e251daa029151c3c37b52791533436"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r1",
+      "result_sha256": "65adaba2621af85862287ba42119954dceee831a082f0858ab8f4ae7d2ed5765"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r2",
+      "result_sha256": "909ad9c0a76f14341d0af88fa3b6309495f44b4b314732c12de24d5df7006e3a"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r3",
+      "result_sha256": "b5cdcf6b7c0a4cc377523931e745735e64035dac520987e5b277984085cad49c"
+    },
+    {
+      "run_id": "policy_Winnipeg_aggregate_r1",
+      "result_sha256": "1aa08a25b35c2c6123cdf4e9f3ca779d114c7c2f3e3f80226a51fd7ff40f4d37"
+    },
+    {
+      "run_id": "policy_Winnipeg_aggregate_r2",
+      "result_sha256": "9f902fb15100fdac1ad138ccce0782f1c4623509e4c03a68fd5215e7343a05e4"
+    },
+    {
+      "run_id": "policy_Winnipeg_aggregate_r3",
+      "result_sha256": "83e150a0da08f8360bca8e31ba2f56e342ac02a25188bc7fa81cb470eeb53539"
+    },
+    {
+      "run_id": "policy_Winnipeg_aggregate_fair_r1",
+      "result_sha256": "77f8277fb340a299ed845c43c3c18d1ba1c9cfafadff64e135f24a999edba7c2"
+    },
+    {
+      "run_id": "policy_Winnipeg_aggregate_fair_r2",
+      "result_sha256": "e5842bac7023337268f9139b5721c9937e9009b53b45a9da7ea74fbee1dcd674"
+    },
+    {
+      "run_id": "policy_Winnipeg_aggregate_fair_r3",
+      "result_sha256": "88aac58d6e0a6692ba1e1e4cb0ca3d5c9799ab0a4cb2316bff14a64ac59a2e50"
+    },
+    {
+      "run_id": "policy_Winnipeg_coverage_r1",
+      "result_sha256": "5541f972e3e1d844f1dd92339a547ca62d9b8265da9ae326e5d7a695ce87599b"
+    },
+    {
+      "run_id": "policy_Winnipeg_coverage_r2",
+      "result_sha256": "70cfd0eb16d185ec755254220d61cb1a654a64535b57506a3b419584061d494f"
+    },
+    {
+      "run_id": "policy_Winnipeg_coverage_r3",
+      "result_sha256": "488d9266326f76c487556db3ad724c734ee66e4c4c578dd880a5322293498073"
+    },
+    {
+      "run_id": "policy_Winnipeg_leximin_r1",
+      "result_sha256": "9deb21cd5d24510869df0301c2e9a75d87751ae14b4e3464a00d40302380707e"
+    },
+    {
+      "run_id": "policy_Winnipeg_leximin_r2",
+      "result_sha256": "d044b18018ae1cd6fb96be6dd24f529a1fc440be7504d220c8e9b35ba4be525b"
+    },
+    {
+      "run_id": "policy_Winnipeg_leximin_r3",
+      "result_sha256": "7a1f8848edbeb0e01980acbda2dcf3902fadb9113d586d55636fc41c6f16f68f"
+    }
+  ],
+  "collection_sha256": "6ed774438a8560945aef4daa2212c0e813d144df5daaa95f6cca42e24c76b27d"
+}

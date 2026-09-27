@@ -1,0 +1,65 @@
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 4
+CPXPARAM_Parallel                                1
+CPXPARAM_RandomSeed                              20260925
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_TimeLimit                               600
+CPXPARAM_MIP_Tolerances_AbsMIPGap                1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_Integrality              1.0000000000000001e-09
+Legacy callback                                  i
+1 of 4 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 0.0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 3104 rows and 3 columns.
+MIP Presolve modified 3120 coefficients.
+Reduced MIP has 3894 rows, 4831 columns, and 38535 nonzeros.
+Reduced MIP has 1200 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (33.59 ticks)
+Probing time = 0.00 sec. (0.58 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve modified 120 coefficients.
+Reduced MIP has 3894 rows, 4831 columns, and 38535 nonzeros.
+Reduced MIP has 1200 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (26.39 ticks)
+Probing time = 0.00 sec. (0.65 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.11 sec. (101.01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000       -1.7078              --- 
+      0     0       -0.4803    19        0.0000       -0.4803     2100     --- 
+*     0+    0                           -0.4722       -0.4803             1.71%
+      0     0       -0.4803    19       -0.4722   MIRcuts: 30     2374    1.71%
+      0     0       -0.4803    19       -0.4722       Cuts: 9     2533    1.71%
+      0     2       -0.4803    18       -0.4722       -0.4803     2533    1.71%
+Elapsed time = 0.73 sec. (734.46 ticks, tree = 0.02 MB, solutions = 2)
+     11     8       -0.4803    21       -0.4722       -0.4803     6464    1.71%
+     45    33       -0.4803    21       -0.4722       -0.4803    14787    1.71%
+     80    71       -0.4776    19       -0.4722       -0.4803    25460    1.71%
+    160    83        cutoff             -0.4722       -0.4803    29656    1.71%
+    211   108       -0.4734    24       -0.4722       -0.4803    37006    1.71%
+    281   108       -0.4767    30       -0.4722       -0.4803    45163    1.71%
+    353   116        cutoff             -0.4722       -0.4803    51504    1.71%
+    425   110       -0.4776    23       -0.4722       -0.4803    58733    1.71%
+    505   101       -0.4754    24       -0.4722       -0.4799    67919    1.62%
+    807    52       -0.4749    27       -0.4722       -0.4763    93311    0.86%
+Elapsed time = 3.88 sec. (3897.21 ticks, tree = 0.56 MB, solutions = 2)
+
+Mixed integer rounding cuts applied:  25
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.73 sec. (732.34 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    3.20 sec. (3241.37 ticks)
+  Sync time (average)   =    0.27 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    3.94 sec. (3973.71 ticks)

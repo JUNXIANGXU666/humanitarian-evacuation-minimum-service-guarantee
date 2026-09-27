@@ -1,0 +1,27 @@
+{
+  "declared_nodes": 13,
+  "first_thru": 1,
+  "production": {"1": 2800, "4": 4000, "9": 1600, "12": 2200},
+  "attraction": {"2": 5200, "3": 3800},
+  "arcs": [
+    {"tail": 1, "head": 12, "capacity": 800, "time": 12},
+    {"tail": 1, "head": 5, "capacity": 700, "time": 10},
+    {"tail": 12, "head": 6, "capacity": 600, "time": 10},
+    {"tail": 12, "head": 8, "capacity": 900, "time": 15},
+    {"tail": 4, "head": 5, "capacity": 700, "time": 8},
+    {"tail": 5, "head": 6, "capacity": 500, "time": 12},
+    {"tail": 6, "head": 7, "capacity": 300, "time": 6},
+    {"tail": 7, "head": 8, "capacity": 400, "time": 8},
+    {"tail": 4, "head": 9, "capacity": 600, "time": 12},
+    {"tail": 5, "head": 9, "capacity": 600, "time": 12},
+    {"tail": 6, "head": 10, "capacity": 700, "time": 12},
+    {"tail": 7, "head": 11, "capacity": 800, "time": 12},
+    {"tail": 8, "head": 2, "capacity": 800, "time": 13},
+    {"tail": 9, "head": 10, "capacity": 400, "time": 10},
+    {"tail": 10, "head": 11, "capacity": 600, "time": 9},
+    {"tail": 11, "head": 2, "capacity": 500, "time": 8},
+    {"tail": 9, "head": 13, "capacity": 900, "time": 12},
+    {"tail": 11, "head": 3, "capacity": 600, "time": 12},
+    {"tail": 13, "head": 3, "capacity": 600, "time": 12}
+  ]
+}

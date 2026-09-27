@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "verdict": "pass",
+  "scope": "floating-point tolerance-certified finite path/time model",
+  "reviewed_at_utc": "2026-09-25T10:13:23Z",
+  "source_hashes": {
+    "research/evacuation/__init__.py": "fdade1fc379e36ce21c9353ed5ceb99120940754efde4953cc200f0db6ccaa0a",
+    "research/evacuation/data.py": "fe787fe9329eb9217b9782fa5d3958b3e650f50ba6358089380a29e2e1c99267",
+    "research/evacuation/formulation.py": "4a463d57580ecbd1b3278e1e05e5f7fb8927edecace23f6a89af9fe16eda2527",
+    "research/evacuation/policies.py": "df21304ef2fea5abf43e16bfaf8a13a45f1b2f33d1e79c9a7b208759caa51033",
+    "research/evacuation/solver.py": "5ab4f91687b9260c565d3d3bc37207344cd492114f2b5ae98d2fc487843ecf49",
+    "research/evacuation/validation.py": "e4eefa82a7074e6ab67ce8b3881b2b0e7b6e3aa4168fd35df94c1c1f30705ddb"
+  },
+  "tests_inspected": [
+    {
+      "suite": "known_answers_v5",
+      "test_source": "research/tests/validate_algorithms.py",
+      "test_source_sha256": "2af752f63240c1b6d47daefac92aab540e9bf2dbf5d74860fa56cb411634fabc",
+      "summary": "research/runs/known_answers_v5/summary.json",
+      "summary_sha256": "3cdf5f49c801f4c5fcc2f8fd6cd18b2a85391e1ce3e07e2e526b988abafcd3dc",
+      "passed": 26,
+      "total": 26,
+      "all_check_flags_true": true,
+      "exit_code_reported_by_main": 0
+    },
+    {
+      "suite": "equivalence_v3",
+      "test_source": "research/tests/validate_equivalence.py",
+      "test_source_sha256": "2182b7b7503fe1b4001c7057db0ec2a9f1c67a88fe884b751b1e412074d72528",
+      "summary": "research/runs/equivalence_v3/summary.json",
+      "summary_sha256": "03f3e6e8d8227ae9c520a12ba56ce9f6150d497a514f4fa5cd3164f4024e01ac",
+      "passed": 30,
+      "total": 30,
+      "all_check_flags_true": true,
+      "exit_code_reported_by_main": 0
+    },
+    {
+      "suite": "design_validation_v3",
+      "test_source": "research/tests/validate_design.py",
+      "test_source_sha256": "73cb0727083669a13ac4794c8366d243ba349121df3bf53cd348e180e49466e1",
+      "summary": "research/runs/design_validation_v3/summary.json",
+      "summary_sha256": "1bde47859a923f8db02d165b22f9776f8558d2f45ff21e30abd50993ee765e2e",
+      "passed": 21,
+      "total": 21,
+      "all_check_flags_true": true,
+      "exit_code_reported_by_main": 0
+    },
+    {
+      "suite": "guardrails_v1",
+      "test_source": "research/tests/validate_guardrails.py",
+      "test_source_sha256": "68ed0a97f42e1ec2e21ba01c2b2e072148cd0bae2bf1103758a2e590b5160abd",
+      "summary": "research/runs/guardrails_v1/summary.json",
+      "summary_sha256": "e2cc107a6f2f92ab43d571e67f58c35ff9f6c33906993c3bac9cf75bf04e9c01",
+      "passed": 19,
+      "total": 19,
+      "all_check_flags_true": true,
+      "exit_code_reported_by_main": 0
+    }
+  ],
+  "tolerances": {
+    "mip_relative_gap": 0.0001,
+    "mip_absolute_gap": 1e-09,
+    "gap_acceptance": "absolute_gap <= 1.00001e-9 OR relative_gap <= 1.00001e-4",
+    "relative_gap_denominator_floor": 1e-10,
+    "independent_normalised_feasibility": 1e-07,
+    "preserved_target_relaxation": 1e-08,
+    "material_bound_inversion": "inversion > 1e-7 * max(1, abs(recomputed_objective))"
+  }
+}

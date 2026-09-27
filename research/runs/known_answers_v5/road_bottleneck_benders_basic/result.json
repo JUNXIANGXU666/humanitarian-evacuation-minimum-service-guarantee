@@ -1,0 +1,254 @@
+{
+  "instance_sha256": "ca52842f4b7960d27e65870631acb10922d71d3095406483a60feb98353fefa4",
+  "settings": {
+    "network": "known_answer",
+    "delta": 15.0
+  },
+  "algorithm": "benders_basic",
+  "solver": "IBM ILOG CPLEX 22.2.0.0",
+  "threads": 4,
+  "mip_gap": 0.0001,
+  "normalised_flows": true,
+  "warm_start_seconds": 0.0,
+  "dimensions": {
+    "binary": 1,
+    "assignment": 3,
+    "recourse_rows": 8
+  },
+  "stage1": {
+    "stage": 1,
+    "algorithm": "benders_basic",
+    "seconds": 0.012851200066506863,
+    "limit_seconds": 15,
+    "status_code": 101,
+    "status": "integer optimal solution",
+    "nodes": 0,
+    "trace": [],
+    "cut_stats": {
+      "integer_calls": 3,
+      "fractional_calls": 0,
+      "feasibility_cuts": 2,
+      "optimality_cuts": 0,
+      "lp_seconds": 0.0005145998438820243,
+      "invalid_duals": 0,
+      "max_dual_residual": 0.0,
+      "max_primal_dual_error": 0.0,
+      "max_cut_correction": 5e-324
+    },
+    "callback_error": null,
+    "incumbent": 0.6000000000010001,
+    "bound": 0.6000000000010001,
+    "relative_gap": 0.0,
+    "absolute_gap": 0.0,
+    "solver_relative_gap": 0.0,
+    "certified": true,
+    "validation": {
+      "passed": true,
+      "normalised_tolerance": 1e-07,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.0,
+        "arc_capacity": 1.000088900582341e-12,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 0.0,
+        "nonnegative": 0.0,
+        "binary": 0.0,
+        "binary_upper": 0.0,
+        "floor": 0.0,
+        "master_floor": 0.0,
+        "assistance": 0.0
+      },
+      "z": 0.6000000000010001,
+      "service": [
+        0.6000000000010001,
+        0.6000000000010001,
+        0.6000000000010001
+      ],
+      "fine_service": [
+        0.6000000000010001,
+        0.6000000000010001,
+        0.6000000000010001
+      ],
+      "served": 0.6000000000010001,
+      "travel_normalised_minutes": 6.00000000001,
+      "unmet": 0.39999999999899993,
+      "travel_person_minutes": 6000.00000001,
+      "origin_served": [
+        0.6000000000010001
+      ],
+      "served_by_origin_group": [
+        [
+          0.42000000000070004,
+          0.12000000000020002,
+          0.06000000000010001
+        ]
+      ],
+      "assistance_use": [],
+      "shelter_use": [
+        0.6000000000010001
+      ]
+    },
+    "solution": {
+      "y": [
+        1.0
+      ],
+      "b": [
+        0.42000000000070004,
+        0.12000000000020002,
+        0.06000000000010001
+      ],
+      "x": [
+        0.42000000000070004,
+        0.12000000000020002,
+        0.06000000000010001
+      ]
+    }
+  },
+  "stage2": {
+    "stage": 2,
+    "algorithm": "benders_basic",
+    "seconds": 0.008475600043311715,
+    "limit_seconds": 15,
+    "status_code": 101,
+    "status": "integer optimal solution",
+    "nodes": 0,
+    "trace": [],
+    "cut_stats": {
+      "integer_calls": 3,
+      "fractional_calls": 0,
+      "feasibility_cuts": 0,
+      "optimality_cuts": 2,
+      "lp_seconds": 0.0005709999240934849,
+      "invalid_duals": 0,
+      "max_dual_residual": 0.0,
+      "max_primal_dual_error": 0.0,
+      "max_cut_correction": 5e-324
+    },
+    "callback_error": null,
+    "incumbent": 0.0999999983335,
+    "bound": 0.09999999833249999,
+    "relative_gap": 1.0000056505205884e-11,
+    "absolute_gap": 1.0000056338554941e-12,
+    "solver_relative_gap": 0.0,
+    "certified": true,
+    "validation": {
+      "passed": true,
+      "normalised_tolerance": 1e-07,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.0,
+        "arc_capacity": 0.0,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 0.0,
+        "nonnegative": 0.0,
+        "binary": 0.0,
+        "binary_upper": 0.0,
+        "floor": 0.0,
+        "master_floor": 0.0,
+        "assistance": 0.0
+      },
+      "z": 0.599999990001,
+      "service": [
+        0.599999990001,
+        0.599999990001,
+        0.599999990001
+      ],
+      "fine_service": [
+        0.599999990001,
+        0.599999990001,
+        0.599999990001
+      ],
+      "served": 0.599999990001,
+      "travel_normalised_minutes": 5.999999900010001,
+      "unmet": 0.400000009999,
+      "travel_person_minutes": 5999.999900010001,
+      "origin_served": [
+        0.599999990001
+      ],
+      "served_by_origin_group": [
+        [
+          0.4199999930007,
+          0.1199999980002,
+          0.0599999990001
+        ]
+      ],
+      "assistance_use": [],
+      "shelter_use": [
+        0.599999990001
+      ]
+    },
+    "solution": {
+      "y": [
+        1.0
+      ],
+      "b": [
+        0.4199999930007,
+        0.1199999980002,
+        0.0599999990001
+      ],
+      "x": [
+        0.4199999930007,
+        0.1199999980002,
+        0.0599999990001
+      ]
+    }
+  },
+  "certified": true,
+  "transferred_floor": 0.599999990001,
+  "metrics": {
+    "passed": true,
+    "normalised_tolerance": 1e-07,
+    "violations": {
+      "demand_balance": 0.0,
+      "demand_bound": 0.0,
+      "arc_capacity": 0.0,
+      "shelter_capacity": 0.0,
+      "response": 0.0,
+      "linking": 0.0,
+      "nonnegative": 0.0,
+      "binary": 0.0,
+      "binary_upper": 0.0,
+      "floor": 0.0,
+      "master_floor": 0.0,
+      "assistance": 0.0
+    },
+    "z": 0.599999990001,
+    "service": [
+      0.599999990001,
+      0.599999990001,
+      0.599999990001
+    ],
+    "fine_service": [
+      0.599999990001,
+      0.599999990001,
+      0.599999990001
+    ],
+    "served": 0.599999990001,
+    "travel_normalised_minutes": 5.999999900010001,
+    "unmet": 0.400000009999,
+    "travel_person_minutes": 5999.999900010001,
+    "origin_served": [
+      0.599999990001
+    ],
+    "served_by_origin_group": [
+      [
+        0.4199999930007,
+        0.1199999980002,
+        0.0599999990001
+      ]
+    ],
+    "assistance_use": [],
+    "shelter_use": [
+      0.599999990001
+    ]
+  },
+  "final_primary": {
+    "incumbent": 0.599999990001,
+    "bound": 0.6000000000010001,
+    "absolute_gap": 1.0000000050247593e-08,
+    "relative_gap": 1.666666702816266e-08
+  },
+  "total_seconds": 0.021326800109818578
+}

@@ -1,0 +1,21 @@
+{
+  "name": "anaheim_gap_progress",
+  "section": "5.6_computational_performance",
+  "pdf_sha256": "6684041dfe191da6bfec081eae05e36b75e50c0652c33d913548fc13cf9f4495",
+  "png_sha256": "1cc9e3559161688479428bcdabf4bc635c34b9a22a443ae046de0bc0347dce7f",
+  "font": "C:\\Windows\\Fonts\\arial.ttf",
+  "text_fonts": [
+    "Arial"
+  ],
+  "inputs": [
+    {
+      "run_id": "direct_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "9bbdbdaffc6b11d3ecba69563fb975dc21bd9c67c4939a9ae416b6717e37abba"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc"
+    }
+  ],
+  "collection_sha256": "6ed774438a8560945aef4daa2212c0e813d144df5daaa95f6cca42e24c76b27d"
+}

@@ -1,0 +1,359 @@
+{
+  "instance_sha256": "a64b9c78521a4a2dc3c97a85f0c8d702c4c5b9f2d848e36c137dc939f9498182",
+  "settings": {
+    "network": "mixed_validation",
+    "delta": 15.0
+  },
+  "algorithm": "benders_basic",
+  "solver": "IBM ILOG CPLEX 22.2.0.0",
+  "threads": 4,
+  "mip_gap": 0.0001,
+  "normalised_flows": true,
+  "warm_start_seconds": 0.0,
+  "dimensions": {
+    "binary": 6,
+    "assignment": 18,
+    "recourse_rows": 36
+  },
+  "stage1": {
+    "stage": 1,
+    "algorithm": "benders_basic",
+    "seconds": 0.030454099993221462,
+    "limit_seconds": 30,
+    "status_code": 101,
+    "status": "integer optimal solution",
+    "nodes": 0,
+    "trace": [
+      {
+        "seconds": 0.015000000013969839,
+        "incumbent": -0.12786382628405585,
+        "bound": -1.0,
+        "nodes": 0
+      }
+    ],
+    "cut_stats": {
+      "integer_calls": 18,
+      "fractional_calls": 0,
+      "feasibility_cuts": 16,
+      "optimality_cuts": 0,
+      "lp_seconds": 0.004251199890859425,
+      "invalid_duals": 0,
+      "max_dual_residual": 0.0,
+      "max_primal_dual_error": 0.0,
+      "max_cut_correction": 5e-324
+    },
+    "callback_error": null,
+    "incumbent": 0.2237616959947003,
+    "bound": 0.22376169599470033,
+    "relative_gap": 1.240407813868478e-16,
+    "absolute_gap": 2.7755575615628914e-17,
+    "solver_relative_gap": 0.0,
+    "certified": true,
+    "validation": {
+      "passed": true,
+      "normalised_tolerance": 1e-07,
+      "violations": {
+        "demand_balance": 3.469446951953614e-18,
+        "demand_bound": 0.0,
+        "arc_capacity": 1.0000333894311098e-12,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 2.0000147371579402e-12,
+        "nonnegative": 2.0000112677109882e-12,
+        "binary": 0.0,
+        "binary_upper": 0.0,
+        "floor": 0.0,
+        "master_floor": 2.7755575615628914e-17,
+        "assistance": 2.0000598399683156e-12
+      },
+      "z": 0.2237616959947003,
+      "service": [
+        0.44017077088271506,
+        0.2237616959947003,
+        0.22376169599470036
+      ],
+      "fine_service": [
+        0.44017077088271506,
+        0.2237616959947003,
+        0.22376169599470036
+      ],
+      "served": 0.3422064340454661,
+      "travel_normalised_minutes": 2.926587962354392,
+      "unmet": 0.657793565954534,
+      "travel_person_minutes": 2926.587962354392,
+      "origin_served": [
+        0.19664820770253344,
+        0.1455582263429326
+      ],
+      "served_by_origin_group": [
+        [
+          0.1566482077025334,
+          0.020000000000000046,
+          0.02
+        ],
+        [
+          0.08426549557809652,
+          0.04258546152767216,
+          0.018707269237163926
+        ]
+      ],
+      "assistance_use": [
+        [
+          0.08,
+          0.06000000000200006
+        ],
+        [
+          0.018707269237163926,
+          0.02
+        ]
+      ],
+      "shelter_use": [
+        0.3422064340454661
+      ]
+    },
+    "solution": {
+      "y": [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "b": [
+        0.1566482077025334,
+        0.020000000000000046,
+        0.019999999999999997,
+        0.08426549557809652,
+        0.04258546152767216,
+        0.018707269237163926
+      ],
+      "x": [
+        0.0,
+        0.1566482077025334,
+        -2.0000112677109882e-12,
+        0.020000000002000057,
+        0.0,
+        0.019999999997999986,
+        0.08426549557809652,
+        0.0,
+        0.04258546152767216,
+        0.0,
+        0.018707269237163926,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0000147371579402e-12
+      ]
+    }
+  },
+  "stage2": {
+    "stage": 2,
+    "algorithm": "benders_basic",
+    "seconds": 0.03422959998715669,
+    "limit_seconds": 30,
+    "status_code": 101,
+    "status": "integer optimal solution",
+    "nodes": 0,
+    "trace": [
+      {
+        "seconds": 0.030999999959021807,
+        "incumbent": 0.027376167972904417,
+        "bound": 0.0,
+        "nodes": 0
+      }
+    ],
+    "cut_stats": {
+      "integer_calls": 29,
+      "fractional_calls": 0,
+      "feasibility_cuts": 17,
+      "optimality_cuts": 9,
+      "lp_seconds": 0.0054637998109683394,
+      "invalid_duals": 0,
+      "max_dual_residual": 5.551115123125783e-17,
+      "max_primal_dual_error": 1.3877787807814457e-17,
+      "max_cut_correction": 6.694995199402135e-18
+    },
+    "callback_error": null,
+    "incumbent": 0.022376168599470034,
+    "bound": 0.022376168598470032,
+    "relative_gap": 4.469050007212703e-11,
+    "absolute_gap": 1.0000021644085422e-12,
+    "solver_relative_gap": 0.0,
+    "certified": true,
+    "validation": {
+      "passed": true,
+      "normalised_tolerance": 1e-07,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.0,
+        "arc_capacity": 0.0,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 0.0,
+        "nonnegative": 0.0,
+        "binary": 0.0,
+        "binary_upper": 0.0,
+        "floor": 0.0,
+        "master_floor": 0.0,
+        "assistance": 0.0
+      },
+      "z": 0.2237616859947003,
+      "service": [
+        0.2237616859947003,
+        0.2237616859947003,
+        0.2237616859947003
+      ],
+      "fine_service": [
+        0.2237616859947003,
+        0.2237616859947003,
+        0.2237616859947003
+      ],
+      "served": 0.2237616859947003,
+      "travel_normalised_minutes": 1.342570115968202,
+      "unmet": 0.7762383140052997,
+      "travel_person_minutes": 1342.570115968202,
+      "origin_served": [
+        0.2237616859947003,
+        0.0
+      ],
+      "served_by_origin_group": [
+        [
+          0.122468959756677,
+          0.06258545873070281,
+          0.03870726750732052
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "assistance_use": [
+        [
+          0.08,
+          0.05999999374534386
+        ],
+        [
+          0.018707267507320522,
+          0.02
+        ]
+      ],
+      "shelter_use": [
+        0.22376168599470034
+      ]
+    },
+    "solution": {
+      "y": [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "b": [
+        0.122468959756677,
+        0.06258545873070281,
+        0.03870726750732052,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "x": [
+        0.122468959756677,
+        0.0,
+        0.04258546498535896,
+        0.019999993745343857,
+        0.018707267507320522,
+        0.02,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "certified": true,
+  "transferred_floor": 0.2237616859947003,
+  "metrics": {
+    "passed": true,
+    "normalised_tolerance": 1e-07,
+    "violations": {
+      "demand_balance": 0.0,
+      "demand_bound": 0.0,
+      "arc_capacity": 0.0,
+      "shelter_capacity": 0.0,
+      "response": 0.0,
+      "linking": 0.0,
+      "nonnegative": 0.0,
+      "binary": 0.0,
+      "binary_upper": 0.0,
+      "floor": 0.0,
+      "master_floor": 0.0,
+      "assistance": 0.0
+    },
+    "z": 0.2237616859947003,
+    "service": [
+      0.2237616859947003,
+      0.2237616859947003,
+      0.2237616859947003
+    ],
+    "fine_service": [
+      0.2237616859947003,
+      0.2237616859947003,
+      0.2237616859947003
+    ],
+    "served": 0.2237616859947003,
+    "travel_normalised_minutes": 1.342570115968202,
+    "unmet": 0.7762383140052997,
+    "travel_person_minutes": 1342.570115968202,
+    "origin_served": [
+      0.2237616859947003,
+      0.0
+    ],
+    "served_by_origin_group": [
+      [
+        0.122468959756677,
+        0.06258545873070281,
+        0.03870726750732052
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "assistance_use": [
+      [
+        0.08,
+        0.05999999374534386
+      ],
+      [
+        0.018707267507320522,
+        0.02
+      ]
+    ],
+    "shelter_use": [
+      0.22376168599470034
+    ]
+  },
+  "final_primary": {
+    "incumbent": 0.2237616859947003,
+    "bound": 0.22376169599470033,
+    "absolute_gap": 1.0000000022492017e-08,
+    "relative_gap": 4.469040344435402e-08
+  },
+  "total_seconds": 0.06468369998037815
+}

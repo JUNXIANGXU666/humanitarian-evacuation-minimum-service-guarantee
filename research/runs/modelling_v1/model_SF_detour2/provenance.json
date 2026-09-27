@@ -1,0 +1,37 @@
+{
+  "source_hashes": {
+    "evacuation\\__init__.py": "fdade1fc379e36ce21c9353ed5ceb99120940754efde4953cc200f0db6ccaa0a",
+    "evacuation\\data.py": "fe787fe9329eb9217b9782fa5d3958b3e650f50ba6358089380a29e2e1c99267",
+    "evacuation\\formulation.py": "4a463d57580ecbd1b3278e1e05e5f7fb8927edecace23f6a89af9fe16eda2527",
+    "evacuation\\policies.py": "df21304ef2fea5abf43e16bfaf8a13a45f1b2f33d1e79c9a7b208759caa51033",
+    "evacuation\\solver.py": "5ab4f91687b9260c565d3d3bc37207344cd492114f2b5ae98d2fc487843ecf49",
+    "evacuation\\validation.py": "e4eefa82a7074e6ab67ce8b3881b2b0e7b6e3aa4168fd35df94c1c1f30705ddb"
+  },
+  "plan_sha256": "5526f35b7e0369a2f1476258e85f8ae228aa27b148784b87c47c6152ea2991b5",
+  "entry": {
+    "id": "model_SF_detour2",
+    "settings": {
+      "network": "SF",
+      "pattern": "concentrated",
+      "scarcity": 0.8,
+      "loss": 0.0,
+      "replication": 1,
+      "seed": 20260925,
+      "k": 5,
+      "detour": 2.0,
+      "delta": 15.0,
+      "window": 90.0,
+      "concentration": null,
+      "assisted_share": null,
+      "assistance": 0.5,
+      "partition": "three",
+      "demand_scale": 1.0
+    },
+    "algorithm": "benders_flow",
+    "seconds": 600
+  },
+  "purpose": "One-factor path-count, detour, time-grid and departure-window tests on all four topologies, holding the first paired demand draw fixed. Central settings reuse core_v1.",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "started_unix": 1790447967.1744194
+}

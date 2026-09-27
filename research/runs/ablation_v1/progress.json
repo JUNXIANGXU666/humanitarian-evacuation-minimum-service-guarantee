@@ -1,0 +1,41 @@
+{
+  "pid": 20076,
+  "purpose": "Five nested Benders configurations on the same assistance-scarce central instance of each network, 180 seconds per stage.",
+  "plan_sha256": "f20e15bc44d922905a10bc139ebd4cd24ca295c81373840a5c2d90c320414756",
+  "source_hashes": {
+    "evacuation\\__init__.py": "fdade1fc379e36ce21c9353ed5ceb99120940754efde4953cc200f0db6ccaa0a",
+    "evacuation\\data.py": "fe787fe9329eb9217b9782fa5d3958b3e650f50ba6358089380a29e2e1c99267",
+    "evacuation\\formulation.py": "4a463d57580ecbd1b3278e1e05e5f7fb8927edecace23f6a89af9fe16eda2527",
+    "evacuation\\policies.py": "df21304ef2fea5abf43e16bfaf8a13a45f1b2f33d1e79c9a7b208759caa51033",
+    "evacuation\\solver.py": "5ab4f91687b9260c565d3d3bc37207344cd492114f2b5ae98d2fc487843ecf49",
+    "evacuation\\validation.py": "e4eefa82a7074e6ab67ce8b3881b2b0e7b6e3aa4168fd35df94c1c1f30705ddb"
+  },
+  "python": "python",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "solver_version": "22.2.0.0",
+  "completed": [
+    "ablation_ND_benders_basic",
+    "ablation_ND_benders_bounds",
+    "ablation_ND_benders_fractional",
+    "ablation_ND_benders_warm",
+    "ablation_ND_benders_flow",
+    "ablation_SF_benders_basic",
+    "ablation_SF_benders_bounds",
+    "ablation_SF_benders_fractional",
+    "ablation_SF_benders_warm",
+    "ablation_SF_benders_flow",
+    "ablation_Anaheim_benders_basic",
+    "ablation_Anaheim_benders_bounds",
+    "ablation_Anaheim_benders_fractional",
+    "ablation_Anaheim_benders_warm",
+    "ablation_Anaheim_benders_flow",
+    "ablation_Winnipeg_benders_basic",
+    "ablation_Winnipeg_benders_bounds",
+    "ablation_Winnipeg_benders_fractional",
+    "ablation_Winnipeg_benders_warm",
+    "ablation_Winnipeg_benders_flow"
+  ],
+  "active": null,
+  "failures": [],
+  "finished": true
+}

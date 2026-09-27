@@ -1,0 +1,234 @@
+{
+  "instance_sha256": "11104aea4ee180680864bd76dca75ab5de2e3e22d33e7f9e10e5f2b48e7be8c3",
+  "settings": {
+    "network": "known_answer",
+    "delta": 15.0
+  },
+  "algorithm": "direct",
+  "solver": "IBM ILOG CPLEX 22.2.0.0",
+  "threads": 4,
+  "mip_gap": 0.0001,
+  "normalised_flows": true,
+  "warm_start_seconds": 0.0,
+  "dimensions": {
+    "binary": 1,
+    "assignment": 3,
+    "recourse_rows": 8
+  },
+  "stage1": {
+    "stage": 1,
+    "algorithm": "direct",
+    "seconds": 0.003976400010287762,
+    "limit_seconds": 15,
+    "status_code": 101,
+    "status": "integer optimal solution",
+    "nodes": 0,
+    "trace": [],
+    "cut_stats": {},
+    "callback_error": null,
+    "incumbent": 1.0,
+    "bound": 1.0,
+    "relative_gap": 0.0,
+    "absolute_gap": 0.0,
+    "solver_relative_gap": 0.0,
+    "certified": true,
+    "validation": {
+      "passed": true,
+      "normalised_tolerance": 1e-07,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.0,
+        "arc_capacity": 0.0,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 0.0,
+        "nonnegative": 0.0,
+        "binary": 0.0,
+        "binary_upper": 0.0,
+        "floor": 0.0,
+        "master_floor": 0.0,
+        "assistance": 0.0
+      },
+      "z": 1.0,
+      "service": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fine_service": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "served": 0.9999999999999999,
+      "travel_normalised_minutes": 10.0,
+      "unmet": 1.1102230246251565e-16,
+      "travel_person_minutes": 10000.0,
+      "origin_served": [
+        0.9999999999999999
+      ],
+      "served_by_origin_group": [
+        [
+          0.7,
+          0.2,
+          0.1
+        ]
+      ],
+      "assistance_use": [],
+      "shelter_use": [
+        0.9999999999999999
+      ]
+    },
+    "solution": {
+      "y": [
+        1.0
+      ],
+      "b": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "x": [
+        0.7,
+        0.2,
+        0.1
+      ]
+    }
+  },
+  "stage2": {
+    "stage": 2,
+    "algorithm": "direct",
+    "seconds": 0.005165299982763827,
+    "limit_seconds": 15,
+    "status_code": 101,
+    "status": "integer optimal solution",
+    "nodes": 0,
+    "trace": [],
+    "cut_stats": {},
+    "callback_error": null,
+    "incumbent": 0.16666666499999985,
+    "bound": 0.16666666499999985,
+    "relative_gap": 0.0,
+    "absolute_gap": 0.0,
+    "solver_relative_gap": 0.0,
+    "certified": true,
+    "validation": {
+      "passed": true,
+      "normalised_tolerance": 1e-07,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.0,
+        "arc_capacity": 0.0,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 0.0,
+        "nonnegative": 0.0,
+        "binary": 0.0,
+        "binary_upper": 0.0,
+        "floor": 9.992007221626409e-16,
+        "master_floor": 9.992007221626409e-16,
+        "assistance": 0.0
+      },
+      "z": 0.999999989999999,
+      "service": [
+        0.9999999899999993,
+        0.999999989999999,
+        0.999999989999999
+      ],
+      "fine_service": [
+        0.9999999899999993,
+        0.999999989999999,
+        0.999999989999999
+      ],
+      "served": 0.9999999899999992,
+      "travel_normalised_minutes": 9.999999899999992,
+      "unmet": 1.000000082740371e-08,
+      "travel_person_minutes": 9999.999899999992,
+      "origin_served": [
+        0.9999999899999992
+      ],
+      "served_by_origin_group": [
+        [
+          0.6999999929999995,
+          0.1999999979999998,
+          0.0999999989999999
+        ]
+      ],
+      "assistance_use": [],
+      "shelter_use": [
+        0.9999999899999992
+      ]
+    },
+    "solution": {
+      "y": [
+        1.0
+      ],
+      "b": [
+        0.6999999929999995,
+        0.1999999979999998,
+        0.0999999989999999
+      ],
+      "x": [
+        0.6999999929999995,
+        0.1999999979999998,
+        0.0999999989999999
+      ]
+    }
+  },
+  "certified": true,
+  "transferred_floor": 0.99999999,
+  "metrics": {
+    "passed": true,
+    "normalised_tolerance": 1e-07,
+    "violations": {
+      "demand_balance": 0.0,
+      "demand_bound": 0.0,
+      "arc_capacity": 0.0,
+      "shelter_capacity": 0.0,
+      "response": 0.0,
+      "linking": 0.0,
+      "nonnegative": 0.0,
+      "binary": 0.0,
+      "binary_upper": 0.0,
+      "floor": 9.992007221626409e-16,
+      "master_floor": 9.992007221626409e-16,
+      "assistance": 0.0
+    },
+    "z": 0.999999989999999,
+    "service": [
+      0.9999999899999993,
+      0.999999989999999,
+      0.999999989999999
+    ],
+    "fine_service": [
+      0.9999999899999993,
+      0.999999989999999,
+      0.999999989999999
+    ],
+    "served": 0.9999999899999992,
+    "travel_normalised_minutes": 9.999999899999992,
+    "unmet": 1.000000082740371e-08,
+    "travel_person_minutes": 9999.999899999992,
+    "origin_served": [
+      0.9999999899999992
+    ],
+    "served_by_origin_group": [
+      [
+        0.6999999929999995,
+        0.1999999979999998,
+        0.0999999989999999
+      ]
+    ],
+    "assistance_use": [],
+    "shelter_use": [
+      0.9999999899999992
+    ]
+  },
+  "final_primary": {
+    "incumbent": 0.999999989999999,
+    "bound": 1.0,
+    "absolute_gap": 1.0000001049448315e-08,
+    "relative_gap": 1.0000001149448336e-08
+  },
+  "total_seconds": 0.009141699993051589
+}

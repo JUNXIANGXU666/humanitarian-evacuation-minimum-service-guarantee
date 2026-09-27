@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "scope": "floating-point tolerance-certified finite path/time model",
+  "sections": {
+    "5.1": {
+      "purpose": "Implementation validation",
+      "validation_suites": [
+        "design_validation_v3",
+        "equivalence_v3",
+        "guardrails_v1",
+        "known_answers_v5"
+      ]
+    },
+    "5.2": {
+      "figures": "evidence/formal_v1/5.2_policy_comparisons",
+      "plans": [
+        "core_v1",
+        "policies_v1"
+      ],
+      "purpose": "Planning-policy comparison"
+    },
+    "5.3": {
+      "figures": "evidence/formal_v1/5.3_resource_sensitivity",
+      "plans": [
+        "core_v1",
+        "assistance_v1"
+      ],
+      "purpose": "Resource sensitivity"
+    },
+    "5.4": {
+      "figures": "evidence/formal_v1/5.4_group_assumptions",
+      "plans": [
+        "groups_v1"
+      ],
+      "purpose": "Population-group assumptions"
+    },
+    "5.5": {
+      "figures": "evidence/formal_v1/5.5_modelling_choices",
+      "plans": [
+        "core_v1",
+        "modelling_v1"
+      ],
+      "purpose": "Path and time modelling choices"
+    },
+    "5.6": {
+      "budget_evidence": "audit/time_budget_summary_v1/budget_comparison.json",
+      "figures": "evidence/formal_v1/5.6_computational_performance",
+      "plans": [
+        "core_v1",
+        "direct_comparison_v1",
+        "ablation_v1",
+        "budget_sensitivity_v1"
+      ],
+      "purpose": "Algorithm comparison and ablation"
+    }
+  }
+}

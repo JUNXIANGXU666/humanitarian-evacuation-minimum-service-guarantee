@@ -1,0 +1,94 @@
+{
+  "policy": "controlled",
+  "stages": [
+    {
+      "name": "travel",
+      "seconds": 0.0034969999687746167,
+      "limit_seconds": 30,
+      "status": "integer optimal solution",
+      "status_code": 101,
+      "bound": 0.049999999999999996,
+      "incumbent": 0.05,
+      "relative_gap": 1.3877787807814457e-16,
+      "absolute_gap": 6.938893903907228e-18,
+      "solver_relative_gap": 0.0,
+      "certified": true,
+      "maximise": false,
+      "protected_targets": {},
+      "nodes": 0,
+      "validation": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 0.0,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 0.0,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 0.0,
+          "master_floor": 0.0,
+          "assistance": 0.0
+        },
+        "z": 0.0,
+        "service": [
+          0.4285714285714286,
+          0.0,
+          0.0
+        ],
+        "fine_service": [
+          0.4285714285714286,
+          0.0,
+          0.0
+        ],
+        "served": 0.3,
+        "travel_normalised_minutes": 3.0,
+        "unmet": 0.7,
+        "travel_person_minutes": 3000.0,
+        "origin_served": [
+          0.3
+        ],
+        "served_by_origin_group": [
+          [
+            0.3,
+            0.0,
+            0.0
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.0
+          ]
+        ],
+        "shelter_use": [
+          0.3
+        ]
+      },
+      "trace": [],
+      "policy_validation": {
+        "passed": true,
+        "violations": {
+          "matched_coverage": 0.0
+        }
+      },
+      "solution": {
+        "y": [
+          1.0
+        ],
+        "b": [
+          0.3,
+          0.0,
+          0.0
+        ],
+        "x": [
+          0.3,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}

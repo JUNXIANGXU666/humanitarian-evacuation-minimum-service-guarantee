@@ -1,0 +1,184 @@
+{
+  "checks": [
+    {
+      "test": "road_bottleneck",
+      "algorithm": "direct",
+      "expected_z": 0.6,
+      "observed_z": 0.5999999899999992,
+      "passed": true
+    },
+    {
+      "test": "road_bottleneck",
+      "algorithm": "benders_basic",
+      "expected_z": 0.6,
+      "observed_z": 0.599999990001,
+      "passed": true
+    },
+    {
+      "test": "road_bottleneck",
+      "algorithm": "benders_bounds",
+      "expected_z": 0.6,
+      "observed_z": 0.5999999899999999,
+      "passed": true
+    },
+    {
+      "test": "road_bottleneck",
+      "algorithm": "benders_fractional",
+      "expected_z": 0.6,
+      "observed_z": 0.5999999899999999,
+      "passed": true
+    },
+    {
+      "test": "road_bottleneck",
+      "algorithm": "benders_warm",
+      "expected_z": 0.6,
+      "observed_z": 0.5999999899999999,
+      "passed": true
+    },
+    {
+      "test": "road_bottleneck",
+      "algorithm": "benders_flow",
+      "expected_z": 0.6,
+      "observed_z": 0.5999999899999999,
+      "passed": true
+    },
+    {
+      "test": "assistance_bottleneck",
+      "algorithm": "direct",
+      "expected_z": 0.3,
+      "observed_z": 0.29999998999999933,
+      "passed": true
+    },
+    {
+      "test": "assistance_bottleneck",
+      "algorithm": "benders_basic",
+      "expected_z": 0.3,
+      "observed_z": 0.299999990005,
+      "passed": true
+    },
+    {
+      "test": "assistance_bottleneck",
+      "algorithm": "benders_bounds",
+      "expected_z": 0.3,
+      "observed_z": 0.29999999,
+      "passed": true
+    },
+    {
+      "test": "assistance_bottleneck",
+      "algorithm": "benders_fractional",
+      "expected_z": 0.3,
+      "observed_z": 0.29999999,
+      "passed": true
+    },
+    {
+      "test": "assistance_bottleneck",
+      "algorithm": "benders_warm",
+      "expected_z": 0.3,
+      "observed_z": 0.29999999,
+      "passed": true
+    },
+    {
+      "test": "assistance_bottleneck",
+      "algorithm": "benders_flow",
+      "expected_z": 0.3,
+      "observed_z": 0.29999999,
+      "passed": true
+    },
+    {
+      "test": "saturated",
+      "algorithm": "direct",
+      "expected_z": 1.0,
+      "observed_z": 0.999999989999999,
+      "passed": true
+    },
+    {
+      "test": "saturated",
+      "algorithm": "benders_basic",
+      "expected_z": 1.0,
+      "observed_z": 0.99999999,
+      "passed": true
+    },
+    {
+      "test": "saturated",
+      "algorithm": "benders_bounds",
+      "expected_z": 1.0,
+      "observed_z": 0.99999999,
+      "passed": true
+    },
+    {
+      "test": "saturated",
+      "algorithm": "benders_fractional",
+      "expected_z": 1.0,
+      "observed_z": 0.99999999,
+      "passed": true
+    },
+    {
+      "test": "saturated",
+      "algorithm": "benders_warm",
+      "expected_z": 1.0,
+      "observed_z": 0.99999999,
+      "passed": true
+    },
+    {
+      "test": "saturated",
+      "algorithm": "benders_flow",
+      "expected_z": 1.0,
+      "observed_z": 0.99999999,
+      "passed": true
+    },
+    {
+      "test": "no_road",
+      "algorithm": "direct",
+      "expected_z": 0.0,
+      "observed_z": 0.0,
+      "passed": true
+    },
+    {
+      "test": "no_road",
+      "algorithm": "benders_basic",
+      "expected_z": 0.0,
+      "observed_z": 0.0,
+      "passed": true
+    },
+    {
+      "test": "no_road",
+      "algorithm": "benders_bounds",
+      "expected_z": 0.0,
+      "observed_z": 0.0,
+      "passed": true
+    },
+    {
+      "test": "no_road",
+      "algorithm": "benders_fractional",
+      "expected_z": 0.0,
+      "observed_z": 0.0,
+      "passed": true
+    },
+    {
+      "test": "no_road",
+      "algorithm": "benders_warm",
+      "expected_z": 0.0,
+      "observed_z": 0.0,
+      "passed": true
+    },
+    {
+      "test": "no_road",
+      "algorithm": "benders_flow",
+      "expected_z": 0.0,
+      "observed_z": 0.0,
+      "passed": true
+    },
+    {
+      "test": "farkas_cut_feasible_points",
+      "points": 13,
+      "passed": true
+    },
+    {
+      "test": "optimality_cut_feasible_points",
+      "points": 13,
+      "passed": true
+    }
+  ],
+  "passed": 26,
+  "total": 26
+}

@@ -1,0 +1,733 @@
+{
+  "name": "resource_sensitivity",
+  "section": "5.3_resource_sensitivity",
+  "pdf_sha256": "0e747dbf75b0920289e4caecd556386f60bb4532cd9faf5fa5fa62119a094efe",
+  "png_sha256": "c581928335ce6468b17c40332912d821bccaa33e0a429a0d34e6b6dbff53f51d",
+  "font": "C:\\Windows\\Fonts\\arial.ttf",
+  "text_fonts": [
+    "Arial"
+  ],
+  "inputs": [
+    {
+      "run_id": "core_ND_balanced_severe_r1",
+      "result_sha256": "108a6bef46aa6c960829e87cedd6fbe13e77be389d06929c75920e2454b372fe"
+    },
+    {
+      "run_id": "core_ND_balanced_severe_r2",
+      "result_sha256": "eaf03145be5cc612b5b7dcf321dd5d6722f2e10e78f7c574fc74512de0c11852"
+    },
+    {
+      "run_id": "core_ND_balanced_severe_r3",
+      "result_sha256": "84162ca6a2fa2f53bc3ad2171864d7a844b0ce36fc333f226d8e6015cd8ccf7f"
+    },
+    {
+      "run_id": "core_ND_balanced_moderate_r1",
+      "result_sha256": "33e535bef6da491ec943b29a582bcaa2b1b4e620cd65c315027551652ed1fe93"
+    },
+    {
+      "run_id": "core_ND_balanced_moderate_r2",
+      "result_sha256": "c830115cee4217975f0b80ab9b7fbd75ae403b03a9a76eaf60b6946fca5e8172"
+    },
+    {
+      "run_id": "core_ND_balanced_moderate_r3",
+      "result_sha256": "8676a858b75a9f15b94b348d54e65e6ad897cced9c6274e0579db7c812741a77"
+    },
+    {
+      "run_id": "core_ND_balanced_base_r1",
+      "result_sha256": "06c53916cb935135810c2904d0be57df2ba639f8aadeb263b282bb05e8a6f2f6"
+    },
+    {
+      "run_id": "core_ND_balanced_base_r2",
+      "result_sha256": "49dfd18d6a8cfe857021e0ee736bd8fd2e97119a2c4cdda5aa8657090cbd2acd"
+    },
+    {
+      "run_id": "core_ND_balanced_base_r3",
+      "result_sha256": "f4c63bf4979195bb8ea10e94b758f956bd581b9fa110f5ed84420e168edd2f49"
+    },
+    {
+      "run_id": "core_ND_concentrated_severe_r1",
+      "result_sha256": "f019441a581deb1a360dbc5f41edcd127ba8626ae3d1d53c13949a8e9f9e6ead"
+    },
+    {
+      "run_id": "core_ND_concentrated_severe_r2",
+      "result_sha256": "7e8c9cea791c1aa6f072b6676a8651ca8d621d9dfedc8f5af7c1a277505bb963"
+    },
+    {
+      "run_id": "core_ND_concentrated_severe_r3",
+      "result_sha256": "589d3ba4f11ec6f59db454dc6c0b6cf4955f852fbda6944410ca7a1c23f60e1e"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r1",
+      "result_sha256": "0c9821f12eb687f5a4c3760df9741c5163a09fd1f6c82e1817248cd66f4e1aac"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r2",
+      "result_sha256": "7f038a641200477f8caa16eb80fe161ba63cf949e41b2b186259c0b0e024ee2c"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r3",
+      "result_sha256": "4827f186520c3761944c5e8356bdcc13da1a5774b38ce0703bb777d5d2069c07"
+    },
+    {
+      "run_id": "core_ND_concentrated_base_r1",
+      "result_sha256": "d4eea6afbeaaa91dad469f74a546d4e5a14cdfbc1ce11195c3b66732a919ad87"
+    },
+    {
+      "run_id": "core_ND_concentrated_base_r2",
+      "result_sha256": "59514247e53153cd794fc7f750a99a7b3046781b2cdf3ebe6eb3f586b4f5d843"
+    },
+    {
+      "run_id": "core_ND_concentrated_base_r3",
+      "result_sha256": "634dc4520e13978ad4c3b75d32f0683c00c7eacc8fa06a5c577106cd176b792b"
+    },
+    {
+      "run_id": "core_SF_balanced_severe_r1",
+      "result_sha256": "bd57de815d903ac7ca36672828d1d8d788c5981f01e8d7acd59acd2a984ad09d"
+    },
+    {
+      "run_id": "core_SF_balanced_severe_r2",
+      "result_sha256": "48d9bd05e733a48342e6b468a1c6826516bddb10df191ec3f87a60327329cdf7"
+    },
+    {
+      "run_id": "core_SF_balanced_severe_r3",
+      "result_sha256": "90f75e7915a8b04846484ebca8e2f9f5a633ac84ac5e8cf94f85ce6a6598cee1"
+    },
+    {
+      "run_id": "core_SF_balanced_moderate_r1",
+      "result_sha256": "f92d95f27d2695a6329af330bda329b5d7e7bb96857df043b72d88a32cbc8b21"
+    },
+    {
+      "run_id": "core_SF_balanced_moderate_r2",
+      "result_sha256": "3e51fc238d83440efd07bfb097193e4d196649f1ea91d41c328ca02418262628"
+    },
+    {
+      "run_id": "core_SF_balanced_moderate_r3",
+      "result_sha256": "6fd49b116500823356b432fcde754c52e76eb9635a4ffb2ffd3af9b75d5348c5"
+    },
+    {
+      "run_id": "core_SF_balanced_base_r1",
+      "result_sha256": "7aa7948734795bc4e05c097269294a604831b320e6f0b9d9bb0efc0413b8b9b9"
+    },
+    {
+      "run_id": "core_SF_balanced_base_r2",
+      "result_sha256": "d392aae2f53d9852d4845c5080f07e42f73ab7d6e72f1e60a91f0b23f0c0017e"
+    },
+    {
+      "run_id": "core_SF_balanced_base_r3",
+      "result_sha256": "01ed18609dbdf0ba313f741ab71b0f384b99200cec7edff75c15fad68400bbd5"
+    },
+    {
+      "run_id": "core_SF_concentrated_severe_r1",
+      "result_sha256": "3d4a82255c2bdab1620e0b5494e622faede625c90f5ab461888442585f10d0dc"
+    },
+    {
+      "run_id": "core_SF_concentrated_severe_r2",
+      "result_sha256": "458f61201e6e42af6f8d5cc26a994bb4e403c357599f32b6be1c21b6c122b7a4"
+    },
+    {
+      "run_id": "core_SF_concentrated_severe_r3",
+      "result_sha256": "3dd40ba17f50464bda1444c1740b5077811ec90a91183d2dffd48765eb75d33e"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r1",
+      "result_sha256": "59f3c5e9dd665c75845ab30e4e6e0a50e33edf69edd98422036af657f5f6b11a"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r2",
+      "result_sha256": "f17bc9ce4de67c184b1f05d23ea2598fc6c4b309d32f5473f30bbd6214b25ea0"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r3",
+      "result_sha256": "3b7f719dc616dac2a4cdfaa00101c7b99f9031469bf1809c1060ac549adaf67e"
+    },
+    {
+      "run_id": "core_SF_concentrated_base_r1",
+      "result_sha256": "19e51d598570a1848bdb9262902cbd33ff51215fc45082e767f22168c7253583"
+    },
+    {
+      "run_id": "core_SF_concentrated_base_r2",
+      "result_sha256": "24f1a3738f8ca491df4d0db32e11bcf9ce9a352aa9356d591cd11e0e43052115"
+    },
+    {
+      "run_id": "core_SF_concentrated_base_r3",
+      "result_sha256": "b318166eb518c40e5698b17602322bc66e8649ef7172ad5b54243d3ecaa88189"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_severe_r1",
+      "result_sha256": "2a047bbcba6180d493d4e0523856962d1592999672745e63b174aa3d3beb48da"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_severe_r2",
+      "result_sha256": "927e279d7fa3c2d35201254153a2e0f05c05910a96cb5f05e41ae74c79d17cfa"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_severe_r3",
+      "result_sha256": "2b36eba628e7a29d2eae471fed87c4af03dd1c8e6ffc583c642e5ad3b38514b3"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_moderate_r1",
+      "result_sha256": "1603b4b2ab06ce140b073ea145c117e81a513d8981d244de5e622830171a98c1"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_moderate_r2",
+      "result_sha256": "fedb5a31e97a8f99f5b41755fa57f93923aa6d3048c8a2674266d38174805a90"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_moderate_r3",
+      "result_sha256": "f385d50f5339e12d6d8628277aece9a4a36b461d51a57fc6560b4e7a90f7e5a7"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_base_r1",
+      "result_sha256": "28239ee4343d298fce5048810230b291da70eb73accb6813f374153b90a24d97"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_base_r2",
+      "result_sha256": "264ac289a006d068be9b5a94c63f17062df4565af5ee031ffe534d42fe506082"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_base_r3",
+      "result_sha256": "5b7b05dbc234fd538359fa58840dd38978ec16356487aa0afaad338c56848007"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_severe_r1",
+      "result_sha256": "75a98c3a5faaa1746bc301910313014b5fe4b017f97e2128019b4f624110a92b"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_severe_r2",
+      "result_sha256": "481e9f6c32bb40fbf69d8069fb9c5082b9259820bc641bb286da75cc20def7f9"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_severe_r3",
+      "result_sha256": "2a59ea5d47015a2ca5a58f6799e9cac20faa177a35caad2cfc43f213feb1cac9"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r2",
+      "result_sha256": "a21901e2871eb6e7c8f12cc2262567d2b8d5204128c939b03b1e529c4de2ccc4"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r3",
+      "result_sha256": "4135d4a4026b841e491b5f434886c5565910f90719fd9c48f5c6bd20d0b7e2b3"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_base_r1",
+      "result_sha256": "009111732d05537b17c2923ceed61fd822b929893bba560ba7b1af5a3ce9a90a"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_base_r2",
+      "result_sha256": "9441469a74a577605f4550ea83cdbed427eb4f067fadb1fb5ce4774947a99958"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_base_r3",
+      "result_sha256": "1c2706aa6b3147263ade596f8c07ef2b643a552ee103e49355695e97873faa8e"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_severe_r1",
+      "result_sha256": "291ad14e88e323c342535a1eced462db1aa8a3585cf153a5fd903ff6ae953531"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_severe_r2",
+      "result_sha256": "a2dc92f333cc4f2f252bfcf2c9af61883251ba8c0d93d178d1ebc602b0fabba9"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_severe_r3",
+      "result_sha256": "17452d97c63763ace5abb1ce6ef34b1225941dc3dc11fc18765ac0c6ac09077f"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_moderate_r1",
+      "result_sha256": "6c7201beaa9394d32c653b9ad71631f1f00565eb9bca81fd0ac11fca82bbbb81"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_moderate_r2",
+      "result_sha256": "0cf50917cea2d5e8dbf3006ebdb3b7dff423ae4efe234073d91f7cf47c5b4c64"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_moderate_r3",
+      "result_sha256": "283b74508776d123a383df6bccdf561b7b4c7d91c7c998ef6365b82f57aa66a5"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_base_r1",
+      "result_sha256": "6fbc246b679afea92d6dfe5599e240251e78afcd02d0d722fd065a4510498d36"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_base_r2",
+      "result_sha256": "b3d4f184b1cf676bc8536a11af8b87ed6fa388bd548b612182c2559b43cc3324"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_base_r3",
+      "result_sha256": "4c4f945c0fef30aa3fd356ab2ff6555a48679a5e4ee99d956da18a3d490b6eb9"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_severe_r1",
+      "result_sha256": "bb17fe9e6573877c183d945172edaa61d4f5a79862f9745d524f58fe808d385b"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_severe_r2",
+      "result_sha256": "ab5ca7fca21c47e01f868191f99dd05cefcc40b6f9456f7cb5c6d56b94aeceba"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_severe_r3",
+      "result_sha256": "d6c09d54de6159115d661f641c0c6c77319e065741d915a9e9c4b62dd982e3f5"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r1",
+      "result_sha256": "65adaba2621af85862287ba42119954dceee831a082f0858ab8f4ae7d2ed5765"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r2",
+      "result_sha256": "909ad9c0a76f14341d0af88fa3b6309495f44b4b314732c12de24d5df7006e3a"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r3",
+      "result_sha256": "b5cdcf6b7c0a4cc377523931e745735e64035dac520987e5b277984085cad49c"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_base_r1",
+      "result_sha256": "8979505a22ff93b8f2a042d24a2b9975d4f64d3cd637fffe16bedbc4090e29dd"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_base_r2",
+      "result_sha256": "d006f1f8fccf6c1e763e99da0862edd2322849a1554e87259dcd95ed81977d96"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_base_r3",
+      "result_sha256": "df50a720126a02064e056e31cafac342beceeccb6bd2a98cc8fd53a83e4939cb"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r1",
+      "result_sha256": "0c9821f12eb687f5a4c3760df9741c5163a09fd1f6c82e1817248cd66f4e1aac"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r2",
+      "result_sha256": "7f038a641200477f8caa16eb80fe161ba63cf949e41b2b186259c0b0e024ee2c"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r3",
+      "result_sha256": "4827f186520c3761944c5e8356bdcc13da1a5774b38ce0703bb777d5d2069c07"
+    },
+    {
+      "run_id": "core_ND_loss_moderate_r1",
+      "result_sha256": "3b9aca825efe0ea4503727443d8c7a197e3b61b292804aaa3946951b7499282b"
+    },
+    {
+      "run_id": "core_ND_loss_moderate_r2",
+      "result_sha256": "4410b9f7750a8db8d63162da53086da0c964a90e4d8949df4b4866e2b20d9e9d"
+    },
+    {
+      "run_id": "core_ND_loss_moderate_r3",
+      "result_sha256": "f908269296b291cea029f7ad2d1df03fc7a319879f6fda33397a08ab4cb67633"
+    },
+    {
+      "run_id": "core_ND_loss_severe_r1",
+      "result_sha256": "075819ab3198285e75b05963110e67172d1bf1aa0b70d0ad1faba9d4e2359fb6"
+    },
+    {
+      "run_id": "core_ND_loss_severe_r2",
+      "result_sha256": "577d07a0c9ef84202bf104aa9502a880be602a29ad06e5a4ddc68d4d309b58ae"
+    },
+    {
+      "run_id": "core_ND_loss_severe_r3",
+      "result_sha256": "6e228e400db31b31a9720480a8839b95b3ed5a1662eb5c7657fd28594fa8a268"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r1",
+      "result_sha256": "59f3c5e9dd665c75845ab30e4e6e0a50e33edf69edd98422036af657f5f6b11a"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r2",
+      "result_sha256": "f17bc9ce4de67c184b1f05d23ea2598fc6c4b309d32f5473f30bbd6214b25ea0"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r3",
+      "result_sha256": "3b7f719dc616dac2a4cdfaa00101c7b99f9031469bf1809c1060ac549adaf67e"
+    },
+    {
+      "run_id": "core_SF_loss_moderate_r1",
+      "result_sha256": "3f73c1a80acaa4c978189db19516447223f874836498ed49854033e183d4f8dd"
+    },
+    {
+      "run_id": "core_SF_loss_moderate_r2",
+      "result_sha256": "39dde34c9ccd5bd1b066274cbebc711d038e6d2f41a8220b52844f835fd3739d"
+    },
+    {
+      "run_id": "core_SF_loss_moderate_r3",
+      "result_sha256": "748188d6c89a01cbd3ddcc9f98503ca93afa30ebd6b710a486ce145ad08bdbd5"
+    },
+    {
+      "run_id": "core_SF_loss_severe_r1",
+      "result_sha256": "4fe7b491bd5e81f904404ca76f48bc34df2c52490c99fd0df217575e62338da4"
+    },
+    {
+      "run_id": "core_SF_loss_severe_r2",
+      "result_sha256": "a1a02bbd766a5b6f936ce41164a574ed9de8a3ab763af3c8a50ab582dfd52a12"
+    },
+    {
+      "run_id": "core_SF_loss_severe_r3",
+      "result_sha256": "6b6342ae4371c51c28f2588b303196c3e0a7bacad3189a28241203b217efdbd5"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r2",
+      "result_sha256": "a21901e2871eb6e7c8f12cc2262567d2b8d5204128c939b03b1e529c4de2ccc4"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r3",
+      "result_sha256": "4135d4a4026b841e491b5f434886c5565910f90719fd9c48f5c6bd20d0b7e2b3"
+    },
+    {
+      "run_id": "core_Anaheim_loss_moderate_r1",
+      "result_sha256": "e5e96e823199c3cfe19505ca23d96f219d68adc30bf01985a1a55f9995715f01"
+    },
+    {
+      "run_id": "core_Anaheim_loss_moderate_r2",
+      "result_sha256": "0b16153794c308d4b1ff86aa758e229ce6a65e84466619e9fa98bee24aba0038"
+    },
+    {
+      "run_id": "core_Anaheim_loss_moderate_r3",
+      "result_sha256": "ffd0b48315286a084deb04c12241b1d7362eabd3132fd595f3521591f3b4de8f"
+    },
+    {
+      "run_id": "core_Anaheim_loss_severe_r1",
+      "result_sha256": "20d497cdfa72880588403619b6f2bdc34b934c136f55372af5ca6548f50fdec4"
+    },
+    {
+      "run_id": "core_Anaheim_loss_severe_r2",
+      "result_sha256": "92bcb6f2efdbf9ded62e87c48651be5b55340030c5937568a16a52f4d3618b99"
+    },
+    {
+      "run_id": "core_Anaheim_loss_severe_r3",
+      "result_sha256": "7f9d0d1d0d8fd771c535d7fb0f40813017e23e58bdf78e191fd3acfb23f9e2e4"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r1",
+      "result_sha256": "65adaba2621af85862287ba42119954dceee831a082f0858ab8f4ae7d2ed5765"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r2",
+      "result_sha256": "909ad9c0a76f14341d0af88fa3b6309495f44b4b314732c12de24d5df7006e3a"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r3",
+      "result_sha256": "b5cdcf6b7c0a4cc377523931e745735e64035dac520987e5b277984085cad49c"
+    },
+    {
+      "run_id": "core_Winnipeg_loss_moderate_r1",
+      "result_sha256": "e334c636991d0c1ebd13fe38b9600dd4ba4b1b25c90c52edc7a52a6aac506943"
+    },
+    {
+      "run_id": "core_Winnipeg_loss_moderate_r2",
+      "result_sha256": "dd7842eab1dca094e3960e045abdd1c96fec05a47ffb18bd461bbd154e67bab2"
+    },
+    {
+      "run_id": "core_Winnipeg_loss_moderate_r3",
+      "result_sha256": "1fb9f543b20682d60cdb7fccc5cf7e24af540de6419ff4fd7d94fd5fc63082a7"
+    },
+    {
+      "run_id": "core_Winnipeg_loss_severe_r1",
+      "result_sha256": "4163d809e40ede38926874a4ea403e22a55a403be3ab406b7da7a86ac32c4cbf"
+    },
+    {
+      "run_id": "core_Winnipeg_loss_severe_r2",
+      "result_sha256": "ad52447b0740cb0b5f4c257fd108fca24e5517bd40420d76cc29ef099662c1d2"
+    },
+    {
+      "run_id": "core_Winnipeg_loss_severe_r3",
+      "result_sha256": "02a5a6b6bfe7dfb3361a64c7bc71d1232f5e37516ec1aec8afa962ef29e14553"
+    },
+    {
+      "run_id": "aid_ND_shared_r1",
+      "result_sha256": "373c2eff9c77802ae6bea7414ff45f11d06092a8fdbe2507ccb73d726b8de6c5"
+    },
+    {
+      "run_id": "aid_ND_shared_r2",
+      "result_sha256": "049d12c09cbe162ba82356d99e55a46d8c2df6890a9047e13c83476cea71bd06"
+    },
+    {
+      "run_id": "aid_ND_shared_r3",
+      "result_sha256": "23249a9ab6455b77301e99af264a7640f5ed34cf17b1c82bbf0de50b0825f516"
+    },
+    {
+      "run_id": "aid_ND_beta0.1_r1",
+      "result_sha256": "4c956c2d506252e0109eccf0836581cf48b551de508bbf35e1a17d4f2d15b836"
+    },
+    {
+      "run_id": "aid_ND_beta0.1_r2",
+      "result_sha256": "6647dc7b087338d3dadb7d3564e4b7f3e72ff969a9274a0a42314118c5631513"
+    },
+    {
+      "run_id": "aid_ND_beta0.1_r3",
+      "result_sha256": "ed90b66405b1bcb2dbad0720a44a356a6a9a2110955a02e4f633481841902966"
+    },
+    {
+      "run_id": "aid_ND_beta0.2_r1",
+      "result_sha256": "3d71a8b36721af9580e17af4ad20faacdf8dc519f5acbc4fce95f164d2e0ff92"
+    },
+    {
+      "run_id": "aid_ND_beta0.2_r2",
+      "result_sha256": "b930b4001d65154a51eeca56f08df5a701f053f540b43cc436da3b1e15526e0a"
+    },
+    {
+      "run_id": "aid_ND_beta0.2_r3",
+      "result_sha256": "278d839415183ee9f71d6dc4c64a6cbcbdf46d733987075da92eff61866ae870"
+    },
+    {
+      "run_id": "aid_ND_beta0.35_r1",
+      "result_sha256": "2d0f527d8956ff0188e146f3190e4f16ace117aa3b5860798b775adc47ffc6a9"
+    },
+    {
+      "run_id": "aid_ND_beta0.35_r2",
+      "result_sha256": "e5f6563f07f1a173af44037f21b3ad7dce358f388bfcc69eb701e8ca712679ec"
+    },
+    {
+      "run_id": "aid_ND_beta0.35_r3",
+      "result_sha256": "80c2c50c86ab0cbcc266494095b49f4d814611e7fdd7ee718c80b65be594589d"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r1",
+      "result_sha256": "0c9821f12eb687f5a4c3760df9741c5163a09fd1f6c82e1817248cd66f4e1aac"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r2",
+      "result_sha256": "7f038a641200477f8caa16eb80fe161ba63cf949e41b2b186259c0b0e024ee2c"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r3",
+      "result_sha256": "4827f186520c3761944c5e8356bdcc13da1a5774b38ce0703bb777d5d2069c07"
+    },
+    {
+      "run_id": "aid_ND_beta0.8_r1",
+      "result_sha256": "a513205d273e14026837ba1ccd74735591b71b44a0fbf696fae6f566e339dd19"
+    },
+    {
+      "run_id": "aid_ND_beta0.8_r2",
+      "result_sha256": "4507cc1b0566f6ea2f2a6b342f5912546b607ba9986fc1c1defc3778247b8e21"
+    },
+    {
+      "run_id": "aid_ND_beta0.8_r3",
+      "result_sha256": "324ddc6a55ceb27189bd1941896ed371611dd614c35310cb16fbf6e2fb4f2014"
+    },
+    {
+      "run_id": "aid_SF_shared_r1",
+      "result_sha256": "3d3d78702e5ed3136434168f964a0dd69fb1ca350f52a9e31d89cebe19dce33c"
+    },
+    {
+      "run_id": "aid_SF_shared_r2",
+      "result_sha256": "5977c7d84230059a89d5b06ef5bd312575c8840172840a182220ee651607aa02"
+    },
+    {
+      "run_id": "aid_SF_shared_r3",
+      "result_sha256": "cc1ad25716807671f0902e6cb28986f04b62099044a5a7c65a7475f286d76624"
+    },
+    {
+      "run_id": "aid_SF_beta0.1_r1",
+      "result_sha256": "140e6b57a48213bd9d431f9e3cbbf806e7fa7d560982ee9d50d2d594bcdfc979"
+    },
+    {
+      "run_id": "aid_SF_beta0.1_r2",
+      "result_sha256": "8a62da2389b63e5515afa35fe4f09bf30b946f6327b29a488cf4fda1b27c0518"
+    },
+    {
+      "run_id": "aid_SF_beta0.1_r3",
+      "result_sha256": "ca4fb22adfc1120d20fe5574a8e18f753ea93bd6e033f8f8686b5fcb50f34992"
+    },
+    {
+      "run_id": "aid_SF_beta0.2_r1",
+      "result_sha256": "c8fe6854198fb507b0bd09347884c36028c599cc54caba2c634b75636adacdb5"
+    },
+    {
+      "run_id": "aid_SF_beta0.2_r2",
+      "result_sha256": "720f083f664cf4c0bf9a9ce914db7774e52dd9f664b16dc5259520894e5adaa9"
+    },
+    {
+      "run_id": "aid_SF_beta0.2_r3",
+      "result_sha256": "66218c26d7c72eaabbf5e92d4700d1fce42440a49b37e69a17fe4119de68d282"
+    },
+    {
+      "run_id": "aid_SF_beta0.35_r1",
+      "result_sha256": "03f4a8ac795dfee95f86328f0ba43edff32ccc1ccb98ed4d61cffef1bb66e5dc"
+    },
+    {
+      "run_id": "aid_SF_beta0.35_r2",
+      "result_sha256": "cca1f2b39e2272577d5eccc9e9dadd06da68f52e4b767ea017e8475b86abfc51"
+    },
+    {
+      "run_id": "aid_SF_beta0.35_r3",
+      "result_sha256": "1e7edbcaf3becf90bb69f970cddcf9b0fa4d3f02741181cc258335896a9591aa"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r1",
+      "result_sha256": "59f3c5e9dd665c75845ab30e4e6e0a50e33edf69edd98422036af657f5f6b11a"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r2",
+      "result_sha256": "f17bc9ce4de67c184b1f05d23ea2598fc6c4b309d32f5473f30bbd6214b25ea0"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r3",
+      "result_sha256": "3b7f719dc616dac2a4cdfaa00101c7b99f9031469bf1809c1060ac549adaf67e"
+    },
+    {
+      "run_id": "aid_SF_beta0.8_r1",
+      "result_sha256": "9828b0b4b3f761a74a178c7fb2ab2fdcbb54dec86c120d6e3dce3dfe897ce202"
+    },
+    {
+      "run_id": "aid_SF_beta0.8_r2",
+      "result_sha256": "0e0cbfe384d5ca874dbd109701493845a1a74e305f9e5cef02fa77797e122fab"
+    },
+    {
+      "run_id": "aid_SF_beta0.8_r3",
+      "result_sha256": "fb0bcdfd1b10f9dd965a4e8bf8e7853e50eb1d25f2c55b8cc4e31fa5b7d5cf57"
+    },
+    {
+      "run_id": "aid_Anaheim_shared_r1",
+      "result_sha256": "41661fff32b2a8fddc1406eaddd658b4b2fae2c3315877e8b5c354b02e64011d"
+    },
+    {
+      "run_id": "aid_Anaheim_shared_r2",
+      "result_sha256": "6cd10525b3d4cd4149d0418c23d2e3f661ec743bfc1ffed7cb894111bb735829"
+    },
+    {
+      "run_id": "aid_Anaheim_shared_r3",
+      "result_sha256": "20277412d7471aa4a1cdf04f834bfd543117ddb75f62806e6037b2815ea7053a"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.1_r1",
+      "result_sha256": "6307975b3e2dcfaf3f93e57a56803c4c95ce9dfe8c5d6d84a709593cbe9aa135"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.1_r2",
+      "result_sha256": "3e7be772f36fd7db3cbd55a24edbb2634075058f7d11fce007b76a25a79e133e"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.1_r3",
+      "result_sha256": "ff5c8c47defff557d28e63755645cb2532633ef6807a5e7fcab7d13d53755527"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.2_r1",
+      "result_sha256": "29013c3944f5051c8fe9ca18a599a8cf9fe4732b18a7f56adebd89709c88d383"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.2_r2",
+      "result_sha256": "4256d0787e452c358093639df99fd054b258fec543d695da0e82782acd3106ab"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.2_r3",
+      "result_sha256": "50ecc8b8471eb4755a6641a7b6d00ed6eebe4e338bd5c26beea3c47e68c21913"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.35_r1",
+      "result_sha256": "7a22c3ae97a0082191cca705e05e246cc683755348ad0763beeaaa5284e5ae18"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.35_r2",
+      "result_sha256": "4d07c4f53e3157994c04ab839fb69776289d27fdf42a21e87e762de622b18dba"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.35_r3",
+      "result_sha256": "28bcab5264f71558cc120a2dc9cb85ed9b315b46613292eeed0510781c8fd290"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r2",
+      "result_sha256": "a21901e2871eb6e7c8f12cc2262567d2b8d5204128c939b03b1e529c4de2ccc4"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r3",
+      "result_sha256": "4135d4a4026b841e491b5f434886c5565910f90719fd9c48f5c6bd20d0b7e2b3"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.8_r1",
+      "result_sha256": "c6215d90d52297eefe073674d4d7d99608939e2b764722688b9421b5bf11ea84"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.8_r2",
+      "result_sha256": "523667f9ab360faa6a2c4b515a7ce283ec49456eae4e38259c0ed77f716c7f79"
+    },
+    {
+      "run_id": "aid_Anaheim_beta0.8_r3",
+      "result_sha256": "052884e52c526ecb43fcdf61fa624b9fbb72a80e00ed20acef3c3ad1889c1e38"
+    },
+    {
+      "run_id": "aid_Winnipeg_shared_r1",
+      "result_sha256": "4faf635ad8b28f2464a3f7257917b5c35bb38b6365df83d90c3c0ad43bb1052e"
+    },
+    {
+      "run_id": "aid_Winnipeg_shared_r2",
+      "result_sha256": "f9a5da9e8031cdcbfa52d18873d2b4bfa1e6496d149defc177ce92729d9ae23d"
+    },
+    {
+      "run_id": "aid_Winnipeg_shared_r3",
+      "result_sha256": "cbb4633f04b8da13dc5f6591a5d44fe75aa3dda41b196ee4180d229dd5291ad2"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.1_r1",
+      "result_sha256": "364323b217afaa7b67207977d9be43e2182cae5e7b6b464eb5f8eb996cf5c723"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.1_r2",
+      "result_sha256": "6885eb99754854bb827b245cf75f39c40db8bf2ca85dd4c009c67fe797f3a932"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.1_r3",
+      "result_sha256": "6b6b6f22c51c75f314a454ec2baed1f710a05ad6d770f160a649844df6b9e4ec"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.2_r1",
+      "result_sha256": "f3f68a02a302ea9fef80916bdbc3a98a97f21381f133a62ff7a3e89c0542bf63"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.2_r2",
+      "result_sha256": "f25d8e8542009109d4e7e685755b7e4492e163a745f1ce8a0d522cbd43a3932b"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.2_r3",
+      "result_sha256": "f832d656da44a901090e6710d7608d7d6b9c7b2561d6cb9a3de5bac31b04d87a"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.35_r1",
+      "result_sha256": "00a2bf1e3227b6705b3cf0d0b99483609ff35fe11fa4f83323860a23e9ad38e8"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.35_r2",
+      "result_sha256": "f29f18acae8b9658f5eeb6920db0e9eb9daaf805181ed7bcf3d23b08d3e6506e"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.35_r3",
+      "result_sha256": "8b5288605d314816255be714641e999a6ec46f97ac310a79de4315fe723dd73d"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r1",
+      "result_sha256": "65adaba2621af85862287ba42119954dceee831a082f0858ab8f4ae7d2ed5765"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r2",
+      "result_sha256": "909ad9c0a76f14341d0af88fa3b6309495f44b4b314732c12de24d5df7006e3a"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r3",
+      "result_sha256": "b5cdcf6b7c0a4cc377523931e745735e64035dac520987e5b277984085cad49c"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.8_r1",
+      "result_sha256": "01c2110254fbc8ab11bd0ea3861e386018c8c868614daddadd746f1c1d4c0ab3"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.8_r2",
+      "result_sha256": "a9d0ec201f703637adb992af0716ee48e81bdbe9bef952cbcd85fbedffbfb4ce"
+    },
+    {
+      "run_id": "aid_Winnipeg_beta0.8_r3",
+      "result_sha256": "3413949ba210ea747569b1077b4881daca64720e8e62b6eec30a33832efe8108"
+    }
+  ],
+  "collection_sha256": "6ed774438a8560945aef4daa2212c0e813d144df5daaa95f6cca42e24c76b27d"
+}

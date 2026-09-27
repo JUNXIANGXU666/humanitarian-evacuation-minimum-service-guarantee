@@ -1,0 +1,102 @@
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 4
+CPXPARAM_Parallel                                1
+CPXPARAM_RandomSeed                              20260925
+CPXPARAM_MIP_Strategy_Search                     1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_TimeLimit                               600
+CPXPARAM_MIP_Tolerances_AbsMIPGap                1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_Integrality              1.0000000000000001e-09
+Legacy callback                                  iLUD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Warning: Effort level 'CheckFeas' is incompatible with lazy constraint/incumbent callback.
+         Effort level increased to 'SolveFixed'.
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective -0.1362.
+Tried aggregator 1 time.
+MIP Presolve eliminated 1353 rows and 0 columns.
+Reduced MIP has 1616 rows, 2360 columns, and 18098 nonzeros.
+Reduced MIP has 1164 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (12.26 ticks)
+Probing time = 0.00 sec. (0.29 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.03 sec. (32.87 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+*     0+    0                           -0.1362       -0.8538           526.85%
+      0     0       -0.2002    30       -0.1362       -0.2002     1152   47.02%
+*     0+    0                           -0.1876       -0.2002             6.74%
+*     0+    0                           -0.1920       -0.2002             4.29%
+*     0+    0                           -0.1945       -0.2002             2.96%
+*     0+    0                           -0.1959       -0.2002             2.21%
+*     0+    0                           -0.1967       -0.2002             1.79%
+      0     0  -1.00000e+75     0       -0.1967       -0.2002     1152    1.79%
+      0     2       -0.2002    22       -0.1967       -0.2002     1152    1.79%                        0             0
+Elapsed time = 0.98 sec. (529.64 ticks, tree = 0.02 MB, solutions = 6)
+      5     7       -0.2002    13       -0.1967       -0.2002     2659    1.79%            x396 D      5      1      4
+     28    16       -0.2002    20       -0.1967       -0.2002     8002    1.79%            x818 D     23     19      6
+     83    72       -0.1968     7       -0.1967       -0.2002    23401    1.79%            x927 D    176    172     33
+*   156+   95                           -0.1980       -0.2002             1.11%
+    197   152       -0.1981     3       -0.1980       -0.2002    31038    1.11%            x477 U    396    388     45
+    276   192       -0.2002    12       -0.1980       -0.2002    37140    1.11%           x1034 U    169      5      5
+    393   274       -0.1996    30       -0.1980       -0.2002    45946    1.11%            x610 D    358    354     15
+    496   339       -0.2001    19       -0.1980       -0.2002    53271    1.11%           x1036 D    478    422     11
+    616   429       -0.2002    19       -0.1980       -0.2002    65728    1.11%             x34 D    559    551     14
+    748   532       -0.1998    16       -0.1980       -0.2002    75234    1.11%           x1028 U    714    710     13
+   1581  1072       -0.2001    19       -0.1980       -0.2002   113346    1.11%           x1036 U   1471    187      8
+Elapsed time = 9.61 sec. (3684.61 ticks, tree = 1.06 MB, solutions = 7)
+   2346  1704       -0.1997    17       -0.1980       -0.2002   164836    1.11%           x1030 U   2556   2552     21
+   3052  2133       -0.1998    21       -0.1980       -0.2002   211988    1.11%           x1033 U   2809   2805     13
+   3791  2670        cutoff             -0.1980       -0.2002   260402    1.11%            x846 U   3537   3533     22
+   4486  3163       -0.1988    20       -0.1980       -0.2002   310866    1.11%            x842 D   4566   4558     22
+   5234  3626       -0.1999    16       -0.1980       -0.2002   344801    1.11%            x821 D   5418   5414     23
+   6071  4248       -0.1990    24       -0.1980       -0.2002   381069    1.11%            x156 D   5689   5685     21
+   7101  4970       -0.1995    16       -0.1980       -0.2002   416848    1.11%            x818 D   7215   7211     19
+   8014  5679       -0.1983    16       -0.1980       -0.2002   451741    1.11%            x393 D   8056   8048     14
+   8874  6265        cutoff             -0.1980       -0.2002   485945    1.11%            x842 D   9079   9067     30
+   9701  6906       -0.1981     6       -0.1980       -0.2002   524825    1.11%            x840 D   9835   9831     29
+Elapsed time = 69.81 sec. (13229.98 ticks, tree = 32.95 MB, solutions = 7)
+  10608  7488        cutoff             -0.1980       -0.2002   559197    1.11%           x1037 D  10946  10942     29
+  11469  8190       -0.1985     7       -0.1980       -0.2002   600259    1.11%            x842 U  11748  11740     30
+  12237  8591       -0.1985    17       -0.1980       -0.2002   624121    1.11%            x926 D  11825  11821     30
+  13101  9331       -0.1988    18       -0.1980       -0.2002   668629    1.11%           x1032 U  13275  13271     25
+  14117 10086       -0.1992    16       -0.1980       -0.2002   708221    1.11%            x844 U  13617  13613     19
+  15091 10786       -0.1987     9       -0.1980       -0.2002   743106    1.11%           x1038 U  14673  14669     33
+  16025 11412       -0.1998    17       -0.1980       -0.2002   776313    1.11%            x839 U  15685  15670     17
+  16912 12138       -0.1987    12       -0.1980       -0.2002   809121    1.11%            x822 D  17062  17058     29
+  17889 12735       -0.1992    17       -0.1980       -0.2002   841909    1.11%           x1031 U  18468  18464     21
+  18814 13336       -0.1990    23       -0.1980       -0.2002   870573    1.11%            x912 U  18185  18181     26
+Elapsed time = 302.86 sec. (22776.19 ticks, tree = 100.92 MB, solutions = 7)
+  19655 14077       -0.1981     7       -0.1980       -0.2002   914600    1.11%            x935 U  19045  19041     39
+  20669 14806       -0.1990    17       -0.1980       -0.2002   951589    1.11%           x1032 U  21300  21296     21
+  21617 15421       -0.1988    15       -0.1980       -0.2002   980409    1.11%           x1037 U  21133  21129     19
+  22642 16027       -0.1989    27       -0.1980       -0.2002  1011621    1.11%            x837 D  22370  22362     24
+  23607 16718       -0.1997    15       -0.1980       -0.2002  1046573    1.11%            x826 U  24220   1684     19
+  24804 17762       -0.1985     7       -0.1980       -0.2002  1092995    1.10%            x913 U  24697  24693     33
+  25998 18375       -0.1988    14       -0.1980       -0.2002  1118414    1.08%            x826 D  25801  25797     25
+  27235 19356       -0.1985    19       -0.1980       -0.2002  1155437    1.08%             x34 U  27928  27924     24
+  28228 20176       -0.1983     8       -0.1980       -0.2001  1191721    1.06%           x1038 U  27891  27887     26
+  28990 20884       -0.1996    19       -0.1980       -0.2001  1217344    1.06%           x1036 U  28526  28522     22
+Elapsed time = 570.58 sec. (32319.67 ticks, tree = 188.77 MB, solutions = 7)
+  29199 20865       -0.1987    12       -0.1980       -0.2001  1217028    1.06%            x824 D  30000  29996     34
+  29771 21425       -0.1997    27       -0.1980       -0.2001  1238225    1.05%           x1037 U  29889  29885     21
+
+User cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.98 sec. (528.76 ticks)
+Parallel b&c, 4 threads:
+  Real time             =  599.30 sec. (34836.84 ticks)
+  Sync time (average)   =   46.66 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  600.28 sec. (35365.60 ticks)

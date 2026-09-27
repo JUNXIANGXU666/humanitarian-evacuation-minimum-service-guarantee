@@ -1,0 +1,159 @@
+{
+  "active_nodes": 3,
+  "arcs": [
+    {
+      "head": 3,
+      "tail": 1,
+      "time": 6.0
+    },
+    {
+      "head": 3,
+      "tail": 2,
+      "time": 12.0
+    },
+    {
+      "head": 2,
+      "tail": 1,
+      "time": 6.0
+    }
+  ],
+  "assistance_capacity": [],
+  "assistance_weights": [
+    [
+      0.0,
+      1.0,
+      2.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "capacities": [
+    0.2170617241227488,
+    0.23671944975743975,
+    0.20697999863446767
+  ],
+  "declared_nodes": 3,
+  "demand": [
+    [
+      0.3286050828226246,
+      0.14142477963411274,
+      0.08477866491784186
+    ],
+    [
+      0.20940805785213315,
+      0.17528788992263739,
+      0.06049552485065035
+    ]
+  ],
+  "departures": 2,
+  "fairness_groups": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ]
+  ],
+  "far_origins": [
+    2
+  ],
+  "groups": [
+    "General",
+    "Older",
+    "Assisted"
+  ],
+  "horizon": 4,
+  "loss_arcs": [],
+  "origins": [
+    1,
+    2
+  ],
+  "paths": [
+    {
+      "arcs": [
+        0
+      ],
+      "nodes": [
+        1,
+        3
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ]
+      ],
+      "origin": 0,
+      "shelter": 0,
+      "time": 6.0
+    },
+    {
+      "arcs": [
+        1
+      ],
+      "nodes": [
+        2,
+        3
+      ],
+      "offsets": [
+        [
+          1,
+          0
+        ]
+      ],
+      "origin": 1,
+      "shelter": 0,
+      "time": 12.0
+    },
+    {
+      "arcs": [
+        2,
+        1
+      ],
+      "nodes": [
+        1,
+        2,
+        3
+      ],
+      "offsets": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "origin": 0,
+      "shelter": 0,
+      "time": 18.0
+    }
+  ],
+  "response": [
+    1.0,
+    1.0
+  ],
+  "settings": {
+    "delta": 15.0,
+    "network": "mixed_validation"
+  },
+  "shelter_capacity": [
+    0.8
+  ],
+  "shelters": [
+    3
+  ],
+  "source_hashes": {},
+  "total_demand": 1000.0
+}

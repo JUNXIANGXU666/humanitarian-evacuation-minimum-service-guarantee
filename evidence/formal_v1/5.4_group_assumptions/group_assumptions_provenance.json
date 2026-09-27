@@ -1,0 +1,421 @@
+{
+  "name": "group_assumptions",
+  "section": "5.4_group_assumptions",
+  "pdf_sha256": "738d3e08aaa5d8b8e89432b1659450eebe6f9e4a35be542a6a862af17e79f033",
+  "png_sha256": "ff730325649eb5f3bfeacf8486e14f064c904a52c864e5a5ef0cddf7d639d7e6",
+  "font": "C:\\Windows\\Fonts\\arial.ttf",
+  "text_fonts": [
+    "Arial"
+  ],
+  "inputs": [
+    {
+      "run_id": "shares_SF_q0.0_r1",
+      "result_sha256": "c59cff595a88b6ee0ddcdd0d4d255c21ad5e2f542d51ce8f4dd5260e3b3ce44a"
+    },
+    {
+      "run_id": "shares_SF_q0.3_r1",
+      "result_sha256": "db101601ba1d9416557ee8eeeeedf03acf0d9b5fa7142c6f0d1b4a4f88d5d974"
+    },
+    {
+      "run_id": "shares_SF_q0.6_r1",
+      "result_sha256": "dc000340abc8c84c3eda26f3e612ac28b544ef0ea163cf1090ba039ba691dbab"
+    },
+    {
+      "run_id": "shares_SF_q0.9_r1",
+      "result_sha256": "9138b615c8be523e8be6ed5a6c9c0a865f7d33c11397d9113667d4918f337fea"
+    },
+    {
+      "run_id": "shares_SF_q1.2_r1",
+      "result_sha256": "782b9b7e3ad336c4a6aa491e2a4530fe801d20d870ea6993b02c1139a5198402"
+    },
+    {
+      "run_id": "shares_SF_q1.5_r1",
+      "result_sha256": "2b0c47b60b90f19172697e4d630797e53743af8b8f69a86dab0c247d9cd49758"
+    },
+    {
+      "run_id": "shares_SF_q1.8_r1",
+      "result_sha256": "50b3222ac8efe213e849b310438a6711acb29e74166da2d39a533b26ff425440"
+    },
+    {
+      "run_id": "shares_SF_q0.0_r2",
+      "result_sha256": "c92d2a6425f66473e20e8a6f2c7e7b4878f638931d10c0bc6b6d5747185f6b58"
+    },
+    {
+      "run_id": "shares_SF_q0.3_r2",
+      "result_sha256": "c7115296084a7f4133b93ee3c9d368f2bb2ac8dc02aa9beef22f7f6dfd3733e7"
+    },
+    {
+      "run_id": "shares_SF_q0.6_r2",
+      "result_sha256": "0f24d2450010d077aaa5e4f777adc56d6a663a0a4a4e4f589f2c1fb9eef782a8"
+    },
+    {
+      "run_id": "shares_SF_q0.9_r2",
+      "result_sha256": "741cf509ab0f3176736f4aa67487b76ded8d9c208bd4b2cdd1addc7a1dbe3441"
+    },
+    {
+      "run_id": "shares_SF_q1.2_r2",
+      "result_sha256": "68ddcd18dfe7cca3ebcefcc4e1ad9a5bcd206ed2f2a0e451ab6a6e3f41e3105c"
+    },
+    {
+      "run_id": "shares_SF_q1.5_r2",
+      "result_sha256": "e4a84d0d5427c94ad8a33126998873ebcdaf95a2b39c7205c010f47bee09957d"
+    },
+    {
+      "run_id": "shares_SF_q1.8_r2",
+      "result_sha256": "60e3a244c58a8d0f5e4b9e55f80e6aad9824d6135157b90157fc89539122ca1a"
+    },
+    {
+      "run_id": "shares_SF_q0.0_r3",
+      "result_sha256": "165d4facdba169dcd2a248594e6f3f69e0edfca79d90e98c34a5383fe5822105"
+    },
+    {
+      "run_id": "shares_SF_q0.3_r3",
+      "result_sha256": "829f3e3b4f1d22d62e7e412824d0f17f4a087cb757a63ca0074da5d643de0b33"
+    },
+    {
+      "run_id": "shares_SF_q0.6_r3",
+      "result_sha256": "17a13af93a1cf4f6f35629a315bc92bfa119fdc0be75f935f5b508dd8c9a005e"
+    },
+    {
+      "run_id": "shares_SF_q0.9_r3",
+      "result_sha256": "99164b5fc05b87c36a4cfec071ccea6398e7dfb9b5ab44182fe1547c176b00ab"
+    },
+    {
+      "run_id": "shares_SF_q1.2_r3",
+      "result_sha256": "89d4299ff66adf28eae562a52870962ec52be57a56776666640ec5480c9047c2"
+    },
+    {
+      "run_id": "shares_SF_q1.5_r3",
+      "result_sha256": "f0669135352cfa3425e7055ffd0bc8921551e8ed8e0b4fe48d1634f6469a44a7"
+    },
+    {
+      "run_id": "shares_SF_q1.8_r3",
+      "result_sha256": "a3be5b37de534ed988caeabfdfa7873cf50ca4bd8c3f300cf7e3084cc34c9050"
+    },
+    {
+      "run_id": "shares_SF_p0.005_r1",
+      "result_sha256": "00713904d33fb9a3d05211d007bf1cb78b39bb1128eaa716642e86f747e4ef22"
+    },
+    {
+      "run_id": "shares_SF_p0.02_r1",
+      "result_sha256": "f38ca0be58612545f364e2a250d488fad69cdd6a3216060387abbc862663264e"
+    },
+    {
+      "run_id": "shares_SF_p0.05_r1",
+      "result_sha256": "343f91785834619d4a3f3d23f54631aa86fe90e8b9e9315948c6ae07e23bac0f"
+    },
+    {
+      "run_id": "shares_SF_p0.1_r1",
+      "result_sha256": "a11979fb95fb179fb6751e812aacf06b93ef4b9670b5abd13deee4e7c25c6661"
+    },
+    {
+      "run_id": "shares_SF_p0.2_r1",
+      "result_sha256": "955598bd1213138915e73f686620694ae7b9bc531aca590772eaecf0eb98dd9e"
+    },
+    {
+      "run_id": "shares_SF_p0.3_r1",
+      "result_sha256": "98eeca7e0450eca25d30f9e905cbda523ba00c9f67ede2a49785869dfb323586"
+    },
+    {
+      "run_id": "shares_SF_p0.005_r2",
+      "result_sha256": "07e1fb7004dc07bf0ab85b9c2a7b4cac4bd1acc372f9043528e63d3e60eee448"
+    },
+    {
+      "run_id": "shares_SF_p0.02_r2",
+      "result_sha256": "67a5b754a9429486d6369006c70530c151e20e3db9e948437630e90da7b53f9f"
+    },
+    {
+      "run_id": "shares_SF_p0.05_r2",
+      "result_sha256": "fb6fbd81c5ecff795d4c3bc04eebd612d7cbc977275c1b9a38662c6bd53e5abb"
+    },
+    {
+      "run_id": "shares_SF_p0.1_r2",
+      "result_sha256": "dfbfd8770bbcef3f0e532bc7ef4b529e3c0827727d973e6fd1da9e06b737cdc9"
+    },
+    {
+      "run_id": "shares_SF_p0.2_r2",
+      "result_sha256": "86c8535eef3872f3c8d09a1a936fbf95b37b23cd881ab115cc57aa89e6777d59"
+    },
+    {
+      "run_id": "shares_SF_p0.3_r2",
+      "result_sha256": "9b5f4e84b7b72f9eff9c6233b3e80000701476930f83cdf3540e5e9b61afae60"
+    },
+    {
+      "run_id": "shares_SF_p0.005_r3",
+      "result_sha256": "02fc4b3e500e3e9acca2b87b4d8e8618b6366977d15957f16b02a2fa488a4f0b"
+    },
+    {
+      "run_id": "shares_SF_p0.02_r3",
+      "result_sha256": "b3fd3fc29c2a3713479b67cf5db3c16e3ad985c2914e40fa494d2cf844634743"
+    },
+    {
+      "run_id": "shares_SF_p0.05_r3",
+      "result_sha256": "1e1cb8e4e50533721d19323b29491f8eeef63c024c3f5ca34192879d8800ca61"
+    },
+    {
+      "run_id": "shares_SF_p0.1_r3",
+      "result_sha256": "3a51a60411dcf52a1568167cd96cd1e9f6aa84adde9a86cd23040aecb7df48d3"
+    },
+    {
+      "run_id": "shares_SF_p0.2_r3",
+      "result_sha256": "823db35cbfa86189cdcb3857599bc8544c5946a7dd651df37707408a12b2a667"
+    },
+    {
+      "run_id": "shares_SF_p0.3_r3",
+      "result_sha256": "5208bb452a174cb0ebddf96d130c30e9532520a2cb6f17e7f9d3c30858d9b210"
+    },
+    {
+      "run_id": "groups_SF_two_fine_r1",
+      "result_sha256": "6820429c4772aaf90c949d5d329453b1cbd3042fed1ed8c275c4823271a76dc1"
+    },
+    {
+      "run_id": "groups_SF_two_fine_r2",
+      "result_sha256": "69c1a94d6ff84d2f1c2e326a34bc7d5898b228560b388e4ad2bc278333e7623a"
+    },
+    {
+      "run_id": "groups_SF_two_fine_r3",
+      "result_sha256": "4af2b5174295619ef1216d5c20be43bb9767295a328022aab0e35da57f26f913"
+    },
+    {
+      "run_id": "groups_SF_three_fine_r1",
+      "result_sha256": "d1a5398b3e71696c916d593b4e8de94bfe801139ed93d739b1232487bcfad263"
+    },
+    {
+      "run_id": "groups_SF_three_fine_r2",
+      "result_sha256": "dce14f6a36e1c49308e13139170858ab7798ee85a9bab19450602125f2e64e6c"
+    },
+    {
+      "run_id": "groups_SF_three_fine_r3",
+      "result_sha256": "26ee57f342a487b33e524ce5191bf55eaf7f528fd4ad9f309b5b326919c71dfe"
+    },
+    {
+      "run_id": "groups_SF_six_r1",
+      "result_sha256": "7ff4b4f019614f0ef951a396bb572936f6fc17f2561d344d16e1e2936540d792"
+    },
+    {
+      "run_id": "groups_SF_six_r2",
+      "result_sha256": "29b0fa35d6a1843b3e6595c141277364452c498dc503d498c10920973eb26c87"
+    },
+    {
+      "run_id": "groups_SF_six_r3",
+      "result_sha256": "0089164165c98b24ffe91568e7d943e6218f5774b6a236644f0b529804bc0a13"
+    },
+    {
+      "run_id": "groups_SF_rare_r1",
+      "result_sha256": "9725d05fc09941cef9bc3bdf7ca2b330257bf45ca9330d21efff09212b71a83e"
+    },
+    {
+      "run_id": "groups_SF_rare_r2",
+      "result_sha256": "e69904a74996b39e5af6b9b99f11525dcdfaedc0e01ce4ed543d2d5abad5b574"
+    },
+    {
+      "run_id": "groups_SF_rare_r3",
+      "result_sha256": "31fc54fde5d3c13a73a0db6894201ba260ad5324945d361f99e7095617fc69c1"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.0_r1",
+      "result_sha256": "0a55448963e92e749f3f3f1cbf5b3e2cef0e07838c87b2e2b9303cb89b54e5e3"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.3_r1",
+      "result_sha256": "c2b360e59e9b9b0937b03be907351e09d09638d46204fe0e3e6d17453b71674e"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.6_r1",
+      "result_sha256": "d3388d6ca7f44b1a777923ef9f3d93799ab9b1bd283efea9d2d3e14a7ec9114f"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.9_r1",
+      "result_sha256": "f1e05e970a2cf85e8876ef5d12fd4d183d9c3c34b92cae9bf536f584f148241d"
+    },
+    {
+      "run_id": "shares_Winnipeg_q1.2_r1",
+      "result_sha256": "ccbb0be7ad0a5405a4670a6004510443a36f5e6d4b8bc336792445c9febcd6ef"
+    },
+    {
+      "run_id": "shares_Winnipeg_q1.5_r1",
+      "result_sha256": "6b98c88b0e77872488421fc784756fa34840d740493d3205c8fa4ced4217117c"
+    },
+    {
+      "run_id": "shares_Winnipeg_q1.8_r1",
+      "result_sha256": "9409c2e19b37f89179dc3a2c29c07eda394ace569463c31428a69a14ab9fa294"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.0_r2",
+      "result_sha256": "8d2bfc5ef744e700394d81e9e1cdb9b8e5561921dcb0689dbf176026a95cc72b"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.3_r2",
+      "result_sha256": "73ffd09750217c16ef82e99db020688ce7a95688e121c1530001f7ba848c25eb"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.6_r2",
+      "result_sha256": "df67c4b14f47293b03dc24c37592f01f9f70b312407ef810e7fe1d5f287556cb"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.9_r2",
+      "result_sha256": "b8210cff571c420a201ec9dd3328168d78b95ba40302f824eba4818e699df674"
+    },
+    {
+      "run_id": "shares_Winnipeg_q1.2_r2",
+      "result_sha256": "c62c746b23ba70871f2657e4c7d02436f2ca097d6832ff3f5e3b3794dea1210f"
+    },
+    {
+      "run_id": "shares_Winnipeg_q1.5_r2",
+      "result_sha256": "5d147aaab9f5f518dafec38949e47bb12ae13e515806a3fa58da913cbb403fe1"
+    },
+    {
+      "run_id": "shares_Winnipeg_q1.8_r2",
+      "result_sha256": "dc82d031360d34ceacb65e81d8dcb70621210688b1b2758f0e5d6dfada3b1604"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.0_r3",
+      "result_sha256": "1626947f5b2a31bf16802eae07f7722fb6a0973637ecc27b85b4cc899b750e1b"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.3_r3",
+      "result_sha256": "b154c4ba435af3fcad4ac19920a38500abec15bc877c5ff2770c7fe3f836f9fa"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.6_r3",
+      "result_sha256": "9fb9f5b857007141d652dd61fee8ac4dd5f831ac89e9fd38848ffba52db22ef8"
+    },
+    {
+      "run_id": "shares_Winnipeg_q0.9_r3",
+      "result_sha256": "7099f087710f95bb6f098e27deaaccb03ebc00324d15e484b52da08fce93a211"
+    },
+    {
+      "run_id": "shares_Winnipeg_q1.2_r3",
+      "result_sha256": "9a6865bbc5d541394ddd8e63512f14818556730c8ca5319f046a76e91ea7220f"
+    },
+    {
+      "run_id": "shares_Winnipeg_q1.5_r3",
+      "result_sha256": "f4d14b3e10662932658e25cd55121747f27f56bb97cf2e5d8f6cf25ba6d0fbcf"
+    },
+    {
+      "run_id": "shares_Winnipeg_q1.8_r3",
+      "result_sha256": "b66d99253ce077107b4c468cffe3bf702c723484c082eee6a9054fb7b1c15e69"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.005_r1",
+      "result_sha256": "662baf089a47c5285ba0f1ec4509c164925eb3822fff1d3c61c05e6e36f4fcde"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.02_r1",
+      "result_sha256": "8693618fb7c83caccb00eb6407af52f1bc7eac42b050a02e28cb14e00002712a"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.05_r1",
+      "result_sha256": "41f59d32b53a67f5653ceb5f7b2a731c30991e557a36a7efde002b65bbf6a868"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.1_r1",
+      "result_sha256": "d727120e49b367851238ff45fad54dca6f574f8fa1c3bfe7c73d841b3281b84d"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.2_r1",
+      "result_sha256": "69596e9dc6556860cfccccba2fd2562bad437cc75e242dd6a18787084e8702bc"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.3_r1",
+      "result_sha256": "923a8dbd9684c190ea22d70c583661145e3352d50bf379abbc1aba72545351ec"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.005_r2",
+      "result_sha256": "2699a7f63cba4d52bf8fbf4f223ddf851f5e97f05ccef444adcff264a860199c"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.02_r2",
+      "result_sha256": "e166283fb150262d026160fa770d2960062473e3e23ac62ece35421b97dc1c0b"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.05_r2",
+      "result_sha256": "b43885263593a4765ff94faf01650ad5c32a0fba09e32392e42c6198c4d5a880"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.1_r2",
+      "result_sha256": "b9edf0d618258a34e657c8f8b7f2e1f8fc7a8827318183e9502388b04127bfbc"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.2_r2",
+      "result_sha256": "bbfe8df9be6a63977a46164c80a124cf39fb87efb731fe483d8325177b028be8"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.3_r2",
+      "result_sha256": "891fae82e2db39cd0051897b18daf55249faaa02db2eb4afaf1ecf437365a04c"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.005_r3",
+      "result_sha256": "9838f9aa34ca0e5494db9678e235c6f5011a560b05bf5481a316331be815965e"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.02_r3",
+      "result_sha256": "b04e720489805eb4b46684bfe9d93b228ac59beffa4840e825980cd88800679b"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.05_r3",
+      "result_sha256": "cf562817d3cb0d7a3b0f1d55d45628e72027a75a20fbd2afadf7d5a66bf986b2"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.1_r3",
+      "result_sha256": "c5ede4516ce1660078d8522e6cc61d345e1d7e5816c90bdca8a7fbb58f306ba0"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.2_r3",
+      "result_sha256": "98d39ac44f2b8b07d1f33c254466d5922baecf32126872152ee11269ebe48cbe"
+    },
+    {
+      "run_id": "shares_Winnipeg_p0.3_r3",
+      "result_sha256": "19888d43507fbc7a9b590704831be53d96ef94f5d0ac524adfa213642ce5b52e"
+    },
+    {
+      "run_id": "groups_Winnipeg_two_fine_r1",
+      "result_sha256": "8164584497a3652f50a92ccae94868ea49b4e790849d6dbeed67ecdbef31be81"
+    },
+    {
+      "run_id": "groups_Winnipeg_two_fine_r2",
+      "result_sha256": "4f82d0dca447eb01c06ca405970403264e88eb74279ff39f69411566660ae5b1"
+    },
+    {
+      "run_id": "groups_Winnipeg_two_fine_r3",
+      "result_sha256": "55e94c9c49436585b21f851230508c4046ff9168023f6055bf97613799a3a171"
+    },
+    {
+      "run_id": "groups_Winnipeg_three_fine_r1",
+      "result_sha256": "5ceebdeff33e70d661d25fab1453efc8fdd1e7af0b4c68ab2249f5fbdae5b089"
+    },
+    {
+      "run_id": "groups_Winnipeg_three_fine_r2",
+      "result_sha256": "545020e13ae1f1f7d9dc13fdd002b6a0b179851f01adca26a61ff438f7c74c43"
+    },
+    {
+      "run_id": "groups_Winnipeg_three_fine_r3",
+      "result_sha256": "985d222ac374e3ebf7cf8928e6e42674d7db3097fa873303649af6ccc2035ca7"
+    },
+    {
+      "run_id": "groups_Winnipeg_six_r1",
+      "result_sha256": "9c05e87021a0192e56669f3b624fe37716b62e550d1aad2a5ca5da3373685cc0"
+    },
+    {
+      "run_id": "groups_Winnipeg_six_r2",
+      "result_sha256": "5b39ab263c1252e278d36d098339e00cc3f901cdc5795909ed4b4f92d3443eeb"
+    },
+    {
+      "run_id": "groups_Winnipeg_six_r3",
+      "result_sha256": "c68aac746004ff59303bb7361f79ea28b92e3171d302827ff4fc3397aea61195"
+    },
+    {
+      "run_id": "groups_Winnipeg_rare_r1",
+      "result_sha256": "b0bc0368ab4fa5089adac746183403aa0d3b83dc15e9f593bf8f67854c977776"
+    },
+    {
+      "run_id": "groups_Winnipeg_rare_r2",
+      "result_sha256": "6ff1e4e27817addf04cb88543ab5acca7d605e2d9d086c1082cc1d64fcffd742"
+    },
+    {
+      "run_id": "groups_Winnipeg_rare_r3",
+      "result_sha256": "1258dcc96d1cd42809c96f912b9ccc24d1a6fbe56e1959d72db4f5261570d18f"
+    }
+  ],
+  "collection_sha256": "6ed774438a8560945aef4daa2212c0e813d144df5daaa95f6cca42e24c76b27d"
+}

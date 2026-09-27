@@ -1,0 +1,148 @@
+{
+  "instance_sha256": "a64b9c78521a4a2dc3c97a85f0c8d702c4c5b9f2d848e36c137dc939f9498182",
+  "settings": {
+    "network": "mixed_validation",
+    "delta": 15.0
+  },
+  "algorithm": "benders_flow",
+  "solver": "IBM ILOG CPLEX 22.2.0.0",
+  "threads": 4,
+  "mip_gap": 0.0001,
+  "normalised_flows": true,
+  "warm_start_seconds": 0.004046799964271486,
+  "dimensions": {
+    "binary": 6,
+    "assignment": 18,
+    "recourse_rows": 36
+  },
+  "stage1": {
+    "stage": 1,
+    "algorithm": "benders_flow",
+    "seconds": 0.010346899973228574,
+    "limit_seconds": 30,
+    "status_code": 101,
+    "status": "integer optimal solution",
+    "nodes": 0,
+    "trace": [],
+    "cut_stats": {
+      "integer_calls": 3,
+      "fractional_calls": 0,
+      "feasibility_cuts": 2,
+      "optimality_cuts": 0,
+      "lp_seconds": 0.0006440000142902136,
+      "invalid_duals": 0,
+      "max_dual_residual": 0.0,
+      "max_primal_dual_error": 0.0,
+      "max_cut_correction": 5e-324
+    },
+    "callback_error": null,
+    "incumbent": 0.22376169599150367,
+    "bound": 0.22376169599150367,
+    "relative_gap": 0.0,
+    "absolute_gap": 0.0,
+    "solver_relative_gap": 0.0,
+    "certified": true,
+    "validation": {
+      "passed": true,
+      "normalised_tolerance": 1e-07,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.0,
+        "arc_capacity": 1.0000056338554941e-12,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 2.0000043288170843e-12,
+        "nonnegative": 1.0000021644085422e-12,
+        "binary": 0.0,
+        "binary_upper": 0.0,
+        "floor": 0.0,
+        "master_floor": 0.0,
+        "assistance": 2.0816681711721685e-17
+      },
+      "z": 0.22376169599150367,
+      "service": [
+        0.4401707708835318,
+        0.22376169599150367,
+        0.2237616959915037
+      ],
+      "fine_service": [
+        0.4401707708835318,
+        0.22376169599150367,
+        0.2237616959915037
+      ],
+      "served": 0.342206434044466,
+      "travel_normalised_minutes": 2.9265879623303923,
+      "unmet": 0.6577935659555341,
+      "travel_person_minutes": 2926.587962330392,
+      "origin_served": [
+        0.19664820770253344,
+        0.14555822634193258
+      ],
+      "served_by_origin_group": [
+        [
+          0.1353554769381444,
+          0.0425854615287781,
+          0.01870726923561095
+        ],
+        [
+          0.10555822634293258,
+          0.019999999998000013,
+          0.020000000001000003
+        ]
+      ],
+      "assistance_use": [
+        [
+          0.08,
+          0.06000000000000002
+        ],
+        [
+          0.01870726923661095,
+          0.02
+        ]
+      ],
+      "shelter_use": [
+        0.34220643404446605
+      ]
+    },
+    "solution": {
+      "y": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "b": [
+        0.1353554769381444,
+        0.0425854615287781,
+        0.01870726923561095,
+        0.10555822634293258,
+        0.019999999998000013,
+        0.020000000001000003
+      ],
+      "x": [
+        0.1353554769381444,
+        0.0,
+        0.0425854615267781,
+        0.0,
+        0.01870726923661095,
+        0.0,
+        0.0,
+        0.10555822634293258,
+        0.0,
+        0.019999999998000013,
+        0.0,
+        0.020000000001000003,
+        0.0,
+        0.0,
+        0.0,
+        2.0000043288170843e-12,
+        0.0,
+        -1.0000021644085422e-12
+      ]
+    }
+  },
+  "stage2": null,
+  "certified": false
+}

@@ -1,0 +1,139 @@
+{
+  "version": "formal_v1",
+  "created_utc": "2026-09-25T10:18:16.054032+00:00",
+  "source_hashes": {
+    "research/evacuation/__init__.py": "fdade1fc379e36ce21c9353ed5ceb99120940754efde4953cc200f0db6ccaa0a",
+    "research/evacuation/data.py": "fe787fe9329eb9217b9782fa5d3958b3e650f50ba6358089380a29e2e1c99267",
+    "research/evacuation/formulation.py": "4a463d57580ecbd1b3278e1e05e5f7fb8927edecace23f6a89af9fe16eda2527",
+    "research/evacuation/policies.py": "df21304ef2fea5abf43e16bfaf8a13a45f1b2f33d1e79c9a7b208759caa51033",
+    "research/evacuation/solver.py": "5ab4f91687b9260c565d3d3bc37207344cd492114f2b5ae98d2fc487843ecf49",
+    "research/evacuation/validation.py": "e4eefa82a7074e6ab67ce8b3881b2b0e7b6e3aa4168fd35df94c1c1f30705ddb"
+  },
+  "validation": {
+    "known_answers_v5": {
+      "passed": 26,
+      "total": 26,
+      "sha256": "3cdf5f49c801f4c5fcc2f8fd6cd18b2a85391e1ce3e07e2e526b988abafcd3dc"
+    },
+    "equivalence_v3": {
+      "passed": 30,
+      "total": 30,
+      "sha256": "03f3e6e8d8227ae9c520a12ba56ce9f6150d497a514f4fa5cd3164f4024e01ac"
+    },
+    "design_validation_v3": {
+      "passed": 21,
+      "total": 21,
+      "sha256": "1bde47859a923f8db02d165b22f9776f8558d2f45ff21e30abd50993ee765e2e"
+    },
+    "guardrails_v1": {
+      "passed": 19,
+      "total": 19,
+      "sha256": "e2cc107a6f2f92ab43d571e67f58c35ff9f6c33906993c3bac9cf75bf04e9c01"
+    }
+  },
+  "gate": {
+    "schema_version": 1,
+    "verdict": "pass",
+    "scope": "floating-point tolerance-certified finite path/time model",
+    "reviewed_at_utc": "2026-09-25T10:13:23Z",
+    "source_hashes": {
+      "research/evacuation/__init__.py": "fdade1fc379e36ce21c9353ed5ceb99120940754efde4953cc200f0db6ccaa0a",
+      "research/evacuation/data.py": "fe787fe9329eb9217b9782fa5d3958b3e650f50ba6358089380a29e2e1c99267",
+      "research/evacuation/formulation.py": "4a463d57580ecbd1b3278e1e05e5f7fb8927edecace23f6a89af9fe16eda2527",
+      "research/evacuation/policies.py": "df21304ef2fea5abf43e16bfaf8a13a45f1b2f33d1e79c9a7b208759caa51033",
+      "research/evacuation/solver.py": "5ab4f91687b9260c565d3d3bc37207344cd492114f2b5ae98d2fc487843ecf49",
+      "research/evacuation/validation.py": "e4eefa82a7074e6ab67ce8b3881b2b0e7b6e3aa4168fd35df94c1c1f30705ddb"
+    },
+    "tests_inspected": [
+      {
+        "suite": "known_answers_v5",
+        "test_source": "research/tests/validate_algorithms.py",
+        "test_source_sha256": "2af752f63240c1b6d47daefac92aab540e9bf2dbf5d74860fa56cb411634fabc",
+        "summary": "research/runs/known_answers_v5/summary.json",
+        "summary_sha256": "3cdf5f49c801f4c5fcc2f8fd6cd18b2a85391e1ce3e07e2e526b988abafcd3dc",
+        "passed": 26,
+        "total": 26,
+        "all_check_flags_true": true,
+        "exit_code_reported_by_main": 0
+      },
+      {
+        "suite": "equivalence_v3",
+        "test_source": "research/tests/validate_equivalence.py",
+        "test_source_sha256": "2182b7b7503fe1b4001c7057db0ec2a9f1c67a88fe884b751b1e412074d72528",
+        "summary": "research/runs/equivalence_v3/summary.json",
+        "summary_sha256": "03f3e6e8d8227ae9c520a12ba56ce9f6150d497a514f4fa5cd3164f4024e01ac",
+        "passed": 30,
+        "total": 30,
+        "all_check_flags_true": true,
+        "exit_code_reported_by_main": 0
+      },
+      {
+        "suite": "design_validation_v3",
+        "test_source": "research/tests/validate_design.py",
+        "test_source_sha256": "73cb0727083669a13ac4794c8366d243ba349121df3bf53cd348e180e49466e1",
+        "summary": "research/runs/design_validation_v3/summary.json",
+        "summary_sha256": "1bde47859a923f8db02d165b22f9776f8558d2f45ff21e30abd50993ee765e2e",
+        "passed": 21,
+        "total": 21,
+        "all_check_flags_true": true,
+        "exit_code_reported_by_main": 0
+      },
+      {
+        "suite": "guardrails_v1",
+        "test_source": "research/tests/validate_guardrails.py",
+        "test_source_sha256": "68ed0a97f42e1ec2e21ba01c2b2e072148cd0bae2bf1103758a2e590b5160abd",
+        "summary": "research/runs/guardrails_v1/summary.json",
+        "summary_sha256": "e2cc107a6f2f92ab43d571e67f58c35ff9f6c33906993c3bac9cf75bf04e9c01",
+        "passed": 19,
+        "total": 19,
+        "all_check_flags_true": true,
+        "exit_code_reported_by_main": 0
+      }
+    ],
+    "tolerances": {
+      "mip_relative_gap": 0.0001,
+      "mip_absolute_gap": 1e-09,
+      "gap_acceptance": "absolute_gap <= 1.00001e-9 OR relative_gap <= 1.00001e-4",
+      "relative_gap_denominator_floor": 1e-10,
+      "independent_normalised_feasibility": 1e-07,
+      "preserved_target_relaxation": 1e-08,
+      "material_bound_inversion": "inversion > 1e-7 * max(1, abs(recomputed_objective))"
+    }
+  },
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "python",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "cplex": "22.2.0.0",
+    "numpy": "2.2.6",
+    "scipy": "1.13.1",
+    "networkx": "3.4.2",
+    "pandas": "2.3.1",
+    "matplotlib": "3.10.3"
+  },
+  "files": {
+    "evacuation\\__init__.py": "fdade1fc379e36ce21c9353ed5ceb99120940754efde4953cc200f0db6ccaa0a",
+    "evacuation\\data.py": "fe787fe9329eb9217b9782fa5d3958b3e650f50ba6358089380a29e2e1c99267",
+    "evacuation\\formulation.py": "4a463d57580ecbd1b3278e1e05e5f7fb8927edecace23f6a89af9fe16eda2527",
+    "evacuation\\policies.py": "df21304ef2fea5abf43e16bfaf8a13a45f1b2f33d1e79c9a7b208759caa51033",
+    "evacuation\\solver.py": "5ab4f91687b9260c565d3d3bc37207344cd492114f2b5ae98d2fc487843ecf49",
+    "evacuation\\validation.py": "e4eefa82a7074e6ab67ce8b3881b2b0e7b6e3aa4168fd35df94c1c1f30705ddb",
+    "tests\\validate_algorithms.py": "2af752f63240c1b6d47daefac92aab540e9bf2dbf5d74860fa56cb411634fabc",
+    "tests\\validate_design.py": "73cb0727083669a13ac4794c8366d243ba349121df3bf53cd348e180e49466e1",
+    "tests\\validate_equivalence.py": "2182b7b7503fe1b4001c7057db0ec2a9f1c67a88fe884b751b1e412074d72528",
+    "tests\\validate_guardrails.py": "68ed0a97f42e1ec2e21ba01c2b2e072148cd0bae2bf1103758a2e590b5160abd",
+    "design.py": "522c539d48ed78ae069f84e894d11d702636283a1579ac342257308cec4be6f2",
+    "freeze.py": "ead6260fc56671eabd4288c6044b94c469e6cea3ec3362cc62a6436b166d646c",
+    "run.py": "df15fbd7a1e814f06b385c9f5d2ec4c890e54d14971e8fa08085bd48ae7f1149",
+    "run_plan.py": "3ad1b2773d85d84114d5f19125c374cf9686b749c90018032fb10a0c07f5e07a",
+    "data\\raw\\Anaheim_net.tntp": "99933b415e9500b13907829c37a43cfa9141714fad5af279081e28e5f9356f9a",
+    "data\\raw\\Anaheim_trips.tntp": "906893854cd0db4479c0b5f07678ce5616fa8e42e2b997f918c378309c66a94e",
+    "data\\raw\\ND.json": "7da02ec3214bb7bfa9cbb7d27a99392b7c8ada2d46bb8016167ec08fc7b018ca",
+    "data\\raw\\SiouxFalls_net.tntp": "ace99b24cec69c273ff0cf3d6d074110177f0cc0ae24b0c7a9f4f4cb5e27635c",
+    "data\\raw\\SiouxFalls_trips.tntp": "56f9566857f3f66730fd5c4232258d7ee3ac2931a476526331afd062f4958de7",
+    "data\\raw\\Winnipeg_net.tntp": "b7958f3a25f3d80890b2a4d5c534dc0820d1b4c8e8debb8ddbb5f9eb6f0fb593",
+    "data\\raw\\Winnipeg_trips.tntp": "b5b8b08ca486b6213227401695fd8066db98821696513d512ddc4d9220d7397b",
+    "plans\\core_v1.json": "d3f109670ec4430cbea862d04e3a202a3ebe44533e870e31e542bf7ed921f94c"
+  },
+  "archive_sha256": "bec9063b8824992835f6003a808baf3fdccdcbde2fa718b5659c948317648cc7"
+}

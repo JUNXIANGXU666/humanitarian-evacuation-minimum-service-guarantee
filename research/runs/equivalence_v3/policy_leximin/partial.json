@@ -1,0 +1,371 @@
+{
+  "policy": "leximin",
+  "stages": [
+    {
+      "name": "floor",
+      "seconds": 0.0031568000558763742,
+      "limit_seconds": 30,
+      "status": "integer optimal solution",
+      "status_code": 101,
+      "bound": 0.3,
+      "incumbent": 0.3,
+      "relative_gap": 0.0,
+      "absolute_gap": 0.0,
+      "solver_relative_gap": 0.0,
+      "certified": true,
+      "maximise": true,
+      "protected_targets": {},
+      "nodes": 0,
+      "validation": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 0.0,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 0.0,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 0.0,
+          "master_floor": 0.0,
+          "assistance": 0.0
+        },
+        "z": 0.3,
+        "service": [
+          1.0,
+          0.3,
+          0.3
+        ],
+        "fine_service": [
+          1.0,
+          0.3,
+          0.3
+        ],
+        "served": 0.79,
+        "travel_normalised_minutes": 7.8999999999999995,
+        "unmet": 0.20999999999999996,
+        "travel_person_minutes": 7899.999999999999,
+        "origin_served": [
+          0.79
+        ],
+        "served_by_origin_group": [
+          [
+            0.7,
+            0.06,
+            0.03
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.12
+          ]
+        ],
+        "shelter_use": [
+          0.79
+        ]
+      },
+      "trace": [],
+      "policy_validation": {
+        "passed": true,
+        "violations": {}
+      },
+      "solution": {
+        "y": [
+          1.0
+        ],
+        "b": [
+          0.7,
+          0.06,
+          0.03
+        ],
+        "x": [
+          0.7,
+          0.06,
+          0.03
+        ]
+      }
+    },
+    {
+      "name": "ordered_sum_2",
+      "seconds": 0.0032955999486148357,
+      "limit_seconds": 30,
+      "status": "integer optimal solution",
+      "status_code": 101,
+      "bound": 0.6,
+      "incumbent": 0.6,
+      "relative_gap": 0.0,
+      "absolute_gap": 0.0,
+      "solver_relative_gap": 0.0,
+      "certified": true,
+      "maximise": true,
+      "protected_targets": {
+        "floor": 0.29999999
+      },
+      "nodes": 0,
+      "validation": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 0.0,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 0.0,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 6.661338147750939e-16,
+          "master_floor": 6.661338147750939e-16,
+          "assistance": 0.0
+        },
+        "z": 0.29999998999999933,
+        "service": [
+          1.0,
+          0.30000001000000065,
+          0.29999998999999933
+        ],
+        "fine_service": [
+          1.0,
+          0.30000001000000065,
+          0.29999998999999933
+        ],
+        "served": 0.790000001,
+        "travel_normalised_minutes": 7.90000001,
+        "unmet": 0.209999999,
+        "travel_person_minutes": 7900.000010000001,
+        "origin_served": [
+          0.790000001
+        ],
+        "served_by_origin_group": [
+          [
+            0.7,
+            0.06000000200000013,
+            0.029999998999999933
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.12
+          ]
+        ],
+        "shelter_use": [
+          0.790000001
+        ]
+      },
+      "trace": [],
+      "policy_validation": {
+        "passed": true,
+        "violations": {
+          "preserve_floor": 6.661338147750939e-16
+        }
+      },
+      "solution": {
+        "y": [
+          1.0
+        ],
+        "b": [
+          0.7,
+          0.06000000200000013,
+          0.029999998999999933
+        ],
+        "x": [
+          0.7,
+          0.06000000200000013,
+          0.029999998999999933
+        ]
+      }
+    },
+    {
+      "name": "ordered_sum_3",
+      "seconds": 0.0038984999991953373,
+      "limit_seconds": 30,
+      "status": "integer optimal solution",
+      "status_code": 101,
+      "bound": 1.6,
+      "incumbent": 1.5999999999999999,
+      "relative_gap": 1.3877787807814457e-16,
+      "absolute_gap": 2.220446049250313e-16,
+      "solver_relative_gap": 0.0,
+      "certified": true,
+      "maximise": true,
+      "protected_targets": {
+        "floor": 0.29999999,
+        "ordered_sum_2": 0.5999999899999999
+      },
+      "nodes": 0,
+      "validation": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 0.0,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 0.0,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 4.440892098500626e-16,
+          "master_floor": 4.440892098500626e-16,
+          "assistance": 0.0
+        },
+        "z": 0.29999998999999955,
+        "service": [
+          1.0,
+          0.30000001000000037,
+          0.29999998999999955
+        ],
+        "fine_service": [
+          1.0,
+          0.30000001000000037,
+          0.29999998999999955
+        ],
+        "served": 0.790000001,
+        "travel_normalised_minutes": 7.900000010000001,
+        "unmet": 0.209999999,
+        "travel_person_minutes": 7900.000010000002,
+        "origin_served": [
+          0.790000001
+        ],
+        "served_by_origin_group": [
+          [
+            0.7,
+            0.06000000200000008,
+            0.029999998999999958
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.12
+          ]
+        ],
+        "shelter_use": [
+          0.790000001
+        ]
+      },
+      "trace": [],
+      "policy_validation": {
+        "passed": true,
+        "violations": {
+          "preserve_floor": 4.440892098500626e-16,
+          "preserve_ordered_sum_2": 0.0
+        }
+      },
+      "solution": {
+        "y": [
+          1.0
+        ],
+        "b": [
+          0.7,
+          0.06000000200000008,
+          0.029999998999999958
+        ],
+        "x": [
+          0.7,
+          0.06000000200000008,
+          0.029999998999999958
+        ]
+      }
+    },
+    {
+      "name": "travel",
+      "seconds": 0.004041200038045645,
+      "limit_seconds": 30,
+      "status": "integer optimal solution",
+      "status_code": 101,
+      "bound": 0.13166666533333332,
+      "incumbent": 0.13166666533333332,
+      "relative_gap": 0.0,
+      "absolute_gap": 0.0,
+      "solver_relative_gap": 0.0,
+      "certified": true,
+      "maximise": false,
+      "protected_targets": {
+        "floor": 0.29999999,
+        "ordered_sum_2": 0.5999999899999999,
+        "ordered_sum_3": 1.59999999
+      },
+      "nodes": 0,
+      "validation": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 0.0,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 0.0,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 8.881784197001252e-16,
+          "master_floor": 8.881784197001252e-16,
+          "assistance": 0.0
+        },
+        "z": 0.2999999899999991,
+        "service": [
+          0.9999999900000002,
+          0.2999999899999991,
+          0.3000000100000008
+        ],
+        "fine_service": [
+          0.9999999900000002,
+          0.2999999899999991,
+          0.3000000100000008
+        ],
+        "served": 0.7899999919999999,
+        "travel_normalised_minutes": 7.899999919999999,
+        "unmet": 0.21000000800000007,
+        "travel_person_minutes": 7899.999919999999,
+        "origin_served": [
+          0.7899999919999999
+        ],
+        "served_by_origin_group": [
+          [
+            0.699999993,
+            0.059999997999999825,
+            0.030000001000000085
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.12
+          ]
+        ],
+        "shelter_use": [
+          0.7899999919999999
+        ]
+      },
+      "trace": [],
+      "policy_validation": {
+        "passed": true,
+        "violations": {
+          "preserve_floor": 8.881784197001252e-16,
+          "preserve_ordered_sum_2": 0.0,
+          "preserve_ordered_sum_3": 0.0
+        }
+      },
+      "solution": {
+        "y": [
+          1.0
+        ],
+        "b": [
+          0.699999993,
+          0.059999997999999825,
+          0.030000001000000085
+        ],
+        "x": [
+          0.699999993,
+          0.059999997999999825,
+          0.030000001000000085
+        ]
+      }
+    }
+  ]
+}

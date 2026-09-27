@@ -1,0 +1,397 @@
+{
+  "name": "algorithm_comparison",
+  "section": "5.6_computational_performance",
+  "pdf_sha256": "27aeba1f4d2c22da99c867424a8e59d432f0795a564d506ba0fe26fbde83ad43",
+  "png_sha256": "8dbba6a766b45c67379ee6a63518bf10ac3b94d11c731117855d881cb7abd1bb",
+  "font": "C:\\Windows\\Fonts\\arial.ttf",
+  "text_fonts": [
+    "Arial"
+  ],
+  "inputs": [
+    {
+      "run_id": "direct_ND_balanced_moderate_r1",
+      "result_sha256": "0fd93e74c46ce416189280b58e2a2c3c378e9b01a087a6b9dd51ed51181e1842"
+    },
+    {
+      "run_id": "core_ND_balanced_moderate_r1",
+      "result_sha256": "33e535bef6da491ec943b29a582bcaa2b1b4e620cd65c315027551652ed1fe93"
+    },
+    {
+      "run_id": "direct_ND_balanced_moderate_r2",
+      "result_sha256": "84c6ce6148b721e0ed175b35bba6af0e989af984739529e86b019c549dcbe89b"
+    },
+    {
+      "run_id": "core_ND_balanced_moderate_r2",
+      "result_sha256": "c830115cee4217975f0b80ab9b7fbd75ae403b03a9a76eaf60b6946fca5e8172"
+    },
+    {
+      "run_id": "direct_ND_balanced_moderate_r3",
+      "result_sha256": "2b780cdaf318e1b39680a31dac6c951124481d49a17ebac4f45b3cb96960ca65"
+    },
+    {
+      "run_id": "core_ND_balanced_moderate_r3",
+      "result_sha256": "8676a858b75a9f15b94b348d54e65e6ad897cced9c6274e0579db7c812741a77"
+    },
+    {
+      "run_id": "direct_ND_concentrated_moderate_r1",
+      "result_sha256": "e2bdce78397cc052349e7ae59c41a68dfd42c7c6a5a67a00e16ca2192f151e14"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r1",
+      "result_sha256": "0c9821f12eb687f5a4c3760df9741c5163a09fd1f6c82e1817248cd66f4e1aac"
+    },
+    {
+      "run_id": "direct_ND_concentrated_moderate_r2",
+      "result_sha256": "d8364ff8541b1787a6c52c8f54afd39f7cd56e6edf3afceecf2b41a44f833715"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r2",
+      "result_sha256": "7f038a641200477f8caa16eb80fe161ba63cf949e41b2b186259c0b0e024ee2c"
+    },
+    {
+      "run_id": "direct_ND_concentrated_moderate_r3",
+      "result_sha256": "bc8b37c6464dd3e9cd162833634e3e27f90413df86666e1b0a9a4751643a5599"
+    },
+    {
+      "run_id": "core_ND_concentrated_moderate_r3",
+      "result_sha256": "4827f186520c3761944c5e8356bdcc13da1a5774b38ce0703bb777d5d2069c07"
+    },
+    {
+      "run_id": "direct_ND_concentrated_severe_r1",
+      "result_sha256": "511870d0cf6201b5de6872d397ef4a5d7e3a7b3030839f0f42d6f712e9911f27"
+    },
+    {
+      "run_id": "core_ND_concentrated_severe_r1",
+      "result_sha256": "f019441a581deb1a360dbc5f41edcd127ba8626ae3d1d53c13949a8e9f9e6ead"
+    },
+    {
+      "run_id": "direct_ND_concentrated_severe_r2",
+      "result_sha256": "a6078a031c48cc30feeafb5c0f00f69bb0dd3bc0fbb1b5db9e34077bae0ab1d6"
+    },
+    {
+      "run_id": "core_ND_concentrated_severe_r2",
+      "result_sha256": "7e8c9cea791c1aa6f072b6676a8651ca8d621d9dfedc8f5af7c1a277505bb963"
+    },
+    {
+      "run_id": "direct_ND_concentrated_severe_r3",
+      "result_sha256": "b086e534b43faa0e001f6c25b17748caf62012b05e725e7c6ca14c824dc811dc"
+    },
+    {
+      "run_id": "core_ND_concentrated_severe_r3",
+      "result_sha256": "589d3ba4f11ec6f59db454dc6c0b6cf4955f852fbda6944410ca7a1c23f60e1e"
+    },
+    {
+      "run_id": "direct_ND_loss_severe_r1",
+      "result_sha256": "c8fe527f94e83d370163dc5c4e1fd49b8830e88e021cb9918afaaed491d4f4a5"
+    },
+    {
+      "run_id": "core_ND_loss_severe_r1",
+      "result_sha256": "075819ab3198285e75b05963110e67172d1bf1aa0b70d0ad1faba9d4e2359fb6"
+    },
+    {
+      "run_id": "direct_ND_loss_severe_r2",
+      "result_sha256": "579fade2590e62c75f0dad56d64e6764fdce141f0ddd396c1ed79f2d1a8ebfbf"
+    },
+    {
+      "run_id": "core_ND_loss_severe_r2",
+      "result_sha256": "577d07a0c9ef84202bf104aa9502a880be602a29ad06e5a4ddc68d4d309b58ae"
+    },
+    {
+      "run_id": "direct_ND_loss_severe_r3",
+      "result_sha256": "58c9a8435198224e9f13804a669f5c3bfd4d391a7632791e2cb89c978bcf2235"
+    },
+    {
+      "run_id": "core_ND_loss_severe_r3",
+      "result_sha256": "6e228e400db31b31a9720480a8839b95b3ed5a1662eb5c7657fd28594fa8a268"
+    },
+    {
+      "run_id": "direct_SF_balanced_moderate_r1",
+      "result_sha256": "f2ae6e3b495ec10fcee202a8db8213efcb3ebcc655d94bb64ee937ab2360cbf5"
+    },
+    {
+      "run_id": "core_SF_balanced_moderate_r1",
+      "result_sha256": "f92d95f27d2695a6329af330bda329b5d7e7bb96857df043b72d88a32cbc8b21"
+    },
+    {
+      "run_id": "direct_SF_balanced_moderate_r2",
+      "result_sha256": "fc4db30add2f19c06ed8340e20f88615ae7ffc608025644cb7a582d5d274cc5c"
+    },
+    {
+      "run_id": "core_SF_balanced_moderate_r2",
+      "result_sha256": "3e51fc238d83440efd07bfb097193e4d196649f1ea91d41c328ca02418262628"
+    },
+    {
+      "run_id": "direct_SF_balanced_moderate_r3",
+      "result_sha256": "6f574ac9fa08051e0a62cc144a693f09765b8fbe11d017f473ed8281d288f58c"
+    },
+    {
+      "run_id": "core_SF_balanced_moderate_r3",
+      "result_sha256": "6fd49b116500823356b432fcde754c52e76eb9635a4ffb2ffd3af9b75d5348c5"
+    },
+    {
+      "run_id": "direct_SF_concentrated_moderate_r1",
+      "result_sha256": "075a140dc6a56538b1a6b630bd59b67d6cf8f9df54d35741346c73c17047bd8f"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r1",
+      "result_sha256": "59f3c5e9dd665c75845ab30e4e6e0a50e33edf69edd98422036af657f5f6b11a"
+    },
+    {
+      "run_id": "direct_SF_concentrated_moderate_r2",
+      "result_sha256": "8500db373b9164514ed5476dbb9debd001cf4e854e58236ed7caa4ed00bd5885"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r2",
+      "result_sha256": "f17bc9ce4de67c184b1f05d23ea2598fc6c4b309d32f5473f30bbd6214b25ea0"
+    },
+    {
+      "run_id": "direct_SF_concentrated_moderate_r3",
+      "result_sha256": "c4989e958300d539b86f43a38e148ac7fb27476f05fb4ad8a196691b71e0c795"
+    },
+    {
+      "run_id": "core_SF_concentrated_moderate_r3",
+      "result_sha256": "3b7f719dc616dac2a4cdfaa00101c7b99f9031469bf1809c1060ac549adaf67e"
+    },
+    {
+      "run_id": "direct_SF_concentrated_severe_r1",
+      "result_sha256": "5a9e583700af9202318b26f61e5e700c9158c77e2c5d4553837fee350db46c9a"
+    },
+    {
+      "run_id": "core_SF_concentrated_severe_r1",
+      "result_sha256": "3d4a82255c2bdab1620e0b5494e622faede625c90f5ab461888442585f10d0dc"
+    },
+    {
+      "run_id": "direct_SF_concentrated_severe_r2",
+      "result_sha256": "75cd61360fd779b482318c613d9fbc5aa1a9de77b11d16473aed598d71194b36"
+    },
+    {
+      "run_id": "core_SF_concentrated_severe_r2",
+      "result_sha256": "458f61201e6e42af6f8d5cc26a994bb4e403c357599f32b6be1c21b6c122b7a4"
+    },
+    {
+      "run_id": "direct_SF_concentrated_severe_r3",
+      "result_sha256": "f786e2c3a5b0e5807d55b0984c71fb4881a116938359550c85cb57f605f8f910"
+    },
+    {
+      "run_id": "core_SF_concentrated_severe_r3",
+      "result_sha256": "3dd40ba17f50464bda1444c1740b5077811ec90a91183d2dffd48765eb75d33e"
+    },
+    {
+      "run_id": "direct_SF_loss_severe_r1",
+      "result_sha256": "bcf796adb583ed2a8f3655ccc19311c08aa60d1fb0eb90de8780c70a4b52a9fe"
+    },
+    {
+      "run_id": "core_SF_loss_severe_r1",
+      "result_sha256": "4fe7b491bd5e81f904404ca76f48bc34df2c52490c99fd0df217575e62338da4"
+    },
+    {
+      "run_id": "direct_SF_loss_severe_r2",
+      "result_sha256": "372555edab5d49cb73bbb67f55c4fa353f77b94778042c6f1eb61d7842cfdf8e"
+    },
+    {
+      "run_id": "core_SF_loss_severe_r2",
+      "result_sha256": "a1a02bbd766a5b6f936ce41164a574ed9de8a3ab763af3c8a50ab582dfd52a12"
+    },
+    {
+      "run_id": "direct_SF_loss_severe_r3",
+      "result_sha256": "56328dec40f2abff23e4fcaa246c848087b1162a4919f7973bf452239eeb0f38"
+    },
+    {
+      "run_id": "core_SF_loss_severe_r3",
+      "result_sha256": "6b6342ae4371c51c28f2588b303196c3e0a7bacad3189a28241203b217efdbd5"
+    },
+    {
+      "run_id": "direct_Anaheim_balanced_moderate_r1",
+      "result_sha256": "318d3b9d02f40d1fcdd71c1ba82c8839df0398654568cd35f93d653db5f183d4"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_moderate_r1",
+      "result_sha256": "1603b4b2ab06ce140b073ea145c117e81a513d8981d244de5e622830171a98c1"
+    },
+    {
+      "run_id": "direct_Anaheim_balanced_moderate_r2",
+      "result_sha256": "bc69b44268522878051ffaaddb56993b30b4eaf3dcd6fe7cea8f86b4d7fa9abf"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_moderate_r2",
+      "result_sha256": "fedb5a31e97a8f99f5b41755fa57f93923aa6d3048c8a2674266d38174805a90"
+    },
+    {
+      "run_id": "direct_Anaheim_balanced_moderate_r3",
+      "result_sha256": "effb61e753e1874e3e95dfde166c8f421468e3baaad83d3e54c37a2e8b3583a8"
+    },
+    {
+      "run_id": "core_Anaheim_balanced_moderate_r3",
+      "result_sha256": "f385d50f5339e12d6d8628277aece9a4a36b461d51a57fc6560b4e7a90f7e5a7"
+    },
+    {
+      "run_id": "direct_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "9bbdbdaffc6b11d3ecba69563fb975dc21bd9c67c4939a9ae416b6717e37abba"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r1",
+      "result_sha256": "ee664ee3db5b0502a2f56a989cb22f3adc59175bab96b5583f44709313169acc"
+    },
+    {
+      "run_id": "direct_Anaheim_concentrated_moderate_r2",
+      "result_sha256": "c9a8d757a41409a607a89dbf8bf7578f9c0a13cadaf32579b24ac425f7e48844"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r2",
+      "result_sha256": "a21901e2871eb6e7c8f12cc2262567d2b8d5204128c939b03b1e529c4de2ccc4"
+    },
+    {
+      "run_id": "direct_Anaheim_concentrated_moderate_r3",
+      "result_sha256": "5df48cafd564d16b01cde2fea62a9b06ef0ff5a35830d6f7ef52e56a886d79c7"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_moderate_r3",
+      "result_sha256": "4135d4a4026b841e491b5f434886c5565910f90719fd9c48f5c6bd20d0b7e2b3"
+    },
+    {
+      "run_id": "direct_Anaheim_concentrated_severe_r1",
+      "result_sha256": "efc6322a87132e914bb446edd760020f4a7f35420578731feb8e20c5462282a1"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_severe_r1",
+      "result_sha256": "75a98c3a5faaa1746bc301910313014b5fe4b017f97e2128019b4f624110a92b"
+    },
+    {
+      "run_id": "direct_Anaheim_concentrated_severe_r2",
+      "result_sha256": "697a2cfaca7cfbf5b05814b7b7c1be388f548edaddcf4d5e1bd9a22cda5e318f"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_severe_r2",
+      "result_sha256": "481e9f6c32bb40fbf69d8069fb9c5082b9259820bc641bb286da75cc20def7f9"
+    },
+    {
+      "run_id": "direct_Anaheim_concentrated_severe_r3",
+      "result_sha256": "da4e280f4453296646dcfa3e423eb68ef38bf29058cb9e4780af070756ee79df"
+    },
+    {
+      "run_id": "core_Anaheim_concentrated_severe_r3",
+      "result_sha256": "2a59ea5d47015a2ca5a58f6799e9cac20faa177a35caad2cfc43f213feb1cac9"
+    },
+    {
+      "run_id": "direct_Anaheim_loss_severe_r1",
+      "result_sha256": "6c8459e68cf025fd6780f7901ebd4ea4b9e8f3d826d6f8946907a76b2fa276ef"
+    },
+    {
+      "run_id": "core_Anaheim_loss_severe_r1",
+      "result_sha256": "20d497cdfa72880588403619b6f2bdc34b934c136f55372af5ca6548f50fdec4"
+    },
+    {
+      "run_id": "direct_Anaheim_loss_severe_r2",
+      "result_sha256": "0e6e69a17c3a90bc526bc44b4f909aef621a506c8b17f97462703823f77437c2"
+    },
+    {
+      "run_id": "core_Anaheim_loss_severe_r2",
+      "result_sha256": "92bcb6f2efdbf9ded62e87c48651be5b55340030c5937568a16a52f4d3618b99"
+    },
+    {
+      "run_id": "direct_Anaheim_loss_severe_r3",
+      "result_sha256": "e9f0e4886f121bb071c8b078f83bdf0685ecf76bdc2d3f5b5448d81134e70e67"
+    },
+    {
+      "run_id": "core_Anaheim_loss_severe_r3",
+      "result_sha256": "7f9d0d1d0d8fd771c535d7fb0f40813017e23e58bdf78e191fd3acfb23f9e2e4"
+    },
+    {
+      "run_id": "direct_Winnipeg_balanced_moderate_r1",
+      "result_sha256": "65bb509a0b47586409f307b1df184e31eb252e3c29990d1e16a10547fc59430b"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_moderate_r1",
+      "result_sha256": "6c7201beaa9394d32c653b9ad71631f1f00565eb9bca81fd0ac11fca82bbbb81"
+    },
+    {
+      "run_id": "direct_Winnipeg_balanced_moderate_r2",
+      "result_sha256": "7fcb7de3d8247accc26e35d2a83f397aa0ca48f6296d6922fe16f60243f2e286"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_moderate_r2",
+      "result_sha256": "0cf50917cea2d5e8dbf3006ebdb3b7dff423ae4efe234073d91f7cf47c5b4c64"
+    },
+    {
+      "run_id": "direct_Winnipeg_balanced_moderate_r3",
+      "result_sha256": "33679b0b37ca211cabbedc4cac39f4e94d8990229dceb84b2f818b1dabb54667"
+    },
+    {
+      "run_id": "core_Winnipeg_balanced_moderate_r3",
+      "result_sha256": "283b74508776d123a383df6bccdf561b7b4c7d91c7c998ef6365b82f57aa66a5"
+    },
+    {
+      "run_id": "direct_Winnipeg_concentrated_moderate_r1",
+      "result_sha256": "387c6ca8f06d0243fbf53b2b4b98bc3740454fb0a654b840709675fa2102d013"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r1",
+      "result_sha256": "65adaba2621af85862287ba42119954dceee831a082f0858ab8f4ae7d2ed5765"
+    },
+    {
+      "run_id": "direct_Winnipeg_concentrated_moderate_r2",
+      "result_sha256": "762b449f1b0f9a227d530761751d28726c68ddb2a450903601beca2b199756e3"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r2",
+      "result_sha256": "909ad9c0a76f14341d0af88fa3b6309495f44b4b314732c12de24d5df7006e3a"
+    },
+    {
+      "run_id": "direct_Winnipeg_concentrated_moderate_r3",
+      "result_sha256": "8b331fe063fe9ac1ce1243dcc2711b3635b5bc3143921384ff1ee44b12b70cd6"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_moderate_r3",
+      "result_sha256": "b5cdcf6b7c0a4cc377523931e745735e64035dac520987e5b277984085cad49c"
+    },
+    {
+      "run_id": "direct_Winnipeg_concentrated_severe_r1",
+      "result_sha256": "22a67553d8f3e8b850f36631e36a44cdfb519632b61376d98031c7b1c5a50788"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_severe_r1",
+      "result_sha256": "bb17fe9e6573877c183d945172edaa61d4f5a79862f9745d524f58fe808d385b"
+    },
+    {
+      "run_id": "direct_Winnipeg_concentrated_severe_r2",
+      "result_sha256": "a9f1dfe2dbb4c1fa52fa705f07206400f31cd62a0136f6fddf67a2de68e00c71"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_severe_r2",
+      "result_sha256": "ab5ca7fca21c47e01f868191f99dd05cefcc40b6f9456f7cb5c6d56b94aeceba"
+    },
+    {
+      "run_id": "direct_Winnipeg_concentrated_severe_r3",
+      "result_sha256": "68664991fe78451195d9edad0ee29e8a662ed0b7e0b574182a0b40b007efc941"
+    },
+    {
+      "run_id": "core_Winnipeg_concentrated_severe_r3",
+      "result_sha256": "d6c09d54de6159115d661f641c0c6c77319e065741d915a9e9c4b62dd982e3f5"
+    },
+    {
+      "run_id": "direct_Winnipeg_loss_severe_r1",
+      "result_sha256": "0960700b8c2224cd5ae645324d5f7dabe7f983095bef711bcbb0f25e25b74de7"
+    },
+    {
+      "run_id": "core_Winnipeg_loss_severe_r1",
+      "result_sha256": "4163d809e40ede38926874a4ea403e22a55a403be3ab406b7da7a86ac32c4cbf"
+    },
+    {
+      "run_id": "direct_Winnipeg_loss_severe_r2",
+      "result_sha256": "490caab7f82c69313c07bf9f29a8fd8db9e870dd1faf0e84aa68ca67cbcef1d0"
+    },
+    {
+      "run_id": "core_Winnipeg_loss_severe_r2",
+      "result_sha256": "ad52447b0740cb0b5f4c257fd108fca24e5517bd40420d76cc29ef099662c1d2"
+    },
+    {
+      "run_id": "direct_Winnipeg_loss_severe_r3",
+      "result_sha256": "8bf7a6526299fe4edb86480e2ad9e352708ffd84a23ad35217ecf4eaa6e6d28c"
+    },
+    {
+      "run_id": "core_Winnipeg_loss_severe_r3",
+      "result_sha256": "02a5a6b6bfe7dfb3361a64c7bc71d1232f5e37516ec1aec8afa962ef29e14553"
+    }
+  ],
+  "collection_sha256": "6ed774438a8560945aef4daa2212c0e813d144df5daaa95f6cca42e24c76b27d"
+}

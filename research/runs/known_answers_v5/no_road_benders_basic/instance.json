@@ -1,0 +1,90 @@
+{
+  "active_nodes": 2,
+  "arcs": [
+    {
+      "capacity": 1000.0,
+      "head": 2,
+      "tail": 1,
+      "time": 10.0
+    }
+  ],
+  "assistance_capacity": [],
+  "assistance_weights": [
+    [
+      0.0,
+      1.0,
+      2.0
+    ]
+  ],
+  "capacities": [
+    0.0
+  ],
+  "declared_nodes": 2,
+  "demand": [
+    [
+      0.7,
+      0.2,
+      0.1
+    ]
+  ],
+  "departures": 1,
+  "fairness_groups": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ]
+  ],
+  "far_origins": [
+    1
+  ],
+  "groups": [
+    "General",
+    "Older",
+    "Assisted"
+  ],
+  "horizon": 2,
+  "loss_arcs": [],
+  "origins": [
+    1
+  ],
+  "paths": [
+    {
+      "arcs": [
+        0
+      ],
+      "nodes": [
+        1,
+        2
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ]
+      ],
+      "origin": 0,
+      "shelter": 0,
+      "time": 10.0
+    }
+  ],
+  "response": [
+    1.0
+  ],
+  "settings": {
+    "delta": 15.0,
+    "network": "known_answer"
+  },
+  "shelter_capacity": [
+    1.0
+  ],
+  "shelters": [
+    2
+  ],
+  "source_hashes": {},
+  "total_demand": 1000.0
+}

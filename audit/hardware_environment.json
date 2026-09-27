@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-09-25T13:46:26.8265845Z",
+  "source": "Read-only Win32_Processor, Win32_ComputerSystem and Win32_OperatingSystem CIM queries on the active computation host",
+  "processor": "Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz",
+  "cores": 6,
+  "logical_processors": 12,
+  "memory_bytes": 16925495296,
+  "operating_system": "Microsoft Windows 11 Home Chinese edition",
+  "os_version": "10.0.26200",
+  "architecture": "64-bit"
+}

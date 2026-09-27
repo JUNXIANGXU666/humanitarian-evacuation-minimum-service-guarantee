@@ -1,0 +1,528 @@
+{
+  "passed": 30,
+  "total": 30,
+  "checks": [
+    {
+      "seed": 0,
+      "assistance": false,
+      "algorithm": "direct",
+      "primary_error": 0.0,
+      "travel_error": 0.0,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "assistance": false,
+      "algorithm": "benders_basic",
+      "primary_error": 1.0000333894311098e-12,
+      "travel_error": 1.8000712032062438e-11,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "assistance": false,
+      "algorithm": "benders_flow",
+      "primary_error": 1.1102230246251565e-16,
+      "travel_error": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "assistance": true,
+      "algorithm": "direct",
+      "primary_error": 0.0,
+      "travel_error": 0.0,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "assistance": true,
+      "algorithm": "benders_basic",
+      "primary_error": 3.2935598692773738e-12,
+      "travel_error": 1.9761525749117936e-11,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "assistance": true,
+      "algorithm": "benders_flow",
+      "primary_error": 0.0,
+      "travel_error": 0.0,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "assistance": false,
+      "algorithm": "direct",
+      "primary_error": 0.0,
+      "travel_error": 0.0,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "assistance": false,
+      "algorithm": "benders_basic",
+      "primary_error": 3.999911513119514e-12,
+      "travel_error": 2.3999913167926934e-11,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "assistance": false,
+      "algorithm": "benders_flow",
+      "primary_error": 0.0,
+      "travel_error": 0.0,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "assistance": true,
+      "algorithm": "direct",
+      "primary_error": 0.0,
+      "travel_error": 0.0,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "assistance": true,
+      "algorithm": "benders_basic",
+      "primary_error": 3.581968055499374e-12,
+      "travel_error": 2.149214139990363e-11,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "assistance": true,
+      "algorithm": "benders_flow",
+      "primary_error": 5.551115123125783e-17,
+      "travel_error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "assistance": false,
+      "algorithm": "direct",
+      "primary_error": 0.0,
+      "travel_error": 0.0,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "assistance": false,
+      "algorithm": "benders_basic",
+      "primary_error": 3.999967024270745e-12,
+      "travel_error": 2.3999469078717084e-11,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "assistance": false,
+      "algorithm": "benders_flow",
+      "primary_error": 5.551115123125783e-17,
+      "travel_error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "assistance": true,
+      "algorithm": "direct",
+      "primary_error": 0.0,
+      "travel_error": 0.0,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "assistance": true,
+      "algorithm": "benders_basic",
+      "primary_error": 2.998018500122157e-12,
+      "travel_error": 1.7987833444976786e-11,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "assistance": true,
+      "algorithm": "benders_flow",
+      "primary_error": 5.551115123125783e-17,
+      "travel_error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "seed": 3,
+      "assistance": false,
+      "algorithm": "direct",
+      "primary_error": 0.0,
+      "travel_error": 0.0,
+      "passed": true
+    },
+    {
+      "seed": 3,
+      "assistance": false,
+      "algorithm": "benders_basic",
+      "primary_error": 3.999911513119514e-12,
+      "travel_error": 2.3999469078717084e-11,
+      "passed": true
+    },
+    {
+      "seed": 3,
+      "assistance": false,
+      "algorithm": "benders_flow",
+      "primary_error": 5.551115123125783e-17,
+      "travel_error": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "seed": 3,
+      "assistance": true,
+      "algorithm": "direct",
+      "primary_error": 0.0,
+      "travel_error": 0.0,
+      "passed": true
+    },
+    {
+      "seed": 3,
+      "assistance": true,
+      "algorithm": "benders_basic",
+      "primary_error": 3.196692910378829e-12,
+      "travel_error": 1.9180212973424204e-11,
+      "passed": true
+    },
+    {
+      "seed": 3,
+      "assistance": true,
+      "algorithm": "benders_flow",
+      "primary_error": 5.551115123125783e-17,
+      "travel_error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "policy": "aggregate",
+      "metrics": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 0.0,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 0.0,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 0.0,
+          "master_floor": 0.0,
+          "assistance": 0.0
+        },
+        "z": 0.0,
+        "service": [
+          1.0,
+          0.5999999499999997,
+          0.0
+        ],
+        "fine_service": [
+          1.0,
+          0.5999999499999997,
+          0.0
+        ],
+        "served": 0.8199999899999999,
+        "travel_normalised_minutes": 8.1999999,
+        "unmet": 0.1800000100000001,
+        "travel_person_minutes": 8199.9999,
+        "origin_served": [
+          0.8199999899999999
+        ],
+        "served_by_origin_group": [
+          [
+            0.7,
+            0.11999998999999995,
+            0.0
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.11999998999999995
+          ]
+        ],
+        "shelter_use": [
+          0.8199999899999999
+        ]
+      },
+      "passed": true
+    },
+    {
+      "policy": "weighted",
+      "metrics": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 1.1102230246251565e-16,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 1.1102230246251565e-16,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 0.0,
+          "master_floor": 0.0,
+          "assistance": 0.0
+        },
+        "z": 1.0000000161269895e-07,
+        "service": [
+          1.0000000000000002,
+          0.5999998999999984,
+          1.0000000161269895e-07
+        ],
+        "fine_service": [
+          1.0000000000000002,
+          0.5999998999999984,
+          1.0000000161269895e-07
+        ],
+        "served": 0.8199999899999999,
+        "travel_normalised_minutes": 8.199999899999998,
+        "unmet": 0.1800000100000001,
+        "travel_person_minutes": 8199.999899999999,
+        "origin_served": [
+          0.8199999899999999
+        ],
+        "served_by_origin_group": [
+          [
+            0.7000000000000001,
+            0.11999997999999967,
+            1.0000000161269895e-08
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.12
+          ]
+        ],
+        "shelter_use": [
+          0.8199999899999999
+        ]
+      },
+      "passed": true
+    },
+    {
+      "policy": "proportional",
+      "metrics": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 0.0,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 0.0,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 0.0,
+          "master_floor": 0.0,
+          "assistance": 0.0
+        },
+        "z": 0.29999999,
+        "service": [
+          0.29999999,
+          0.29999999,
+          0.29999999
+        ],
+        "fine_service": [
+          0.29999999,
+          0.29999999,
+          0.29999999
+        ],
+        "served": 0.29999999,
+        "travel_normalised_minutes": 2.9999998999999997,
+        "unmet": 0.70000001,
+        "travel_person_minutes": 2999.9999,
+        "origin_served": [
+          0.29999999
+        ],
+        "served_by_origin_group": [
+          [
+            0.209999993,
+            0.059999998,
+            0.029999999
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.119999996
+          ]
+        ],
+        "shelter_use": [
+          0.29999999
+        ]
+      },
+      "passed": true
+    },
+    {
+      "policy": "coverage",
+      "metrics": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 0.0,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 0.0,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 6.661338147750939e-16,
+          "master_floor": 6.661338147750939e-16,
+          "assistance": 0.0
+        },
+        "z": 0.29999998999999933,
+        "service": [
+          0.9999999914285717,
+          0.29999998999999933,
+          0.29999998999999933
+        ],
+        "fine_service": [
+          0.9999999914285717,
+          0.29999998999999933,
+          0.29999998999999933
+        ],
+        "served": 0.789999991,
+        "travel_normalised_minutes": 7.899999909999999,
+        "unmet": 0.21000000900000004,
+        "travel_person_minutes": 7899.9999099999995,
+        "origin_served": [
+          0.789999991
+        ],
+        "served_by_origin_group": [
+          [
+            0.6999999940000001,
+            0.05999999799999987,
+            0.029999998999999933
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.11999999599999973
+          ]
+        ],
+        "shelter_use": [
+          0.789999991
+        ]
+      },
+      "passed": true
+    },
+    {
+      "policy": "leximin",
+      "metrics": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 0.0,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 0.0,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 8.881784197001252e-16,
+          "master_floor": 8.881784197001252e-16,
+          "assistance": 0.0
+        },
+        "z": 0.2999999899999991,
+        "service": [
+          0.9999999900000002,
+          0.2999999899999991,
+          0.3000000100000008
+        ],
+        "fine_service": [
+          0.9999999900000002,
+          0.2999999899999991,
+          0.3000000100000008
+        ],
+        "served": 0.7899999919999999,
+        "travel_normalised_minutes": 7.899999919999999,
+        "unmet": 0.21000000800000007,
+        "travel_person_minutes": 7899.999919999999,
+        "origin_served": [
+          0.7899999919999999
+        ],
+        "served_by_origin_group": [
+          [
+            0.699999993,
+            0.059999997999999825,
+            0.030000001000000085
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.12
+          ]
+        ],
+        "shelter_use": [
+          0.7899999919999999
+        ]
+      },
+      "passed": true
+    },
+    {
+      "policy": "controlled",
+      "metrics": {
+        "passed": true,
+        "normalised_tolerance": 1e-07,
+        "violations": {
+          "demand_balance": 0.0,
+          "demand_bound": 0.0,
+          "arc_capacity": 0.0,
+          "shelter_capacity": 0.0,
+          "response": 0.0,
+          "linking": 0.0,
+          "nonnegative": 0.0,
+          "binary": 0.0,
+          "binary_upper": 0.0,
+          "floor": 0.0,
+          "master_floor": 0.0,
+          "assistance": 0.0
+        },
+        "z": 0.0,
+        "service": [
+          0.4285714285714286,
+          0.0,
+          0.0
+        ],
+        "fine_service": [
+          0.4285714285714286,
+          0.0,
+          0.0
+        ],
+        "served": 0.3,
+        "travel_normalised_minutes": 3.0,
+        "unmet": 0.7,
+        "travel_person_minutes": 3000.0,
+        "origin_served": [
+          0.3
+        ],
+        "served_by_origin_group": [
+          [
+            0.3,
+            0.0,
+            0.0
+          ]
+        ],
+        "assistance_use": [
+          [
+            0.0
+          ]
+        ],
+        "shelter_use": [
+          0.3
+        ]
+      },
+      "passed": true
+    }
+  ]
+}

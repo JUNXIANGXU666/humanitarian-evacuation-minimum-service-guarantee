@@ -1,0 +1,24 @@
+\begingroup
+\small
+\color{darkred}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{@{}l p{0.23\textwidth} r c r r r@{}}
+\caption{\rev{Paired computational-budget comparison for concentrated demand and moderate scarcity.}}\label{tab:time-budget-comparison}\\
+\toprule Network & Method & \shortstack{Limit\\(s)} & Certified & \shortstack{Median\\(s)} & \shortstack{Primary\\gap (\%)} & \shortstack{Travel\\gap (\%)} \\
+\midrule\endfirsthead
+\multicolumn{7}{l}{Table~\thetable\ continued}\\
+\toprule Network & Method & \shortstack{Limit\\(s)} & Certified & \shortstack{Median\\(s)} & \shortstack{Primary\\gap (\%)} & \shortstack{Travel\\gap (\%)} \\
+\midrule\endhead
+\bottomrule\endfoot
+Anaheim & Direct MILP & 600 & 0/3 & 1200.8 & 13.398 & 15.181 \\
+Anaheim & Direct MILP & 3600 & 0/3 & 7204.5 & 13.398 & 14.990 \\
+Anaheim & Strengthened Benders & 600 & 0/3 & 1201.9 & 1.113 & 1.558 \\
+Anaheim & Strengthened Benders & 3600 & 0/3 & 6833.4 & 0.902 & 0.276 \\
+Winnipeg & Direct MILP & 600 & 2/3 & 327.7 & \(<0.001\) & 0.357 \\
+Winnipeg & Direct MILP & 3600 & 2/3 & 314.1 & \(<0.001\) & 0.119 \\
+Winnipeg & Strengthened Benders & 600 & 3/3 & 6.6 & \(<0.001\) & 0.009 \\
+Winnipeg & Strengthened Benders & 3600 & 3/3 & 5.5 & \(<0.001\) & 0.009 \\
+\end{longtable}
+\noindent\footnotesize\rev{Limits apply to each MIP stage. Medians include both stages and warm-start work, including time-limited outcomes. Gaps are the largest across the three paired demand draws. Primary gaps use the final plan's service floor. Travel gaps are conditional on each run's transferred floor.}
+\endgroup

@@ -1,0 +1,146 @@
+{
+  "passed": 19,
+  "total": 19,
+  "checks": [
+    {
+      "test": "final_gap_and_zero_objective",
+      "passed": true
+    },
+    {
+      "test": "feasible_reference",
+      "passed": true
+    },
+    {
+      "test": "binary_upper",
+      "passed": true,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.0,
+        "arc_capacity": 0.0,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 0.0,
+        "nonnegative": 0.0,
+        "binary": 0.0,
+        "binary_upper": 1.0,
+        "floor": 0.0,
+        "master_floor": 0.0,
+        "assistance": 0.0
+      }
+    },
+    {
+      "test": "binary_noninteger",
+      "passed": true,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.0,
+        "arc_capacity": 0.0,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 0.0,
+        "nonnegative": 0.0,
+        "binary": 0.30000000000000004,
+        "binary_upper": 0.0,
+        "floor": 0.0,
+        "master_floor": 0.0,
+        "assistance": 0.0
+      }
+    },
+    {
+      "test": "nonfinite_activation",
+      "passed": true,
+      "violations": {
+        "nonfinite": 1.0
+      }
+    },
+    {
+      "test": "nonfinite_assignment",
+      "passed": true,
+      "violations": {
+        "nonfinite": 1.0
+      }
+    },
+    {
+      "test": "master_floor",
+      "passed": true,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.0,
+        "arc_capacity": 0.0,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 0.0,
+        "nonnegative": 0.0,
+        "binary": 0.0,
+        "binary_upper": 0.0,
+        "floor": 0.0,
+        "master_floor": 0.09999999999999998,
+        "assistance": 0.0
+      }
+    },
+    {
+      "test": "negative_assignment",
+      "passed": true,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.1,
+        "arc_capacity": 0.0,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 0.0,
+        "nonnegative": 0.1,
+        "binary": 0.0,
+        "binary_upper": 0.0,
+        "floor": 0.14285714285714288,
+        "master_floor": 0.14285714285714288,
+        "assistance": 0.0
+      }
+    },
+    {
+      "test": "reject_lost_floor",
+      "passed": true
+    },
+    {
+      "test": "reject_lost_aggregate",
+      "passed": true
+    },
+    {
+      "test": "reject_lost_aggregate_fair",
+      "passed": true
+    },
+    {
+      "test": "reject_lost_weighted",
+      "passed": true
+    },
+    {
+      "test": "reject_lost_coverage",
+      "passed": true
+    },
+    {
+      "test": "reject_lost_ordered_sum_2",
+      "passed": true
+    },
+    {
+      "test": "reject_lost_ordered_sum_3",
+      "passed": true
+    },
+    {
+      "test": "controlled_coverage",
+      "passed": true
+    },
+    {
+      "test": "proportional_assignment",
+      "passed": true
+    },
+    {
+      "test": "perturbed_dual_infeasible",
+      "passed": true,
+      "points": 11
+    },
+    {
+      "test": "perturbed_dual_optimal",
+      "passed": true,
+      "points": 11
+    }
+  ]
+}

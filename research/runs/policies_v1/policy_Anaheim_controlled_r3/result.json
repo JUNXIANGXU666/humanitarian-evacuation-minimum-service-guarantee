@@ -1,0 +1,173 @@
+{
+  "instance_sha256": "29e28617efb4bcf2fd284ebca2dc8df519778c0c58fec7ff4b9827c8eddf4951",
+  "settings": {
+    "network": "Anaheim",
+    "pattern": "concentrated",
+    "scarcity": 0.8,
+    "loss": 0.0,
+    "replication": 3,
+    "seed": 20260925,
+    "k": 5,
+    "detour": 1.5,
+    "delta": 15.0,
+    "window": 90.0,
+    "concentration": null,
+    "assisted_share": null,
+    "assistance": 0.5,
+    "partition": "three",
+    "demand_scale": 1.0
+  },
+  "algorithm": "direct",
+  "policy": "controlled",
+  "stages": [
+    {
+      "name": "travel",
+      "seconds": 600.0209145999979,
+      "limit_seconds": 600,
+      "status": "time limit exceeded, no integer solution",
+      "status_code": 108,
+      "bound": null,
+      "incumbent": null,
+      "relative_gap": null,
+      "absolute_gap": null,
+      "solver_relative_gap": null,
+      "certified": false,
+      "maximise": false,
+      "protected_targets": {},
+      "nodes": 341755,
+      "validation": null,
+      "trace": [
+        {
+          "seconds": 0.10999999998603016,
+          "incumbent": null,
+          "bound": 0.022955603125508553,
+          "nodes": 0
+        },
+        {
+          "seconds": 30.266000000061467,
+          "incumbent": null,
+          "bound": 0.0229931941011158,
+          "nodes": 6916
+        },
+        {
+          "seconds": 60.46900000004098,
+          "incumbent": null,
+          "bound": 0.023016546165661043,
+          "nodes": 13178
+        },
+        {
+          "seconds": 90.68799999996554,
+          "incumbent": null,
+          "bound": 0.023036144303410267,
+          "nodes": 26547
+        },
+        {
+          "seconds": 120.98499999998603,
+          "incumbent": null,
+          "bound": 0.02305306022966878,
+          "nodes": 40888
+        },
+        {
+          "seconds": 151.2970000000205,
+          "incumbent": null,
+          "bound": 0.023073288958118405,
+          "nodes": 57685
+        },
+        {
+          "seconds": 181.76600000006147,
+          "incumbent": null,
+          "bound": 0.023090651205275994,
+          "nodes": 74056
+        },
+        {
+          "seconds": 212.375,
+          "incumbent": null,
+          "bound": 0.023100222909074448,
+          "nodes": 92701
+        },
+        {
+          "seconds": 243.15700000000652,
+          "incumbent": null,
+          "bound": 0.023110357916393313,
+          "nodes": 112205
+        },
+        {
+          "seconds": 273.1720000000205,
+          "incumbent": null,
+          "bound": 0.02311906647571527,
+          "nodes": 131027
+        },
+        {
+          "seconds": 303.4529999999795,
+          "incumbent": null,
+          "bound": 0.023123574973619596,
+          "nodes": 150068
+        },
+        {
+          "seconds": 334.125,
+          "incumbent": null,
+          "bound": 0.023129253708195848,
+          "nodes": 169799
+        },
+        {
+          "seconds": 365.0,
+          "incumbent": null,
+          "bound": 0.02313228868465582,
+          "nodes": 188895
+        },
+        {
+          "seconds": 395.0320000000065,
+          "incumbent": null,
+          "bound": 0.023135485306165382,
+          "nodes": 207021
+        },
+        {
+          "seconds": 426.0779999999795,
+          "incumbent": null,
+          "bound": 0.023141107436389915,
+          "nodes": 227203
+        },
+        {
+          "seconds": 457.01600000006147,
+          "incumbent": null,
+          "bound": 0.023145177136568003,
+          "nodes": 246515
+        },
+        {
+          "seconds": 487.8279999999795,
+          "incumbent": null,
+          "bound": 0.023149200273864492,
+          "nodes": 265752
+        },
+        {
+          "seconds": 518.984999999986,
+          "incumbent": null,
+          "bound": 0.023151528861141073,
+          "nodes": 286995
+        },
+        {
+          "seconds": 550.0629999999655,
+          "incumbent": null,
+          "bound": 0.023151990244058954,
+          "nodes": 309271
+        },
+        {
+          "seconds": 580.5,
+          "incumbent": null,
+          "bound": 0.02315363901828678,
+          "nodes": 328730
+        }
+      ]
+    }
+  ],
+  "certified": false,
+  "metrics": null,
+  "final_objectives": [],
+  "total_seconds": 600.0209145999979,
+  "controlled_target": 0.19803841076757192,
+  "dimensions": {
+    "binary": 1164,
+    "assignment": 3492,
+    "recourse_rows": 5305
+  }
+}

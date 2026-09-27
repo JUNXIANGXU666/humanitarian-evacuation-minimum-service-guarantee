@@ -1,0 +1,126 @@
+{
+  "passed": 21,
+  "total": 21,
+  "checks": [
+    {
+      "network": "ND",
+      "delta": 5,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "ND",
+      "delta": 10,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "ND",
+      "delta": 15,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "ND",
+      "delta": 30,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "ND",
+      "test": "fixed_population_partition",
+      "passed": true
+    },
+    {
+      "network": "SF",
+      "delta": 5,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "SF",
+      "delta": 10,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "SF",
+      "delta": 15,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "SF",
+      "delta": 30,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "SF",
+      "test": "fixed_population_partition",
+      "passed": true
+    },
+    {
+      "network": "Anaheim",
+      "delta": 5,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "Anaheim",
+      "delta": 10,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "Anaheim",
+      "delta": 15,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "Anaheim",
+      "delta": 30,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "Anaheim",
+      "test": "fixed_population_partition",
+      "passed": true
+    },
+    {
+      "network": "Winnipeg",
+      "delta": 5,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "Winnipeg",
+      "delta": 10,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "Winnipeg",
+      "delta": 15,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "Winnipeg",
+      "delta": 30,
+      "test": "fixed_physical_inputs",
+      "passed": true
+    },
+    {
+      "network": "Winnipeg",
+      "test": "fixed_population_partition",
+      "passed": true
+    },
+    {
+      "test": "aggregate_fair_known_answer",
+      "passed": true
+    }
+  ]
+}

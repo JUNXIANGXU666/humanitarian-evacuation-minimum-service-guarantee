@@ -1,0 +1,100 @@
+{
+  "instance_sha256": "ca52842f4b7960d27e65870631acb10922d71d3095406483a60feb98353fefa4",
+  "settings": {
+    "network": "known_answer",
+    "delta": 15.0
+  },
+  "algorithm": "direct",
+  "solver": "IBM ILOG CPLEX 22.2.0.0",
+  "threads": 4,
+  "mip_gap": 0.0001,
+  "normalised_flows": true,
+  "warm_start_seconds": 0.0,
+  "dimensions": {
+    "binary": 1,
+    "assignment": 3,
+    "recourse_rows": 8
+  },
+  "stage1": {
+    "stage": 1,
+    "algorithm": "direct",
+    "seconds": 0.00650890008546412,
+    "limit_seconds": 15,
+    "status_code": 101,
+    "status": "integer optimal solution",
+    "nodes": 0,
+    "trace": [],
+    "cut_stats": {},
+    "callback_error": null,
+    "incumbent": 0.6000000000000001,
+    "bound": 0.6000000000000001,
+    "relative_gap": 0.0,
+    "absolute_gap": 0.0,
+    "solver_relative_gap": 0.0,
+    "certified": true,
+    "validation": {
+      "passed": true,
+      "normalised_tolerance": 1e-07,
+      "violations": {
+        "demand_balance": 0.0,
+        "demand_bound": 0.0,
+        "arc_capacity": 1.1102230246251565e-16,
+        "shelter_capacity": 0.0,
+        "response": 0.0,
+        "linking": 0.0,
+        "nonnegative": 0.0,
+        "binary": 0.0,
+        "binary_upper": 0.0,
+        "floor": 0.0,
+        "master_floor": 0.0,
+        "assistance": 0.0
+      },
+      "z": 0.6000000000000001,
+      "service": [
+        0.6000000000000001,
+        0.6000000000000001,
+        0.6000000000000001
+      ],
+      "fine_service": [
+        0.6000000000000001,
+        0.6000000000000001,
+        0.6000000000000001
+      ],
+      "served": 0.6000000000000001,
+      "travel_normalised_minutes": 6.0,
+      "unmet": 0.3999999999999999,
+      "travel_person_minutes": 6000.0,
+      "origin_served": [
+        0.6000000000000001
+      ],
+      "served_by_origin_group": [
+        [
+          0.42000000000000004,
+          0.12000000000000002,
+          0.06000000000000001
+        ]
+      ],
+      "assistance_use": [],
+      "shelter_use": [
+        0.6000000000000001
+      ]
+    },
+    "solution": {
+      "y": [
+        1.0
+      ],
+      "b": [
+        0.42000000000000004,
+        0.12000000000000002,
+        0.06000000000000001
+      ],
+      "x": [
+        0.42000000000000004,
+        0.12000000000000002,
+        0.06000000000000001
+      ]
+    }
+  },
+  "stage2": null,
+  "certified": false
+}

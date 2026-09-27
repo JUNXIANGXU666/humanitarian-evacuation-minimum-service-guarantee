@@ -1,0 +1,54 @@
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 4
+CPXPARAM_Parallel                                1
+CPXPARAM_RandomSeed                              20260925
+CPXPARAM_MIP_Strategy_Search                     1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_TimeLimit                               180
+CPXPARAM_MIP_Tolerances_AbsMIPGap                1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_Integrality              1.0000000000000001e-09
+Legacy callback                                  iLUD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+Reduced MIP has 23 rows, 1196 columns, and 2482 nonzeros.
+Reduced MIP has 1164 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.99 ticks)
+Probing time = 0.00 sec. (0.18 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (1.80 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0       -0.1677     2                     -0.1677      104         
+*     0+    0                           -0.1070       -0.1677            56.76%
+      0     0       -0.1677     2       -0.1070 UserPurge1: 1      115   56.76%
+*     0+    0                           -0.1132       -0.1677            48.17%
+      0     0       -0.1677     4       -0.1132 UserPurge1: 1      116   48.17%
+      0     0       -0.1677     2       -0.1132 UserPurge1: 1      126   48.17%
+      0     0       -0.1677     2       -0.1132 UserPurge1: 1      140   48.17%
+      0     0       -0.1677     6       -0.1132 UserPurge1: 1      147   48.17%
+      0     0       -0.1677     4       -0.1132 UserPurge1: 1      152   48.17%
+      0     0       -0.1677    10       -0.1132 UserPurge1: 1      155   48.17%
+      0     0       -0.1677     2       -0.1132 UserPurge1: 1      161   48.17%
+      0     2       -0.1677     5       -0.1132       -0.1677      161   48.17%                        0             0
+Elapsed time = 48.53 sec. (553.78 ticks, tree = 0.02 MB, solutions = 2)
+     47    45       -0.1677     2       -0.1132       -0.1677      477   48.17%            x610 U     71     67     16
+
+User cuts applied:  529
+
+Root node processing (before b&c):
+  Real time             =   48.52 sec. (552.41 ticks)
+Parallel b&c, 4 threads:
+  Real time             =  133.67 sec. (304.39 ticks)
+  Sync time (average)   =    6.22 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  182.19 sec. (856.80 ticks)

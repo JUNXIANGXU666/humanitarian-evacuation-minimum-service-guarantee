@@ -1,0 +1,144 @@
+{
+  "policy": "controlled",
+  "stages": [
+    {
+      "name": "travel",
+      "seconds": 600.0173341999762,
+      "limit_seconds": 600,
+      "status": "time limit exceeded, no integer solution",
+      "status_code": 108,
+      "bound": null,
+      "incumbent": null,
+      "relative_gap": null,
+      "absolute_gap": null,
+      "solver_relative_gap": null,
+      "certified": false,
+      "maximise": false,
+      "protected_targets": {},
+      "nodes": 314466,
+      "validation": null,
+      "trace": [
+        {
+          "seconds": 0.09299999999348074,
+          "incumbent": null,
+          "bound": 0.0240653177308148,
+          "nodes": 0
+        },
+        {
+          "seconds": 30.26500000001397,
+          "incumbent": null,
+          "bound": 0.02410854969257192,
+          "nodes": 7319
+        },
+        {
+          "seconds": 60.40599999995902,
+          "incumbent": null,
+          "bound": 0.02414885217561742,
+          "nodes": 14020
+        },
+        {
+          "seconds": 90.625,
+          "incumbent": null,
+          "bound": 0.02414885217561742,
+          "nodes": 24330
+        },
+        {
+          "seconds": 120.90599999995902,
+          "incumbent": null,
+          "bound": 0.02414885217561742,
+          "nodes": 38939
+        },
+        {
+          "seconds": 151.045999999973,
+          "incumbent": null,
+          "bound": 0.02414885217561742,
+          "nodes": 54569
+        },
+        {
+          "seconds": 181.85900000005495,
+          "incumbent": null,
+          "bound": 0.02415030832022224,
+          "nodes": 71953
+        },
+        {
+          "seconds": 212.2029999999795,
+          "incumbent": null,
+          "bound": 0.024154346303608916,
+          "nodes": 88737
+        },
+        {
+          "seconds": 242.89000000001397,
+          "incumbent": null,
+          "bound": 0.02415691318855259,
+          "nodes": 104413
+        },
+        {
+          "seconds": 274.06200000003446,
+          "incumbent": null,
+          "bound": 0.02415691318855298,
+          "nodes": 122562
+        },
+        {
+          "seconds": 304.420999999973,
+          "incumbent": null,
+          "bound": 0.024159391506078758,
+          "nodes": 139341
+        },
+        {
+          "seconds": 335.655999999959,
+          "incumbent": null,
+          "bound": 0.024161521116972968,
+          "nodes": 158282
+        },
+        {
+          "seconds": 366.10900000005495,
+          "incumbent": null,
+          "bound": 0.024164665674745667,
+          "nodes": 175331
+        },
+        {
+          "seconds": 397.35900000005495,
+          "incumbent": null,
+          "bound": 0.024167446634547163,
+          "nodes": 190458
+        },
+        {
+          "seconds": 428.81200000003446,
+          "incumbent": null,
+          "bound": 0.02416993744210781,
+          "nodes": 208778
+        },
+        {
+          "seconds": 460.295999999973,
+          "incumbent": null,
+          "bound": 0.024171776152622764,
+          "nodes": 228448
+        },
+        {
+          "seconds": 491.7029999999795,
+          "incumbent": null,
+          "bound": 0.024173055505003118,
+          "nodes": 248026
+        },
+        {
+          "seconds": 522.0929999999935,
+          "incumbent": null,
+          "bound": 0.02417363515291897,
+          "nodes": 266546
+        },
+        {
+          "seconds": 552.280999999959,
+          "incumbent": null,
+          "bound": 0.024175744345557814,
+          "nodes": 284232
+        },
+        {
+          "seconds": 583.280999999959,
+          "incumbent": null,
+          "bound": 0.024177692718976972,
+          "nodes": 303148
+        }
+      ]
+    }
+  ]
+}

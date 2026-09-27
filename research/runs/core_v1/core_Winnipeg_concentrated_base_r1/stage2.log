@@ -1,0 +1,64 @@
+Version identifier: 22.2.0.0 | 2026-05-04 | 5dff98e58
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 4
+CPXPARAM_Parallel                                1
+CPXPARAM_RandomSeed                              20260925
+CPXPARAM_MIP_Strategy_Search                     1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_TimeLimit                               600
+CPXPARAM_MIP_Tolerances_AbsMIPGap                1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_Integrality              1.0000000000000001e-09
+Legacy callback                                  iLUD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Warning: Effort level 'CheckFeas' is incompatible with lazy constraint/incumbent callback.
+         Effort level increased to 'SolveFixed'.
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 0.0737.
+Tried aggregator 1 time.
+MIP Presolve eliminated 3106 rows and 0 columns.
+MIP Presolve modified 40 coefficients.
+Reduced MIP has 1602 rows, 2432 columns, and 46049 nonzeros.
+Reduced MIP has 1200 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (23.57 ticks)
+Probing time = 0.00 sec. (0.73 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.02 sec. (29.68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+*     0+    0                            0.0737        0.0000           100.00%
+      0     0        0.0633    11        0.0737        0.0633      553   14.12%
+      0     0        0.0633    12        0.0737     Covers: 1      555   14.12%
+      0     0        0.0633    10        0.0737     Covers: 1      559   14.12%
+      0     0        0.0633    10        0.0737     Covers: 1      560   14.12%
+      0     0        0.0633    12        0.0737 UserPurge1: 1      561   14.12%
+*     0+    0                            0.0640        0.0633             1.21%
+      0     0  -1.00000e+75     0        0.0640        0.0633      561    1.21%
+      0     2        0.0633    11        0.0640        0.0633      561    1.21%                        0             0
+Elapsed time = 0.55 sec. (463.12 ticks, tree = 0.02 MB, solutions = 2)
+    236   113        0.0637    20        0.0640        0.0633     3983    1.21%           x1050 D    228    224     14
+    595   317        0.0633     3        0.0640        0.0633    12668    1.17%           x1026 U    613    427     11
+   1026   525        cutoff              0.0640        0.0633    20568    1.17%            x402 U   1049   1041     15
+*  1168+  571                            0.0640        0.0633             1.17%
+   1442   679        0.0639     5        0.0640        0.0633    27613    1.14%            x180 U   1547    822     19
+   1901   905        0.0639     5        0.0640        0.0634    36884    1.05%            x414 D   1885   1881     14
+   2328   922        cutoff              0.0640        0.0639    43917    0.25%            x396 U   2423    788      9
+   2856   340        cutoff              0.0640        0.0639    50106    0.15%            x408 U   2813    921     13
+
+Cover cuts applied:  6
+
+Root node processing (before b&c):
+  Real time             =    0.55 sec. (461.93 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    2.66 sec. (1776.58 ticks)
+  Sync time (average)   =    0.28 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    3.20 sec. (2238.51 ticks)
